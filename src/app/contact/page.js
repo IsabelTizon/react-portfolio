@@ -1,11 +1,21 @@
+"use client";
+
 import Link from "next/link";
-export default function Contact() {
+import { myProjects } from "../../../components/projects";
+
+const projects = () => {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-between p-24">
-			<div>
-				<h2 className="text-black">CONTACT ME</h2>
-				<Link href="/">Go back to home</Link>
-			</div>
-		</main>
+		<div>
+			<h1>Projects I've work on</h1>
+			<Link href="/">Go back to home</Link>
+
+			<ul>
+				{myProjects.map((projectItem) => (
+					<li key={projectItem.id}>{projectItem.name}</li>
+				))}
+			</ul>
+		</div>
 	);
-}
+};
+
+export default projects;
