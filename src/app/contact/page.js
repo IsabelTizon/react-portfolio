@@ -1,21 +1,13 @@
-"use client";
-
+import React from "react";
 import Link from "next/link";
-import { myProjects } from "../../../components/projects";
 
-const projects = () => {
+const contact = () => {
 	return (
 		<div>
-			<h1>Projects I've work on</h1>
+			<h1>Blog</h1>
 			<Link href="/">Go back to home</Link>
-
-			<ul>
-				{myProjects.map((projectItem) => (
-					<li key={projectItem.id}>{projectItem.name}</li>
-				))}
-			</ul>
 		</div>
 	);
 };
 
-export default projects;
+export default contact;
