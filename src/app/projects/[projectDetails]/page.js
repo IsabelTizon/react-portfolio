@@ -14,6 +14,7 @@ export default function projectDetails({ params }) {
 		<div>
 			<h1 key={myProject.id}>{myProject.name}</h1>
 			<Link href="/projects">Go back to projects</Link>
+			<p>{myProject.description}</p>
 		</div>
 	);
 }
