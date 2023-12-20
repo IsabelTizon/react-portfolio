@@ -1,10 +1,10 @@
 // import Image from "next/image";
 import Link from "next/link";
 
-// export const metadata = {
-// 	title: "About",
-// 	description: "information about myself",
-// };
+export const metadata = {
+	title: "About",
+	description: "information about myself",
+};
 
 export default function About() {
 	return (

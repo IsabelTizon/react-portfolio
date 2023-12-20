@@ -1,12 +1,10 @@
-// "use client";
-
 import Link from "next/link";
 import { myProjects } from "../../components/projects";
 
-// export const metadata = {
-// 	title: "Projects page",
-// 	description: "Info about all my projects ",
-// };
+export const metadata = {
+	title: "Projects page",
+	description: "Info about all my projects",
+};
 
 export default function projects() {
 	return (
