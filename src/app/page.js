@@ -1,5 +1,4 @@
 // import Image from "next/image";
-import Link from "next/link";
 
 export const metadata = {
 	title: "About",
@@ -10,10 +9,6 @@ export default function About() {
 	return (
 		<main className="">
 			<p>ABOUT Page</p>
-			<Link href="/blog">Blog</Link>
-			<Link href="/projects">projects</Link>
-			<Link href="/contact">contact me</Link>
-			<Link href="/contact">Github</Link>
 		</main>
 		// <main className="flex min-h-screen flex-col items-center justify-between p-24">
 		// 	<div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
