@@ -8,9 +8,8 @@ export const metadata = {
 
 export default function projects() {
 	return (
-		<div>
+		<main className="mt-[100px]">
 			<h1>Projects I`ve work on</h1>
-			<Link href="/">Go back to home</Link>
 
 			<ul>
 				{myProjects.map((projectsItem) => (
@@ -22,6 +21,6 @@ export default function projects() {
 					</Link>
 				))}
 			</ul>
-		</div>
+		</main>
 	);
 }

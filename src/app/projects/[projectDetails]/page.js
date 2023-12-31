@@ -10,10 +10,10 @@ export default function projectDetails({ params }) {
 	console.log("myProject", myProject);
 
 	return (
-		<div>
+		<main className="mt-[100px]">
 			<h1 key={myProject.id}>{myProject.name}</h1>
 			<Link href="/projects">Go back to projects</Link>
 			<p>{myProject.description}</p>
-		</div>
+		</main>
 	);
 }

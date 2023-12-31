@@ -8,10 +8,11 @@ export const metadata = {
 
 const blog = () => {
 	return (
-		<div>
-			<h1>Blog</h1>
-			<Link href="/">Go back to home</Link>
-		</div>
+		<main className="mt-[100px]">
+			<div>
+				<h1>Blog</h1>
+			</div>{" "}
+		</main>
 	);
 };
 
