@@ -8,13 +8,13 @@ import {
 
 function Navbar() {
 	const [menuIcon, setIcon] = useState(false);
-	const handleSmallerScreemNavigation = () => {
+	const handleSmallerScreensNavigation = () => {
 		setIcon(!menuIcon);
 	};
 	return (
 		<header className="bg-slate-400 text-black w-full ease-in duration-300 fixed top-0 left-0 z-10">
 			<nav className="max-w-[1366px] mx-auto h-[80px] flex justify-between items-center  p-4">
-				<div className="">
+				<div onClick={handleSmallerScreensNavigation}>
 					<Link
 						className="uppercase font-extrabold text-3xl md:text-2xl lg:text-3xl text-slate-800 hover:text-[#381638]"
 						href="/"
@@ -44,10 +44,11 @@ function Navbar() {
 					</li>
 				</ul>
 
-				{/*smaller screen navigation */}
+				{/*smaller screen burger icon */}
+				{/*onClick change the icon */}
 				<div
-					onClick={handleSmallerScreemNavigation}
-					className="flex md-hidden"
+					onClick={handleSmallerScreensNavigation}
+					className="flex md:hidden"
 				>
 					{menuIcon ? (
 						<AiOutlineClose
@@ -62,7 +63,48 @@ function Navbar() {
 					)}
 				</div>
 
-				{/*smaller screens Icons */}
+				{/*smaller screens */}
+				<div
+					className={
+						menuIcon
+							? "md-hidden absolute top-[100px] right-0 bottom-0 left-0 flex justify-center w-full h-screen bg-slate-800 text-center text-white ease-in duration-300"
+							: "md-hidden absolute top-[100px] right-0 left-[100%] flex justify-center items-center w-full h-screen bg-slate-800 text-center text-white ease-in duration-300"
+					}
+				>
+					<div className="w-full">
+						<ul className="uppercase font-bold text-2xl">
+							<li
+								onClick={handleSmallerScreensNavigation}
+								className="py-5 hover:text-[#381638] cursor-pointer"
+							>
+								<Link href="/blog">Blog</Link>
+							</li>
+							<li
+								onClick={handleSmallerScreensNavigation}
+								className="py-5 hover:text-[#381638] cursor-pointer"
+							>
+								<Link href="/projects">projects</Link>
+							</li>
+							<li
+								onClick={handleSmallerScreensNavigation}
+								className="py-5 hover:text-[#381638] cursor-pointer"
+							>
+								<Link href="/contact">contact</Link>
+							</li>
+							<li
+								onClick={handleSmallerScreensNavigation}
+								className="py-5 hover:text-[#381638] cursor-pointer"
+							>
+								<Link
+									target="_blank"
+									href="https://github.com/IsabelTizon"
+								>
+									Github
+								</Link>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</nav>
 		</header>
 	);
