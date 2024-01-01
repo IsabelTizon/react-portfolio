@@ -9,7 +9,7 @@ export const metadata = {
 const blog = () => {
 	return (
 		<main className="mt-[100px]">
-			<div>
+			<div className="tittle">
 				<h1>Blog</h1>
 			</div>{" "}
 		</main>

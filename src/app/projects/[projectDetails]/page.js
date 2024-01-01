@@ -11,7 +11,9 @@ export default function projectDetails({ params }) {
 
 	return (
 		<main className="mt-[100px]">
-			<h1 key={myProject.id}>{myProject.name}</h1>
+			<h1 className="tittle" key={myProject.id}>
+				{myProject.name}
+			</h1>
 			<Link href="/projects">Go back to projects</Link>
 			<p>{myProject.description}</p>
 		</main>

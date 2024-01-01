@@ -9,7 +9,9 @@ export const metadata = {
 export default function projects() {
 	return (
 		<main className="mt-[100px]">
-			<h1>Projects I`ve work on</h1>
+			<div className="tittle">
+				<h1>Projects I`ve work on</h1>
+			</div>
 
 			<ul>
 				{myProjects.map((projectsItem) => (

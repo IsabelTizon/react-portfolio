@@ -8,7 +8,7 @@ export const metadata = {
 export default function About() {
 	return (
 		<main className="mt-[100px]">
-			<div className="flex justify-center items-center">
+			<div className="tittle">
 				<h1>ABOUT Me</h1>
 			</div>
 		</main>
