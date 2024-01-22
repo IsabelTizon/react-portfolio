@@ -14,7 +14,7 @@ function Navbar() {
 	return (
 		<header className="bg-slate-400 text-black w-full ease-in duration-300 fixed top-0 left-0 z-10">
 			<nav className="max-w-[1366px] mx-auto h-[80px] flex justify-between items-center  p-4">
-				<div onClick={handleSmallerScreensNavigation}>
+				<div>
 					<Link
 						className="uppercase font-extrabold text-3xl md:text-2xl lg:text-3xl text-slate-800 hover:text-[#381638]"
 						href="/"
