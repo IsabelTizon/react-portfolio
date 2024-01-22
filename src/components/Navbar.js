@@ -67,11 +67,11 @@ function Navbar() {
 				<div
 					className={
 						menuIcon
-							? "md-hidden absolute top-[100px] right-0 bottom-0 left-0 flex justify-center w-full h-screen bg-slate-800 text-center text-white ease-in duration-300"
-							: "md-hidden absolute top-[100px] right-0 left-[100%] flex justify-center items-center w-full h-screen bg-slate-800 text-center text-white ease-in duration-300"
+							? "md-hidden absolute top-[80px] right-0 bottom-0 left-0 flex justify-center w-full h-screen bg-slate-800 text-center text-white ease-in duration-300"
+							: "md-hidden absolute top-[80px] right-0 left-[100%] flex justify-center items-center w-full h-screen bg-slate-800 text-center text-white ease-in duration-300"
 					}
 				>
-					<div className="w-full">
+					<div className="w-full h-full">
 						<ul className="uppercase font-bold text-2xl">
 							<li
 								onClick={handleSmallerScreensNavigation}
