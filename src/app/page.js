@@ -7,9 +7,17 @@ export const metadata = {
 
 export default function About() {
 	return (
-		<main className="mt-[100px]">
-			<div className="tittle">
-				<h1>ABOUT Me</h1>
+		<main className="mt-[80px]">
+			<div class="bg-gray-900 w-full p-10 md:p-30 lg:p-60 xl:p-90">
+				<h1 className="yellow-letters text-[40px] md:text-5xl  lg:text-5xl capitalize pb-4">
+					isabel tizon arranz
+				</h1>
+				<p className="yellow-letters capitalize text-[25px] md:text-xl lg:text-2xl pb-4">
+					junior web developer
+				</p>
+				<button className="text-black uppercase mustard p-3 rounded-md">
+					view portfolio
+				</button>
 			</div>
 		</main>
 		// <main className="flex min-h-screen flex-col items-center justify-between p-24">

@@ -17,6 +17,12 @@ body {
 		align-items: center;
 		justify-content: center;
 	}
+	.mustard {
+		background: #b38600;
+	}
+	.yellow-letters {
+		color: #fff2cc;
+	}
 }
 /* :root {
   --foreground-rgb: 0, 0, 0;
