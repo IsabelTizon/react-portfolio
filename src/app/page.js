@@ -1,4 +1,8 @@
-// import Image from "next/image";
+import {
+	myfrontendSkills,
+	mybackendSkills,
+	othersSkill,
+} from "../components/skills";
 
 export const metadata = {
 	title: "About",
@@ -18,6 +22,53 @@ export default function About() {
 				<button className="text-black uppercase mustard p-3 rounded-md">
 					view portfolio
 				</button>
+			</div>
+			<div className="mt-24 mx-1 md:mx-10 lg:mx-24 xl:mx-70">
+				<h2 className="text-black text-[40px] md:text-5xl  lg:text-5xl capitalize">
+					my skills
+				</h2>
+				<div className="flex flex-wrap">
+					<div className="w-4/12">
+						<h3 className="text-black uppercase">
+							frondend developer
+						</h3>
+						<div className="">
+							<ul>
+								{myfrontendSkills.map((frontendSkill) => (
+									<li key={frontendSkill.id}>
+										Knoledge of {frontendSkill.name}
+									</li>
+								))}
+							</ul>
+						</div>
+					</div>
+					<div className=" w-4/12">
+						<h3 className="text-black uppercase">
+							backendS developer
+						</h3>
+						<div className="">
+							<ul>
+								{mybackendSkills.map((backendSkill) => (
+									<li key={backendSkill.id}>
+										Knoledge of {backendSkill.name}
+									</li>
+								))}
+							</ul>
+						</div>
+					</div>
+					<div className=" w-4/12">
+						<h3 className="text-black uppercase">Others</h3>
+						<div>
+							<ul>
+								{myfrontendSkills.map((othersSkill) => (
+									<li key={othersSkill.id}>
+										Knoledge of {othersSkill.name}
+									</li>
+								))}
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</main>
 		// <main className="flex min-h-screen flex-col items-center justify-between p-24">
