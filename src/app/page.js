@@ -28,7 +28,8 @@ export default function About() {
 					my skills
 				</h2>
 				<div className="flex flex-wrap">
-					<div className="w-4/12">
+					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
+						{/* <div className="flex-1 md:flex-2 lg:w-4/12 xl:-4/12"></div> */}
 						<h3 className="text-black uppercase">
 							frondend developer
 						</h3>
@@ -42,7 +43,7 @@ export default function About() {
 							</ul>
 						</div>
 					</div>
-					<div className=" w-4/12">
+					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
 						<h3 className="text-black uppercase">
 							backendS developer
 						</h3>
@@ -56,7 +57,7 @@ export default function About() {
 							</ul>
 						</div>
 					</div>
-					<div className=" w-4/12">
+					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
 						<h3 className="text-black uppercase">Others</h3>
 						<div>
 							<ul>
