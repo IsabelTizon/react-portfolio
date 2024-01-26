@@ -1,8 +1,9 @@
 import {
 	myfrontendSkills,
 	mybackendSkills,
-	othersSkill,
+	myOtherSkills,
 } from "../components/skills";
+import Image from "next/image";
 
 export const metadata = {
 	title: "About",
@@ -24,6 +25,7 @@ export default function About() {
 					view portfolio
 				</button>
 			</div>
+
 			{/* My skills */}
 			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
 				<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
@@ -47,7 +49,7 @@ export default function About() {
 					</div>
 					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
 						<h3 className="text-black uppercase">
-							backendS developer
+							backend developer
 						</h3>
 						<div className="">
 							<ul>
@@ -63,7 +65,7 @@ export default function About() {
 						<h3 className="text-black uppercase">Others</h3>
 						<div>
 							<ul>
-								{myfrontendSkills.map((othersSkill) => (
+								{myOtherSkills.map((othersSkill) => (
 									<li key={othersSkill.id}>
 										Knoledge of {othersSkill.name}
 									</li>
@@ -73,17 +75,48 @@ export default function About() {
 					</div>
 				</div>
 			</div>
+
 			{/* About me */}
 			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
-				<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
-					about me
-				</h2>
+				<div className="flex flex-col justify-center">
+					<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
+						about me
+					</h2>
+					<div className="flex flex-row grid-cols-1 md:grid-cols-2">
+						<p className="w-full">
+							I am a Web Development student in my second
+							year, with graduation in June 2023. During
+							these two years at the City of Glasgow
+							College, as well as also self-studying in my
+							free time, I have learned a lot about web
+							development. For this reason, my intention now
+							is to find an internship and use my knowledge
+							and skills I have developed. I consider myself
+							to be a very hard-working person, a great team
+							player and I always try to work on my own
+							initiative to overcome any obstacles. Fluency
+							in both English and Spanish.
+						</p>
+						<div className="w-full">
+							<Image
+								src="/img/perfil-photo.jpg"
+								width={500}
+								height={500}
+								alt="Picture of the author"
+								className="rounded-full"
+							/>
+						</div>
+					</div>
+				</div>
 			</div>
+
 			{/* My latest Work */}
-			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
-				<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
-					my latest work
-				</h2>
+			<div className="mt-24 bg-[#ecf2f9]">
+				<div className="mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
+					<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
+						my latest work
+					</h2>
+				</div>
 			</div>
 			{/* Project's sections */}
 			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
@@ -92,10 +125,14 @@ export default function About() {
 				</h2>
 			</div>
 			{/* Are You Ready To Start New Project With Me? */}
-			<div className="mt-24 mx-full">
-				<h2 className="text-white bg-black text-[40px] md:text-4xl lg:text-4xl capitalize">
-					are you ready to start a new project with me?
-				</h2>
+			<div className="mt-24 bg-gray-900 ">
+				<div className="flex justify-center">
+					<div className="mt-24 mx-full">
+						<h2 className="text-white  text-[40px] md:text-4xl lg:text-4xl capitalize">
+							are you ready to start a new project with me?
+						</h2>
+					</div>
+				</div>
 			</div>
 		</main>
 		// <main className="flex min-h-screen flex-col items-center justify-between p-24">
