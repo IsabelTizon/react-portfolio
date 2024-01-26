@@ -25,8 +25,8 @@ export default function About() {
 				</button>
 			</div>
 			{/* My skills */}
-			<div className="mt-24 mx-1 md:mx-10 lg:mx-24 xl:mx-70">
-				<h2 className="text-black text-[40px] md:text-5xl  lg:text-5xl capitalize">
+			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
+				<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
 					my skills
 				</h2>
 				<div className="flex flex-wrap">
@@ -74,9 +74,29 @@ export default function About() {
 				</div>
 			</div>
 			{/* About me */}
+			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
+				<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
+					about me
+				</h2>
+			</div>
 			{/* My latest Work */}
+			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
+				<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
+					my latest work
+				</h2>
+			</div>
 			{/* Project's sections */}
+			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
+				<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
+					projects sections
+				</h2>
+			</div>
 			{/* Are You Ready To Start New Project With Me? */}
+			<div className="mt-24 mx-full">
+				<h2 className="text-white bg-black text-[40px] md:text-4xl lg:text-4xl capitalize">
+					are you ready to start a new project with me?
+				</h2>
+			</div>
 		</main>
 		// <main className="flex min-h-screen flex-col items-center justify-between p-24">
 		// 	<div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
