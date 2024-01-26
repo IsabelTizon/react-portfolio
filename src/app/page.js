@@ -12,6 +12,7 @@ export const metadata = {
 export default function About() {
 	return (
 		<main className="mt-[80px]">
+			{/* hero */}
 			<div class="bg-gray-900 w-full p-10 md:p-30 lg:p-60 xl:p-90">
 				<h1 className="yellow-letters text-[40px] md:text-5xl  lg:text-5xl capitalize pb-4">
 					isabel tizon arranz
@@ -23,6 +24,7 @@ export default function About() {
 					view portfolio
 				</button>
 			</div>
+			{/* My skills */}
 			<div className="mt-24 mx-1 md:mx-10 lg:mx-24 xl:mx-70">
 				<h2 className="text-black text-[40px] md:text-5xl  lg:text-5xl capitalize">
 					my skills
@@ -71,6 +73,10 @@ export default function About() {
 					</div>
 				</div>
 			</div>
+			{/* About me */}
+			{/* My latest Work */}
+			{/* Project's sections */}
+			{/* Are You Ready To Start New Project With Me? */}
 		</main>
 		// <main className="flex min-h-screen flex-col items-center justify-between p-24">
 		// 	<div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
