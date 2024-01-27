@@ -83,7 +83,7 @@ export default function About() {
 						about me
 					</h2>
 					<div className="flex flex-row grid-cols-1 md:grid-cols-2">
-						<p className="w-full">
+						<p className="w-full pt-20">
 							I am a Web Development student in my second
 							year, with graduation in June 2023. During
 							these two years at the City of Glasgow
@@ -99,11 +99,11 @@ export default function About() {
 						</p>
 						<div className="w-full">
 							<Image
-								src="/img/perfil-photo.jpg"
-								width={500}
-								height={500}
+								className="h-150 w-full object-containd p-10"
+								width={200}
+								height={150}
+								src="/img/profile-photo.png"
 								alt="Picture of the author"
-								className="rounded-full"
 							/>
 						</div>
 					</div>
