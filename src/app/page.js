@@ -40,7 +40,10 @@ export default function About() {
 						<div className="">
 							<ul>
 								{myfrontendSkills.map((frontendSkill) => (
-									<li key={frontendSkill.id}>
+									<li
+										key={frontendSkill.id}
+										className="sizePhoneParagraph sizeParagraph"
+									>
 										Knoledge of {frontendSkill.name}
 									</li>
 								))}
@@ -54,7 +57,10 @@ export default function About() {
 						<div className="">
 							<ul>
 								{mybackendSkills.map((backendSkill) => (
-									<li key={backendSkill.id}>
+									<li
+										key={backendSkill.id}
+										className="sizePhoneParagraph sizeParagraph"
+									>
 										Knoledge of {backendSkill.name}
 									</li>
 								))}
@@ -66,7 +72,10 @@ export default function About() {
 						<div>
 							<ul>
 								{myOtherSkills.map((othersSkill) => (
-									<li key={othersSkill.id}>
+									<li
+										key={othersSkill.id}
+										className="sizePhoneParagraph sizeParagraph"
+									>
 										Knoledge of {othersSkill.name}
 									</li>
 								))}
@@ -83,7 +92,7 @@ export default function About() {
 						about me
 					</h2>
 					<div className="flex flex-wrap">
-						<p className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-full md:w-2/4 lg:w-2/4 xl:w-2/4">
+						<p className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-full md:w-2/4 lg:w-2/4 xl:w-2/4 sizePhoneParagraph sizeParagraph">
 							I am a Web Development student in my second
 							year, with graduation in June 2023. During
 							these two years at the City of Glasgow

@@ -23,7 +23,14 @@ body {
 	.yellow-letters {
 		color: #fff2cc;
 	}
+	.sizePhoneParagraph {
+		font-size: 20px;
+	}
+	.sizeParagraph {
+		font-size: 24px;
+	}
 }
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
