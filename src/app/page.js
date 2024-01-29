@@ -79,11 +79,11 @@ export default function About() {
 			{/* About me */}
 			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
 				<div className="flex flex-col justify-center">
-					<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
+					<h2 className="text-black text-[40px] pb-20 md:text-4xl lg:text-4xl capitalize">
 						about me
 					</h2>
-					<div className="flex flex-row grid-cols-1 md:grid-cols-2">
-						<p className="w-full pt-20">
+					<div className="flex flex-wrap">
+						<p className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-full md:w-2/4 lg:w-2/4 xl:w-2/4">
 							I am a Web Development student in my second
 							year, with graduation in June 2023. During
 							these two years at the City of Glasgow
@@ -97,7 +97,7 @@ export default function About() {
 							initiative to overcome any obstacles. Fluency
 							in both English and Spanish.
 						</p>
-						<div className="w-full">
+						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-full md:w-2/4 lg:w-2/4 xl:w-2/4">
 							<Image
 								className="h-150 w-full object-containd p-10"
 								width={200}
