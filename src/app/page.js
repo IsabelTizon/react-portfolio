@@ -3,7 +3,10 @@ import {
 	mybackendSkills,
 	myOtherSkills,
 } from "../components/skills";
+import { myProjects } from "../components/projects";
+
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
 	title: "About",
@@ -28,13 +31,13 @@ export default function About() {
 
 			{/* My skills */}
 			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
-				<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
+				<h2 className="text-black pb-20 text-[40px] md:text-4xl lg:text-4xl capitalize">
 					my skills
 				</h2>
 				<div className="flex flex-wrap">
 					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
 						{/* <div className="flex-1 md:flex-2 lg:w-4/12 xl:-4/12"></div> */}
-						<h3 className="text-black uppercase">
+						<h3 className="text-black uppercase pb-8 text-3xl">
 							frondend developer
 						</h3>
 						<div className="">
@@ -51,7 +54,7 @@ export default function About() {
 						</div>
 					</div>
 					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-						<h3 className="text-black uppercase">
+						<h3 className="text-black uppercase pb-8 text-3xl">
 							backend developer
 						</h3>
 						<div className="">
@@ -68,7 +71,9 @@ export default function About() {
 						</div>
 					</div>
 					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-						<h3 className="text-black uppercase">Others</h3>
+						<h3 className="text-black uppercase pb-8 text-3xl">
+							Others
+						</h3>
 						<div>
 							<ul>
 								{myOtherSkills.map((othersSkill) => (
@@ -92,23 +97,33 @@ export default function About() {
 						about me
 					</h2>
 					<div className="flex flex-wrap">
-						<p className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-full md:w-2/4 lg:w-2/4 xl:w-2/4 sizePhoneParagraph sizeParagraph">
-							I am a Web Development student in my second
-							year, with graduation in June 2023. During
-							these two years at the City of Glasgow
-							College, as well as also self-studying in my
-							free time, I have learned a lot about web
-							development. For this reason, my intention now
-							is to find an internship and use my knowledge
-							and skills I have developed. I consider myself
-							to be a very hard-working person, a great team
-							player and I always try to work on my own
-							initiative to overcome any obstacles. Fluency
-							in both English and Spanish.
-						</p>
+						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-full md:w-2/4 lg:w-2/4 xl:w-2/4 ">
+							<p className="pb-8 sizePhoneParagraph sizeParagraph">
+								I am a Web Development student in my second
+								year, with graduation in June 2023. During
+								these two years at the City of Glasgow
+								College, as well as also self-studying in my
+								free time, I have learned a lot about web
+								development.
+							</p>
+							<p className="pb-8 sizePhoneParagraph sizeParagraph">
+								For this reason, my intention now is to find
+								an internship and use my knowledge and
+								skills I have developed.
+							</p>
+							<p className="pb-8 sizePhoneParagraph sizeParagraph">
+								I consider myself to be a very hard-working
+								person, a great team player and I always try
+								to work on my own initiative to overcome any
+								obstacles.
+							</p>
+							<p className="pb-8 sizePhoneParagraph sizeParagraph">
+								Fluency in both English and Spanish.
+							</p>
+						</div>
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-full md:w-2/4 lg:w-2/4 xl:w-2/4">
 							<Image
-								className="h-150 w-full object-containd p-10"
+								className="h-150 w-full object-containd pb-10 px-10"
 								width={200}
 								height={150}
 								src="/img/profile-photo.png"
@@ -122,14 +137,110 @@ export default function About() {
 			{/* My latest Work */}
 			<div className="mt-24 bg-[#ecf2f9]">
 				<div className="mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
-					<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
+					<h2 className="text-black pb-20 text-[40px] md:text-4xl lg:text-4xl capitalize">
 						my latest work
 					</h2>
+					<p className="pb-8 sizePhoneParagraph sizeParagraph">
+						Lorem Ipsum is simply dummy text of the printing
+						and typesetting industry. Lorem Ipsum has been
+						the Lorem Ipsum is simply dummy text of the
+						printing and typesetting industry. Lorem Ipsum
+						has been the industrys standard dummy text ever
+						since the 1500s, when an unknown printer took a
+						galley of type and scrambled it to make a type
+						specimen book. It has survived not only five
+						centuries, but also the leap into electronic
+						typesetting, remaining essentially unchanged. It
+						was popularised in the 1960s with the release of
+						Letraset sheets containing Lorem Ipsum passages,
+						and more recently with desktop publishing
+						software like Aldus PageMaker including versions
+						of Lorem Ipsum. standard dummy text ever since
+						the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen
+						book. It has survived not only five centuries,
+						but also the leap into electronic typesetting,
+						remaining essentially unchanged.
+					</p>
+					<div className="flex flex-wrap">
+						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
+							{/* */}
+							<div className="">
+								<Link href="/contact">
+									<Image
+										className="h-150 w-full object-containd pb-10 px-10"
+										width={200}
+										height={150}
+										src="/img/demoScreen.png"
+										alt="Picture of the author"
+									/>
+								</Link>
+							</div>
+						</div>
+						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
+							{/* */}
+							<div className="">
+								<Image
+									className="h-150 w-full object-containd pb-10 px-10"
+									width={200}
+									height={150}
+									src="/img/demoScreen.png"
+									alt="Picture of the author"
+								/>
+							</div>
+						</div>
+						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
+							{/* */}
+							<div className="">
+								<Image
+									className="h-150 w-full object-containd pb-10 px-10"
+									width={200}
+									height={150}
+									src="/img/demoScreen.png"
+									alt="Picture of the author"
+								/>
+							</div>
+						</div>
+						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
+							{/* */}
+							<div className="">
+								<Image
+									className="h-150 w-full object-containd pb-10 px-10"
+									width={200}
+									height={150}
+									src="/img/demoScreen.png"
+									alt="Picture of the author"
+								/>
+							</div>
+						</div>
+						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
+							<div className="">
+								<Image
+									className="h-150 w-full object-containd pb-10 px-10"
+									width={200}
+									height={150}
+									src="/img/demoScreen.png"
+									alt="Picture of the author"
+								/>
+							</div>
+						</div>
+						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
+							<div>
+								<Image
+									className="h-150 w-full object-containd pb-10 px-10"
+									width={200}
+									height={150}
+									src="/img/demoScreen.png"
+									alt="Picture of the author"
+								/>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			{/* Project's sections */}
 			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
-				<h2 className="text-black text-[40px] md:text-4xl lg:text-4xl capitalize">
+				<h2 className="text-black pb-20 text-[40px] md:text-4xl lg:text-4xl capitalize">
 					projects sections
 				</h2>
 			</div>
@@ -137,7 +248,7 @@ export default function About() {
 			<div className="mt-24 bg-gray-900 ">
 				<div className="flex justify-center">
 					<div className="mt-24 mx-full">
-						<h2 className="text-white  text-[40px] md:text-4xl lg:text-4xl capitalize">
+						<h2 className="text-white pb-20 text-[40px] md:text-4xl lg:text-4xl capitalize">
 							are you ready to start a new project with me?
 						</h2>
 					</div>
