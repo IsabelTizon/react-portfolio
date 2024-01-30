@@ -190,11 +190,31 @@ export default function About() {
 			</div>
 			{/* Are You Ready To Start New Project With Me? */}
 			<div className="mt-24 bg-gray-900 ">
-				<div className="flex justify-center">
+				<div className="flex justify-center mx-[40px] md:mx-[150px] lg:mx-[300px]  xl:mx-[250px] 2xl:mx-[400px]">
 					<div className="mx-full py-24">
-						<h2 className="text-white pb-20 text-[40px] md:text-4xl lg:text-4xl capitalize">
-							are you ready to start a new project with me?
-						</h2>
+						<div className="flex justify-center">
+							<h2 className="text-white pb-20 text-[20px] md:text-4xl lg:text-4xl capitalize">
+								are you ready to start a new project with
+								me?
+							</h2>
+						</div>
+
+						<p className="text-white pb-8 sizePhoneParagraph sizeParagraph text-center">
+							Lorem Ipsum is simply dummy text of the
+							printing and typesetting industry. Lorem Ipsum
+							has been the Lorem Ipsum is simply dummy text
+							of the printing and typesetting industry.
+							Lorem Ipsum has been the industrys standard
+							dummy text ever since the 1500s, when an
+							unknown printer took a galley of type and
+							scrambled it to make a type specimen book.
+						</p>
+
+						<div className="flex justify-center">
+							<button className="text-black uppercase mustard p-3 rounded-md">
+								contact me
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
