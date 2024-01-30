@@ -165,75 +165,21 @@ export default function About() {
 					<div className="flex flex-wrap">
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
 							{/* */}
-							<div className="">
-								<Link href="/contact">
+
+							{myProjects.map((projectsItem) => (
+								<Link
+									key={projectsItem.id}
+									href={`/projects/${projectsItem.id}`}
+								>
 									<Image
 										className="h-150 w-full object-containd pb-10 px-10"
 										width={200}
 										height={150}
-										src="/img/demoScreen.png"
-										alt="Picture of the author"
+										src={projectsItem.pic}
+										alt="project picture"
 									/>
 								</Link>
-							</div>
-						</div>
-						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
-							{/* */}
-							<div className="">
-								<Image
-									className="h-150 w-full object-containd pb-10 px-10"
-									width={200}
-									height={150}
-									src="/img/demoScreen.png"
-									alt="Picture of the author"
-								/>
-							</div>
-						</div>
-						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
-							{/* */}
-							<div className="">
-								<Image
-									className="h-150 w-full object-containd pb-10 px-10"
-									width={200}
-									height={150}
-									src="/img/demoScreen.png"
-									alt="Picture of the author"
-								/>
-							</div>
-						</div>
-						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
-							{/* */}
-							<div className="">
-								<Image
-									className="h-150 w-full object-containd pb-10 px-10"
-									width={200}
-									height={150}
-									src="/img/demoScreen.png"
-									alt="Picture of the author"
-								/>
-							</div>
-						</div>
-						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<div className="">
-								<Image
-									className="h-150 w-full object-containd pb-10 px-10"
-									width={200}
-									height={150}
-									src="/img/demoScreen.png"
-									alt="Picture of the author"
-								/>
-							</div>
-						</div>
-						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<div>
-								<Image
-									className="h-150 w-full object-containd pb-10 px-10"
-									width={200}
-									height={150}
-									src="/img/demoScreen.png"
-									alt="Picture of the author"
-								/>
-							</div>
+							))}
 						</div>
 					</div>
 				</div>
