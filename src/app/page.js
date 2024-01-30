@@ -30,7 +30,7 @@ export default function About() {
 			</div>
 
 			{/* My skills */}
-			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
+			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70 py-24">
 				<h2 className="text-black pb-20 text-[40px] md:text-4xl lg:text-4xl capitalize">
 					my skills
 				</h2>
@@ -92,7 +92,7 @@ export default function About() {
 
 			{/* About me */}
 			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
-				<div className="flex flex-col justify-center">
+				<div className="flex flex-col justify-center py-24">
 					<h2 className="text-black text-[40px] pb-20 md:text-4xl lg:text-4xl capitalize">
 						about me
 					</h2>
@@ -136,7 +136,7 @@ export default function About() {
 
 			{/* My latest Work */}
 			<div className="mt-24 bg-[#ecf2f9]">
-				<div className="mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
+				<div className="mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70 py-24">
 					<h2 className="text-black pb-20 text-[40px] md:text-4xl lg:text-4xl capitalize">
 						my latest work
 					</h2>
@@ -162,38 +162,36 @@ export default function About() {
 						but also the leap into electronic typesetting,
 						remaining essentially unchanged.
 					</p>
-					<div className="flex flex-wrap">
-						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
-							{/* */}
+					<div className="flex flex-wrap  gap-20">
+						{/* */}
 
-							{myProjects.map((projectsItem) => (
-								<Link
-									key={projectsItem.id}
-									href={`/projects/${projectsItem.id}`}
-								>
-									<Image
-										className="h-150 w-full object-containd pb-10 px-10"
-										width={200}
-										height={150}
-										src={projectsItem.pic}
-										alt="project picture"
-									/>
-								</Link>
-							))}
-						</div>
+						{myProjects.map((projectsItem) => (
+							<Link
+								key={projectsItem.id}
+								href={`/projects/${projectsItem.id}`}
+							>
+								<Image
+									className="h-150 w-full object-containd"
+									width={410}
+									height={300}
+									src={projectsItem.pic}
+									alt="project picture"
+								/>
+							</Link>
+						))}
 					</div>
 				</div>
 			</div>
 			{/* Project's sections */}
-			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
+			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70 py-24">
 				<h2 className="text-black pb-20 text-[40px] md:text-4xl lg:text-4xl capitalize">
-					projects sections
+					projects section
 				</h2>
 			</div>
 			{/* Are You Ready To Start New Project With Me? */}
 			<div className="mt-24 bg-gray-900 ">
 				<div className="flex justify-center">
-					<div className="mt-24 mx-full">
+					<div className="mx-full py-24">
 						<h2 className="text-white pb-20 text-[40px] md:text-4xl lg:text-4xl capitalize">
 							are you ready to start a new project with me?
 						</h2>
