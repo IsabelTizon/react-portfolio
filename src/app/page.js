@@ -16,28 +16,34 @@ export const metadata = {
 export default function About() {
 	return (
 		<main className="mt-[80px]">
+			{/** -[]  PHONE => min-width: 360px */}
+			{/** md-[]  LANDSCAPE => min-width: 768px */}
+			{/** lg-[]  TABLET => min-width: 1024px */}
+			{/** xl-[] LAPTOP => min-width: 1280px */}
+			{/** 2xl-[] SCREEN => min-width: 1536px */}
+
+			{/** -[] md-[] lg-[] xl-[] 2xl-[] */}
+
 			{/* hero */}
-			<div class="bg-gray-900 w-full p-10 md:p-30 lg:p-60 xl:p-90">
-				<h1 className="yellow-letters text-[40px] md:text-5xl  lg:text-5xl capitalize pb-4">
-					isabel tizon arranz
+			<div class="bg-gray-900  w-full p-10 md:p-20 lg:p-40  xl:p-90 2xl:p-90">
+				<h1 className="yellow-letters capitalize">
+					isabel tizón arranz
 				</h1>
-				<p className="yellow-letters capitalize text-[25px] md:text-xl lg:text-2xl pb-4">
+				<p className="yellow-letters capitalize text-[4rem] md-[] lg-[] xl-[] 2xl-[]">
 					junior web developer
 				</p>
-				<button className="text-black uppercase mustard p-3 rounded-md">
-					view portfolio
-				</button>
+				<button className="mustard">view portfolio</button>
 			</div>
 
 			{/* My skills */}
 			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70 py-24">
-				<h2 className="text-black pb-20 text-[40px] md:text-4xl lg:text-4xl capitalize">
+				<h2 className="text-black pb-20 capitalize">
 					my skills
 				</h2>
 				<div className="flex flex-wrap">
 					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
 						{/* <div className="flex-1 md:flex-2 lg:w-4/12 xl:-4/12"></div> */}
-						<h3 className="text-black uppercase pb-8 text-3xl">
+						<h3 className="text-black uppercase pb-8">
 							frondend developer
 						</h3>
 						<div className="">
@@ -54,7 +60,7 @@ export default function About() {
 						</div>
 					</div>
 					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-						<h3 className="text-black uppercase pb-8 text-3xl">
+						<h3 className="text-black uppercase pb-8">
 							backend developer
 						</h3>
 						<div className="">
@@ -71,7 +77,7 @@ export default function About() {
 						</div>
 					</div>
 					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-						<h3 className="text-black uppercase pb-8 text-3xl">
+						<h3 className="text-black uppercase pb-8">
 							Others
 						</h3>
 						<div>
@@ -93,12 +99,12 @@ export default function About() {
 			{/* About me */}
 			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
 				<div className="flex flex-col justify-center py-24">
-					<h2 className="text-black text-[40px] pb-20 md:text-4xl lg:text-4xl capitalize">
+					<h2 className="text-black capitalize">
 						about me
 					</h2>
 					<div className="flex flex-wrap">
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-full md:w-2/4 lg:w-2/4 xl:w-2/4 ">
-							<p className="pb-8 sizePhoneParagraph sizeParagraph">
+							<p className="pb-8">
 								I am a Web Development student in my second
 								year, with graduation in June 2023. During
 								these two years at the City of Glasgow
@@ -106,18 +112,18 @@ export default function About() {
 								free time, I have learned a lot about web
 								development.
 							</p>
-							<p className="pb-8 sizePhoneParagraph sizeParagraph">
+							<p className="pb-8">
 								For this reason, my intention now is to find
 								an internship and use my knowledge and
 								skills I have developed.
 							</p>
-							<p className="pb-8 sizePhoneParagraph sizeParagraph">
+							<p className="pb-8">
 								I consider myself to be a very hard-working
 								person, a great team player and I always try
 								to work on my own initiative to overcome any
 								obstacles.
 							</p>
-							<p className="pb-8 sizePhoneParagraph sizeParagraph">
+							<p className="pb-8">
 								Fluency in both English and Spanish.
 							</p>
 						</div>
@@ -137,10 +143,10 @@ export default function About() {
 			{/* My latest Work */}
 			<div className="mt-24 bg-[#ecf2f9]">
 				<div className="mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70 py-24">
-					<h2 className="text-black pb-20 text-[40px] md:text-4xl lg:text-4xl capitalize">
+					<h2 className="text-black pb-20 capitalize">
 						my latest work
 					</h2>
-					<p className="pb-8 sizePhoneParagraph sizeParagraph">
+					<p className="pb-8">
 						Lorem Ipsum is simply dummy text of the printing
 						and typesetting industry. Lorem Ipsum has been
 						the Lorem Ipsum is simply dummy text of the
@@ -162,7 +168,7 @@ export default function About() {
 						but also the leap into electronic typesetting,
 						remaining essentially unchanged.
 					</p>
-					<div className="flex flex-wrap  gap-20">
+					<div className="flex flex-wrap gap-20">
 						{/* */}
 
 						{myProjects.map((projectsItem) => (
@@ -184,7 +190,7 @@ export default function About() {
 			</div>
 			{/* Project's sections */}
 			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70 py-24">
-				<h2 className="text-black pb-20 text-[40px] md:text-4xl lg:text-4xl capitalize">
+				<h2 className="text-black pb-20 capitalize">
 					projects section
 				</h2>
 			</div>
@@ -193,13 +199,13 @@ export default function About() {
 				<div className="flex justify-center mx-[40px] md:mx-[150px] lg:mx-[300px]  xl:mx-[250px] 2xl:mx-[400px]">
 					<div className="mx-full py-24">
 						<div className="flex justify-center">
-							<h2 className="text-white pb-20 text-[20px] md:text-4xl lg:text-4xl capitalize">
+							<h2 className="text-white pb-20 capitalize">
 								are you ready to start a new project with
 								me?
 							</h2>
 						</div>
 
-						<p className="text-white pb-8 sizePhoneParagraph sizeParagraph text-center">
+						<p className="text-white pb-8 text-center">
 							Lorem Ipsum is simply dummy text of the
 							printing and typesetting industry. Lorem Ipsum
 							has been the Lorem Ipsum is simply dummy text
