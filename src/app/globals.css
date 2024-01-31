@@ -41,6 +41,9 @@ p {
 	}
 	h2 {
 		font-size: 6.5rem;
+		padding-bottom: 5rem;
+		text-transform: capitalize;
+		color: #000000;
 	}
 	h3 {
 		font-size: 4rem;
@@ -64,27 +67,9 @@ p {
 }
 /* tablet */
 @media (min-width: 768px) {
-	h1 {
-		font-size: 9rem;
-	}
-	h2 {
-		font-size: 1.5rem;
-	}
-	p {
-		font-size: 22px;
-	}
 }
 /* landscape */
 @media (min-width: 1024px) {
-	h1 {
-		font-size: 11rem;
-	}
-	h2 {
-		font-size: 20rem;
-	}
-	p {
-		font-size: 3rem;
-	}
 }
 /* laptop */
 @media (min-width: 1280px) {
@@ -92,31 +77,30 @@ p {
 		font-size: 13rem;
 	}
 	h2 {
-		font-size: 20rem;
+		font-size: 8.5rem;
+	}
+	li {
+		font-size: 3.5rem;
 	}
 	p {
-		font-size: 20px;
+		font-size: 3.5rem;
+		letter-spacing: 0.2rem;
 	}
 }
 /* screen */
 @media (min-width: 1536px) {
 	h1 {
-		font-size: 9rem;
+		font-size: 14rem;
 	}
 	h2 {
-		font-size: 1.5rem;
+		font-size: 8rem;
 	}
-	p {
-		font-size: 21px;
+	h3 {
+		font-size: 3.8rem;
 	}
 }
 
 @layer components {
-	/* .tittle {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	} */
 	/* colours */
 
 	.yellow-letters {

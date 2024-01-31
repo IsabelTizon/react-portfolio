@@ -57,7 +57,7 @@ export const myOtherSkills = [
 	},
 	{
 		id: 4,
-		name: "Project Manager Sftware",
+		name: "Project Manager Software",
 	},
 	{
 		id: 5,

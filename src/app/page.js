@@ -17,19 +17,19 @@ export default function About() {
 	return (
 		<main className="mt-[80px]">
 			{/** -[]  PHONE => min-width: 360px */}
-			{/** md-[]  LANDSCAPE => min-width: 768px */}
-			{/** lg-[]  TABLET => min-width: 1024px */}
+			{/** md-[]  TABLET => min-width: 768px */}
+			{/** lg-[]  LANDSCAPE => min-width: 1024px */}
 			{/** xl-[] LAPTOP => min-width: 1280px */}
 			{/** 2xl-[] SCREEN => min-width: 1536px */}
 
-			{/** -[] md-[] lg-[] xl-[] 2xl-[] */}
+			{/** -[]  md:text-[] lg:text-[] xl:text-[] 2xl:text-[] */}
 
 			{/* hero */}
-			<div class="bg-gray-900  w-full p-10 md:p-20 lg:p-40  xl:p-90 2xl:p-90">
+			<div class="bg-gray-900  w-full p-10 md:p-72 lg:p-40 xl:p-[30rem] 2xl:p-[55rem]">
 				<h1 className="yellow-letters capitalize">
 					isabel tizón arranz
 				</h1>
-				<p className="yellow-letters capitalize text-[4rem] md-[] lg-[] xl-[] 2xl-[]">
+				<p className="yellow-letters capitalize text-[4rem] xl:text-[5rem] 2xl:text-[]">
 					junior web developer
 				</p>
 				<Link href="/projects">
@@ -40,69 +40,67 @@ export default function About() {
 			</div>
 
 			{/* My skills */}
-			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70 py-24">
-				<h2 className="text-black pb-20 capitalize">
-					my skills
-				</h2>
-				<div className="flex flex-wrap">
-					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
-						{/* <div className="flex-1 md:flex-2 lg:w-4/12 xl:-4/12"></div> */}
-						<h3 className="text-black uppercase pb-8">
-							frondend developer
-						</h3>
-						<div className="">
-							<ul>
-								{myfrontendSkills.map((frontendSkill) => (
-									<li key={frontendSkill.id} className="">
-										Knoledge of {frontendSkill.name}
-									</li>
-								))}
-							</ul>
+			<div className="bg-[#fff9e6]">
+				<div className="py-24 px-10 xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
+					<h2 className="">my skills</h2>
+					<div className="flex flex-wrap">
+						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
+							{/* <div className="flex-1 md:flex-2 lg:w-4/12 xl:-4/12"></div> */}
+							<h3 className="text-black font-bold uppercase pb-8">
+								frondend developer
+							</h3>
+							<div className="">
+								<ul>
+									{myfrontendSkills.map((frontendSkill) => (
+										<li key={frontendSkill.id} className="">
+											Knoledge of {frontendSkill.name}
+										</li>
+									))}
+								</ul>
+							</div>
 						</div>
-					</div>
-					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-						<h3 className="text-black uppercase pb-8">
-							backend developer
-						</h3>
-						<div className="">
-							<ul>
-								{mybackendSkills.map((backendSkill) => (
-									<li
-										key={backendSkill.id}
-										className="sizePhoneParagraph sizeParagraph"
-									>
-										Knoledge of {backendSkill.name}
-									</li>
-								))}
-							</ul>
+						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
+							<h3 className="text-black font-bold uppercase pb-8">
+								backend developer
+							</h3>
+							<div className="">
+								<ul>
+									{mybackendSkills.map((backendSkill) => (
+										<li
+											key={backendSkill.id}
+											className="sizePhoneParagraph sizeParagraph"
+										>
+											Knoledge of {backendSkill.name}
+										</li>
+									))}
+								</ul>
+							</div>
 						</div>
-					</div>
-					<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-						<h3 className="text-black uppercase pb-8">
-							Others
-						</h3>
-						<div>
-							<ul>
-								{myOtherSkills.map((othersSkill) => (
-									<li
-										key={othersSkill.id}
-										className="sizePhoneParagraph sizeParagraph"
-									>
-										Knoledge of {othersSkill.name}
-									</li>
-								))}
-							</ul>
+						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
+							<h3 className="text-black font-bold uppercase pb-8">
+								Others
+							</h3>
+							<div>
+								<ul>
+									{myOtherSkills.map((othersSkill) => (
+										<li
+											key={othersSkill.id}
+											className="sizePhoneParagraph sizeParagraph"
+										>
+											Knoledge of {othersSkill.name}
+										</li>
+									))}
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
 			{/* About me */}
-			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70">
+			<div className="py-24 px-10 xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
 				<div className="flex flex-col justify-center py-24">
-					<h2 className="text-black capitalize">
-						about me
-					</h2>
+					<h2 className="">about me</h2>
 					<div className="flex flex-wrap">
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-full md:w-2/4 lg:w-2/4 xl:w-2/4 ">
 							<p className="pb-8">
@@ -142,12 +140,10 @@ export default function About() {
 			</div>
 
 			{/* My latest Work */}
-			<div className="mt-24 bg-[#ecf2f9]">
-				<div className="mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70 py-24">
-					<h2 className="text-black pb-20 capitalize">
-						my latest work
-					</h2>
-					<p className="pb-8">
+			<div className="bg-[#ecf2f9]">
+				<div className="py-24 px-10 xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
+					<h2 className="">my latest work</h2>
+					<p className="pb-40">
 						Lorem Ipsum is simply dummy text of the printing
 						and typesetting industry. Lorem Ipsum has been
 						the Lorem Ipsum is simply dummy text of the
@@ -179,7 +175,7 @@ export default function About() {
 							>
 								<Image
 									className="h-150 w-full object-containd"
-									width={410}
+									width={300}
 									height={300}
 									src={projectsItem.pic}
 									alt="project picture"
@@ -190,17 +186,15 @@ export default function About() {
 				</div>
 			</div>
 			{/* Project's sections */}
-			<div className="mt-24 mx-1 md:mx-[15rem] lg:mx-30 xl:mx-70 py-24">
-				<h2 className="text-black pb-20 capitalize">
-					projects section
-				</h2>
+			<div className="py-24 px-10 xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
+				<h2 className="">projects section</h2>
 			</div>
 			{/* Are You Ready To Start New Project With Me? */}
-			<div className="mt-24 bg-gray-900 ">
+			<div className="bg-gray-900 ">
 				<div className="flex justify-center mx-[40px] md:mx-[150px] lg:mx-[300px]  xl:mx-[250px] 2xl:mx-[400px]">
 					<div className="mx-full py-24">
 						<div className="flex justify-center">
-							<h2 className="text-white pb-20 capitalize">
+							<h2 className="text-white">
 								are you ready to start a new project with
 								me?
 							</h2>
