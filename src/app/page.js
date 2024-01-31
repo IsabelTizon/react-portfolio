@@ -32,7 +32,11 @@ export default function About() {
 				<p className="yellow-letters capitalize text-[4rem] md-[] lg-[] xl-[] 2xl-[]">
 					junior web developer
 				</p>
-				<button className="mustard">view portfolio</button>
+				<Link href="/projects">
+					<button className="mustard">
+						view portfolio
+					</button>
+				</Link>
 			</div>
 
 			{/* My skills */}
@@ -49,10 +53,7 @@ export default function About() {
 						<div className="">
 							<ul>
 								{myfrontendSkills.map((frontendSkill) => (
-									<li
-										key={frontendSkill.id}
-										className="sizePhoneParagraph sizeParagraph"
-									>
+									<li key={frontendSkill.id} className="">
 										Knoledge of {frontendSkill.name}
 									</li>
 								))}
@@ -217,9 +218,11 @@ export default function About() {
 						</p>
 
 						<div className="flex justify-center">
-							<button className="text-black uppercase mustard p-3 rounded-md">
-								contact me
-							</button>
+							<Link href="/contact">
+								<button className="text-black uppercase mustard p-3 rounded-md">
+									contact me
+								</button>
+							</Link>
 						</div>
 					</div>
 				</div>
