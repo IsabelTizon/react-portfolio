@@ -198,180 +198,61 @@ export default function About() {
 					1500s, when an unknown printer took a galley of
 					type and scrambled it to
 				</p>
-				<div className="flex flex-wrap gap-4">
-					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+				<div className="flex flex-wrap gap-8">
+					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] bg-gray-900 rounded-2xl">
 						<Link href="/contact">
 							<Image
-								className="w-full h-[45%]"
+								className="w-full h-[77%] rounded-t-2xl"
 								width={300}
 								height={300}
-								src="/img/demoScreen.png"
+								src="/img/demo2screen.png"
 								alt="project picture"
 							/>
 						</Link>
-						<div class="p-5">
-							<h3 className="text-black font-bold uppercase pb-8">
-								frontend projects
-							</h3>
-							<p className="text-[3rem]">
-								Lorem Ipsum is simply dummy text of the
-								printing and typesetting industry. Lorem
-								Ipsum has been the Lorem Ipsum
-							</p>
-							<Link href="/projects">
-								<button className="mustard">
-									view portfolio
+						<Link href="/projects">
+							<div className="flex justify-center">
+								<button className="mustard w-[90%] my-[1.5rem] capitalize tracking-wider">
+									frontend projects
 								</button>
-							</Link>
-						</div>
-					</div>
-					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-						<a href="/contact">
-							<Image
-								width={300}
-								height={300}
-								src="/img/demoScreen.png"
-								alt="project picture"
-							/>
-						</a>
-						<div class="p-5">
-							<a href="#">
-								<h3 className="text-black font-bold uppercase pb-8">
-									frontend projects
-								</h3>
-							</a>
-							<p className="pb-40">
-								Lorem Ipsum is simply dummy text of the
-								printing and typesetting industry. Lorem
-								Ipsum has been the Lorem Ipsum
-							</p>
-							<a
-								href="#"
-								class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-							>
-								Read more
-								<svg
-									class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-									aria-hidden="true"
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 14 10"
-								>
-									<path
-										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M1 5h12m0 0L9 1m4 4L9 9"
-									/>
-								</svg>
-							</a>
-						</div>
-					</div>
-					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-						<a href="/contact">
-							<Image
-								width={300}
-								height={300}
-								src="/img/demoScreen.png"
-								alt="project picture"
-							/>
-						</a>
-						<div class="p-5">
-							<a href="#">
-								<h3 className="text-black font-bold uppercase pb-8">
-									frontend projects
-								</h3>
-							</a>
-							<p className="pb-40">
-								Lorem Ipsum is simply dummy text of the
-								printing and typesetting industry. Lorem
-								Ipsum has been the Lorem Ipsum
-							</p>
-							<a
-								href="#"
-								class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-							>
-								Read more
-								<svg
-									class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-									aria-hidden="true"
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 14 10"
-								>
-									<path
-										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M1 5h12m0 0L9 1m4 4L9 9"
-									/>
-								</svg>
-							</a>
-						</div>
-					</div>
-
-					{/* <div className="h-150 w-full object-containd">
-						<Link href={"/contact"}>
-							<Image
-								width={300}
-								height={300}
-								src="/img/demoScreen.png"
-								alt="project picture"
-							/>
-							<h3 className="text-black font-bold uppercase pb-8">
-								frontend projects
-							</h3>
-							<p className="pb-40">
-								Lorem Ipsum is simply dummy text of the
-								printing and typesetting industry. Lorem
-								Ipsum has been the Lorem Ipsum
-							</p>
+							</div>
 						</Link>
 					</div>
-					<div className="h-150 w-full object-containd">
-						<Link
-							href={"/contact"}
-							className="h-150 w-full object-containd"
-						>
+					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] bg-gray-900 rounded-2xl">
+						<Link href="/contact">
 							<Image
+								className="w-full h-[77%] rounded-t-2xl"
 								width={300}
 								height={300}
-								src="/img/demoScreen.png"
+								src="/img/demo2screen.png"
 								alt="project picture"
 							/>
-							<h3 className="text-black font-bold uppercase pb-8">
-								backend projects
-							</h3>
-							<p className="pb-40">
-								Lorem Ipsum is simply dummy text of the
-								printing and typesetting industry. Lorem
-								Ipsum has been the Lorem Ipsum
-							</p>
+						</Link>
+						<Link href="/projects">
+							<div className="flex justify-center">
+								<button className="mustard w-[90%] my-[1.5rem] capitalize tracking-wider">
+									backend projects
+								</button>
+							</div>
 						</Link>
 					</div>
-					<div className="h-150 w-full object-containd">
-						<Link
-							href={"/contact"}
-							className="h-150 w-full object-containd"
-						>
+					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] bg-gray-900 rounded-2xl">
+						<Link href="/contact">
 							<Image
+								className="w-full h-[77%] rounded-t-2xl"
 								width={300}
 								height={300}
-								src="/img/demoScreen.png"
+								src="/img/demo2screen.png"
 								alt="project picture"
 							/>
-							<h3 className="text-black font-bold uppercase pb-8">
-								team projects
-							</h3>
-							<p className="pb-40">
-								Lorem Ipsum is simply dummy text of the
-								printing and typesetting industry. Lorem
-								Ipsum has been the Lorem Ipsum
-							</p>
 						</Link>
-					</div> */}
+						<Link href="/projects">
+							<div className="flex justify-center">
+								<button className="mustard w-[90%] my-[1.5rem] capitalize tracking-wider">
+									team projects
+								</button>
+							</div>
+						</Link>
+					</div>
 				</div>
 			</div>
 
