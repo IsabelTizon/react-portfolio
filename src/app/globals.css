@@ -67,6 +67,12 @@ p {
 }
 /* tablet */
 @media (min-width: 768px) {
+	h3 {
+		font-size: 3rem;
+	}
+	button.mustard {
+		padding: 1rem;
+	}
 }
 /* landscape */
 @media (min-width: 1024px) {
@@ -78,6 +84,9 @@ p {
 	}
 	h2 {
 		font-size: 8.5rem;
+	}
+	h3 {
+		font-size: 4rem;
 	}
 	li {
 		font-size: 3.5rem;

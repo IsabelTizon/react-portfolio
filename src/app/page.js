@@ -41,11 +41,10 @@ export default function About() {
 
 			{/* My skills */}
 			<div className="bg-[#fff9e6]">
-				<div className="py-24 px-10 xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
+				<div className="py-24 px-8 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
 					<h2 className="">my skills</h2>
 					<div className="flex flex-wrap">
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
-							{/* <div className="flex-1 md:flex-2 lg:w-4/12 xl:-4/12"></div> */}
 							<h3 className="text-black font-bold uppercase pb-8">
 								frondend developer
 							</h3>
@@ -98,7 +97,7 @@ export default function About() {
 			</div>
 
 			{/* About me */}
-			<div className="py-24 px-10 xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
+			<div className="py-24 px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
 				<div className="flex flex-col justify-center py-24">
 					<h2 className="">about me</h2>
 					<div className="flex flex-wrap">
@@ -141,7 +140,7 @@ export default function About() {
 
 			{/* My latest Work */}
 			<div className="bg-[#ecf2f9]">
-				<div className="py-24 px-10 xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
+				<div className="py-24 px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
 					<h2 className="">my latest work</h2>
 					<p className="pb-40">
 						Lorem Ipsum is simply dummy text of the printing
@@ -165,13 +164,14 @@ export default function About() {
 						but also the leap into electronic typesetting,
 						remaining essentially unchanged.
 					</p>
-					<div className="flex flex-wrap gap-20">
+					<div className="flex flex-wrap gap-7">
 						{/* */}
 
 						{myProjects.map((projectsItem) => (
 							<Link
 								key={projectsItem.id}
 								href={`/projects/${projectsItem.id}`}
+								className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] bg-gray-900"
 							>
 								<Image
 									className="h-150 w-full object-containd"
@@ -187,7 +187,7 @@ export default function About() {
 			</div>
 
 			{/* Project's sections */}
-			<div className="py-24 px-10 xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
+			<div className="py-24 px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
 				<h2 className="">projects section</h2>
 				<p className="pb-40">
 					Lorem Ipsum is simply dummy text of the printing
@@ -199,58 +199,52 @@ export default function About() {
 					type and scrambled it to
 				</p>
 				<div className="flex flex-wrap gap-8">
-					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] bg-gray-900 rounded-2xl">
+					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
+						<div className="flex justify-center">
+							<h3 className="text-gray-900 font-bold uppercase pb-8">
+								frontend projects
+							</h3>
+						</div>
 						<Link href="/contact">
 							<Image
-								className="w-full h-[77%] rounded-t-2xl"
+								className="w-full h-auto rounded-2xl"
 								width={300}
 								height={300}
 								src="/img/demo2screen.png"
 								alt="project picture"
 							/>
-						</Link>
-						<Link href="/projects">
-							<div className="flex justify-center">
-								<button className="mustard w-[90%] my-[1.5rem] capitalize tracking-wider">
-									frontend projects
-								</button>
-							</div>
 						</Link>
 					</div>
-					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] bg-gray-900 rounded-2xl">
+					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
+						<div className="flex justify-center">
+							<h3 className="text-gray-900 font-bold uppercase pb-8">
+								backend projects
+							</h3>
+						</div>
 						<Link href="/contact">
 							<Image
-								className="w-full h-[77%] rounded-t-2xl"
+								className="w-full h-auto rounded-2xl"
 								width={300}
 								height={300}
 								src="/img/demo2screen.png"
 								alt="project picture"
 							/>
-						</Link>
-						<Link href="/projects">
-							<div className="flex justify-center">
-								<button className="mustard w-[90%] my-[1.5rem] capitalize tracking-wider">
-									backend projects
-								</button>
-							</div>
 						</Link>
 					</div>
-					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] bg-gray-900 rounded-2xl">
+					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
+						<div className="flex justify-center">
+							<h3 className="text-gray-900 font-bold uppercase pb-8">
+								team projects
+							</h3>
+						</div>
 						<Link href="/contact">
 							<Image
-								className="w-full h-[77%] rounded-t-2xl"
+								className="w-full h-auto rounded-2xl"
 								width={300}
 								height={300}
 								src="/img/demo2screen.png"
 								alt="project picture"
 							/>
-						</Link>
-						<Link href="/projects">
-							<div className="flex justify-center">
-								<button className="mustard w-[90%] my-[1.5rem] capitalize tracking-wider">
-									team projects
-								</button>
-							</div>
 						</Link>
 					</div>
 				</div>
