@@ -167,7 +167,7 @@ export default function About() {
 					<div className="flex flex-wrap gap-7">
 						{/* */}
 
-						{myProjects.map((projectsItem) => (
+						{myProjects.slice(-6).map((projectsItem) => (
 							<Link
 								key={projectsItem.id}
 								href={`/projects/${projectsItem.id}`}
