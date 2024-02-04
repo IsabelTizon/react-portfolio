@@ -15,7 +15,7 @@ export const metadata = {
 const blog = () => {
 	return (
 		<main className="mt-[80px]">
-			<div class="bg-gray-900  w-full p-10 md:p-42 lg:p-40 xl:p-[15rem] 2xl:p-[55rem]">
+			<div class="bg-gray-900  w-full p-10 md:p-42 lg:p-40 xl:p-[15rem] 2xl:p-[25rem]">
 				<div className="flex justify-center">
 					<h1 className="yellow-letters capitalize">
 						Blog
@@ -23,7 +23,7 @@ const blog = () => {
 				</div>
 			</div>
 			<div className="flex justify-center">
-				<h2 className="capitalize p-10 md:p-42 lg:p-40 xl:p-[12rem] 2xl:p-[55rem]">
+				<h2 className="capitalize p-10 md:p-42 lg:p-40 xl:p-[12rem] 2xl:p-[18rem]">
 					Latest posts
 				</h2>
 			</div>
@@ -47,14 +47,14 @@ const blog = () => {
 						>
 							<div class=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 rounded-t-2xl">
 								<Image
-									className="h-150 w-full object-containd rounded-t-2xl"
+									className="h-150 w-full object-containd rounded-t-2xl mb-10"
 									width={300}
 									height={300}
 									src={projectsItem.pic}
 									alt="project picture"
 								/>
 								<div class="p-5">
-									<h3 class="mb-2 font-bold tracking-tight text-gray-900 dark:text-white">
+									<h3 class="mb-10 tracking-wider font-bold  text-gray-900 dark:text-white">
 										{projectsItem.name}
 									</h3>
 									<div className="flex flex-row">
@@ -64,11 +64,11 @@ const blog = () => {
 												color="#595959"
 											/>
 										</div>
-										<p className="text-[#595959] ml-8">
+										<p className="text-[#595959] ml-8 text-[2.5rem]">
 											04 February 2024
 										</p>
 									</div>
-									<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+									<p class="mb-24 font-normal text-gray-700 dark:text-gray-400 text-[3.2rem]">
 										Here are the biggest enterprise
 										technology acquisitions of 2021
 									</p>
@@ -77,12 +77,13 @@ const blog = () => {
 										href={`/projects/${projectsItem.id}`}
 									>
 										<div className="flex flex-row">
-											<p className="text-[#b38f00] capitalize">
+											<p className="text-[#b38f00] uppercase">
 												read more
 											</p>
 											<MdOutlineKeyboardArrowRight
 												size={30}
 												color="#b38f00"
+												fontSize="2rem"
 											/>
 										</div>
 									</Link>
