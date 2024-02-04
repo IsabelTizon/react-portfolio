@@ -3,6 +3,10 @@ import { myProjects } from "../../components/projects";
 import Image from "next/image";
 import Link from "next/link";
 
+// Reat Icons
+import { MdOutlineWatchLater } from "react-icons/md";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+
 export const metadata = {
 	title: "Blog",
 	description: "my blog page",
@@ -33,9 +37,9 @@ const blog = () => {
 				scrambled it
 			</p>
 
-			<div className="px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem] xl:pb-[15rem] 2xl:pb-[20rem]  rounded-t-2xl">
+			<div className="px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem] xl:pb-[15rem] 2xl:pb-[20rem] rounded-t-2xl">
 				{/* */}
-				<div className="flex flex-row gap-8">
+				<div className="flex flex-wrap gap-8">
 					{myProjects.slice(-3).map((projectsItem) => (
 						<div
 							key={projectsItem.id}
@@ -50,22 +54,37 @@ const blog = () => {
 									alt="project picture"
 								/>
 								<div class="p-5">
-									<h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+									<h3 class="mb-2 font-bold tracking-tight text-gray-900 dark:text-white">
 										{projectsItem.name}
 									</h3>
-
+									<div className="flex flex-row">
+										<div className="">
+											<MdOutlineWatchLater
+												size={20}
+												color="#595959"
+											/>
+										</div>
+										<p className="text-[#595959] ml-8">
+											04 February 2024
+										</p>
+									</div>
 									<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
 										Here are the biggest enterprise
-										technology acquisitions of 2021 so far,
-										in reverse chronological order.
+										technology acquisitions of 2021
 									</p>
 									<Link
 										key={projectsItem.id}
 										href={`/projects/${projectsItem.id}`}
 									>
-										<button className="mustard">
-											read more
-										</button>
+										<div className="flex flex-row">
+											<p className="text-[#b38f00] capitalize">
+												read more
+											</p>
+											<MdOutlineKeyboardArrowRight
+												size={30}
+												color="#b38f00"
+											/>
+										</div>
 									</Link>
 								</div>
 							</div>
