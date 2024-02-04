@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function projects() {
 	return (
-		<main className="mt-[100px]">
+		<main className="mt-[80px]">
 			<div className="tittle">
 				<h1>Projects I`ve work on</h1>
 			</div>
