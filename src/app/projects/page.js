@@ -34,22 +34,31 @@ export default function projects() {
 
 			<div className="flex flex-col px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem]">
 				{myProjects.map((projectsItem) => (
-					<div className="" key={projectsItem.id}>
-						<h3>{projectsItem.name}</h3>
+					<div className="pb-[16rem]" key={projectsItem.id}>
+						<h3 className="pb-[8rem]">
+							{projectsItem.name}
+						</h3>
 						<div className="flex flex-row">
 							<Image
-								className="h-150 w-full object-containd rounded-t-2xl mb-10"
+								className="h-auto w-full object-containd rounded-t-2xl mb-10"
 								width={300}
 								height={300}
 								src={projectsItem.pic}
 								alt="project picture"
 							/>
-							<div className="">
-								<p>{projectsItem.description}</p>
-								<div className="flex flex-row">
+							<div className="p-10 md:pl-[6rem] lg:pl-[15rem] xl:pl-[15rem] 2xl:pl-[25rem]">
+								<p className="text-[3rem] line-clamp-3">
+									{projectsItem.description}
+								</p>
+								<div className="flex flex-row justify-between">
 									<Link href="/contact">
 										<button className="text-black uppercase mustard p-3 rounded-md">
 											visit the site
+										</button>
+									</Link>
+									<Link href="/contact">
+										<button className="text-black uppercase mustard p-3 rounded-md">
+											read more
 										</button>
 									</Link>
 									<Link
