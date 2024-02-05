@@ -47,16 +47,16 @@ const blog = () => {
 						>
 							<div class=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 rounded-t-2xl">
 								<Image
-									className="h-150 w-full object-containd rounded-t-2xl mb-10"
+									className="h-150 w-full object-containd rounded-t-2xl mb-[6rem]"
 									width={300}
 									height={300}
 									src={projectsItem.pic}
 									alt="project picture"
 								/>
 								<div class="p-5">
-									<h3 class="mb-10 tracking-wider font-bold  text-gray-900 dark:text-white">
+									<h4 class="mb-10 tracking-wider font-bold  text-gray-900 dark:text-white">
 										{projectsItem.name}
-									</h3>
+									</h4>
 									<div className="flex flex-row">
 										<div className="">
 											<MdOutlineWatchLater
@@ -68,9 +68,8 @@ const blog = () => {
 											04 February 2024
 										</p>
 									</div>
-									<p class="mb-24 font-normal text-gray-700 dark:text-gray-400 text-[3.2rem]">
-										Here are the biggest enterprise
-										technology acquisitions of 2021
+									<p class="mb-24 font-normal line-clamp-3 text-gray-700 dark:text-gray-400 text-[3.2rem]">
+										{projectsItem.description}
 									</p>
 									<Link
 										key={projectsItem.id}
