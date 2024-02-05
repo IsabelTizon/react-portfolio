@@ -44,13 +44,13 @@ export default function projects() {
 						<div className="flex flex-row">
 							<Image
 								className="h-auto w-full object-containd rounded-t-2xl mb-10"
-								width={300}
+								width={500}
 								height={300}
 								src={projectsItem.pic}
 								alt="project picture"
 							/>
-							<div className="p-10 md:pl-[6rem] lg:pl-[15rem] xl:pl-[15rem] 2xl:pl-[25rem]">
-								<p className="text-[3rem] line-clamp-3">
+							<div className="md:pl-[6rem] lg:pl-[15rem] xl:pl-[15rem] 2xl:pl-[25rem]">
+								<p className="text-[3rem] line-clamp-5 mb-[2.5rem]">
 									{projectsItem.description}
 								</p>
 								<Link
@@ -58,7 +58,7 @@ export default function projects() {
 									href={`/projects/${projectsItem.id}`}
 								>
 									<div className="flex flex-row">
-										<p className="text-[#b38f00] uppercase text-[2.5rem]">
+										<p className="text-[#b38f00] uppercase text-[2.5rem] mb-[6rem]">
 											read more
 										</p>
 										<MdOutlineKeyboardArrowRight
@@ -70,7 +70,7 @@ export default function projects() {
 								</Link>
 								<div className="flex flex-row">
 									<Link href="/contact">
-										<button className="text-black uppercase mustard p-3 rounded-md mr-11">
+										<button className="text-black uppercase mustard rounded-md mr-11">
 											visit the site
 										</button>
 									</Link>
@@ -78,7 +78,7 @@ export default function projects() {
 									<Link
 										href={`/projects/${projectsItem.id}`}
 									>
-										<button className="text-black uppercase mustard p-3 rounded-md">
+										<button className="text-black uppercase mustard p-4 rounded-md">
 											leave a comment
 										</button>
 									</Link>

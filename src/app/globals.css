@@ -71,7 +71,8 @@ p {
 		font-size: 3rem;
 	}
 	button.mustard {
-		padding: 1rem;
+		padding: 2rem;
+		letter-spacing: 0.4rem;
 	}
 }
 /* landscape */
