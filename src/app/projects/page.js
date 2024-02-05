@@ -2,6 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { myProjects } from "../../components/projects";
 
+// React icons
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+
 export const metadata = {
 	title: "Projects page",
 	description: "Info about all my projects",
@@ -50,17 +53,28 @@ export default function projects() {
 								<p className="text-[3rem] line-clamp-3">
 									{projectsItem.description}
 								</p>
-								<div className="flex flex-row justify-between">
+								<Link
+									key={projectsItem.id}
+									href={`/projects/${projectsItem.id}`}
+								>
+									<div className="flex flex-row">
+										<p className="text-[#b38f00] uppercase text-[2.5rem]">
+											read more
+										</p>
+										<MdOutlineKeyboardArrowRight
+											size={20}
+											color="#b38f00"
+											fontSize="2rem"
+										/>
+									</div>
+								</Link>
+								<div className="flex flex-row">
 									<Link href="/contact">
-										<button className="text-black uppercase mustard p-3 rounded-md">
+										<button className="text-black uppercase mustard p-3 rounded-md mr-11">
 											visit the site
 										</button>
 									</Link>
-									<Link href="/contact">
-										<button className="text-black uppercase mustard p-3 rounded-md">
-											read more
-										</button>
-									</Link>
+
 									<Link
 										href={`/projects/${projectsItem.id}`}
 									>
