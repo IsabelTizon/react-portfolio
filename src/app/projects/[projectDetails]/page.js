@@ -54,6 +54,18 @@ export default function projectDetails({ params }) {
 				<p>{myProject.description}</p>
 				<h5>project parts</h5>
 				<p>{myProject.parts}</p>
+				<p>
+					If you find this page nice, you can take a look at
+					more of my{" "}
+					<Link
+						target="_blank"
+						href="https://github.com/IsabelTizon"
+						className="text-[#4e53f6]"
+					>
+						Github
+					</Link>{" "}
+					projects
+				</p>
 				<div className="flex justify-center">
 					<div className="flex  flex-col">
 						<h4>share this</h4>
