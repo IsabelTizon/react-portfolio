@@ -199,7 +199,7 @@ export default function About() {
 					type and scrambled it to
 				</p>
 				<div className="flex flex-wrap gap-8">
-					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
+					<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
 						<div className="flex justify-center">
 							<h4 className="text-gray-900 font-bold uppercase pb-8">
 								frontend projects
@@ -215,7 +215,7 @@ export default function About() {
 							/>
 						</Link>
 					</div>
-					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
+					<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
 						<div className="flex justify-center">
 							<h4 className="text-gray-900 font-bold uppercase pb-8">
 								backend projects
@@ -231,7 +231,7 @@ export default function About() {
 							/>
 						</Link>
 					</div>
-					<div class="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
+					<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
 						<div className="flex justify-center">
 							<h4 className="text-gray-900 font-bold uppercase pb-8">
 								team projects

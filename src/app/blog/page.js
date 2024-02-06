@@ -15,7 +15,7 @@ export const metadata = {
 const blog = () => {
 	return (
 		<main className="mt-[80px]">
-			<div class="bg-gray-900  w-full p-10 md:p-42 lg:p-40 xl:p-[15rem] 2xl:p-[25rem]">
+			<div className="bg-gray-900  w-full p-10 md:p-42 lg:p-40 xl:p-[15rem] 2xl:p-[25rem]">
 				<div className="flex justify-center">
 					<h1 className="yellow-letters capitalize">
 						Blog
@@ -45,7 +45,7 @@ const blog = () => {
 							key={projectsItem.id}
 							className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]"
 						>
-							<div class=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 rounded-t-2xl">
+							<div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 rounded-t-2xl">
 								<Image
 									className="h-150 w-full object-containd rounded-t-2xl mb-[6rem]"
 									width={300}
@@ -53,8 +53,8 @@ const blog = () => {
 									src={projectsItem.pic}
 									alt="project picture"
 								/>
-								<div class="p-5">
-									<h4 class="mb-10 tracking-wider font-bold  text-gray-900 dark:text-white">
+								<div className="p-5">
+									<h4 className="mb-10 tracking-wider font-bold  text-gray-900 dark:text-white">
 										{projectsItem.name}
 									</h4>
 									<div className="flex flex-row">
@@ -68,7 +68,7 @@ const blog = () => {
 											04 February 2024
 										</p>
 									</div>
-									<p class="mb-24 font-normal line-clamp-3 text-gray-700 dark:text-gray-400 text-[3.2rem]">
+									<p className="mb-24 font-normal line-clamp-3 text-gray-700 dark:text-gray-400 text-[3.2rem]">
 										{projectsItem.description}
 									</p>
 									<Link

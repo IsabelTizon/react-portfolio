@@ -13,7 +13,7 @@ export const metadata = {
 export default function projects() {
 	return (
 		<main className="mt-[80px]">
-			<div class="bg-gray-900  w-full p-10 md:p-42 lg:p-40 xl:p-[15rem] 2xl:p-[25rem]">
+			<div className="bg-gray-900  w-full p-10 md:p-42 lg:p-40 xl:p-[15rem] 2xl:p-[25rem]">
 				<div className="flex justify-center">
 					<h1 className="yellow-letters capitalize">
 						my projects
