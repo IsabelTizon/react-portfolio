@@ -41,10 +41,10 @@ export default function projects() {
 						<h3 className="pb-[8rem]">
 							{projectsItem.name}
 						</h3>
-						<div className="flex flex-row">
+						<div className="flex  flex-col md:flex-row">
 							<Image
-								className="h-auto w-full object-containd rounded-t-2xl mb-10"
-								width={500}
+								className="h-auto w-full md:w-[50%] lg:w-[70%] xl:w-full object-containd rounded-t-2xl mb-10"
+								width={400}
 								height={300}
 								src={projectsItem.pic}
 								alt="project picture"
@@ -70,7 +70,7 @@ export default function projects() {
 								</Link>
 								<div className="flex flex-row">
 									<Link href="/contact">
-										<button className="text-black uppercase mustard rounded-md mr-11">
+										<button className="text-black tracking-widest lg:tracking-wide xl:tracking-widest uppercase mustard rounded-md mr-11">
 											visit the site
 										</button>
 									</Link>
@@ -78,7 +78,7 @@ export default function projects() {
 									<Link
 										href={`/projects/${projectsItem.id}`}
 									>
-										<button className="text-black uppercase mustard p-4 rounded-md">
+										<button className="text-black tracking-widest lg:tracking-wide xl:tracking-widest uppercase mustard p-4 rounded-md">
 											leave a comment
 										</button>
 									</Link>
