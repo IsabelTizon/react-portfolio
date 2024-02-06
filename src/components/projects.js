@@ -2,8 +2,9 @@ export const myProjects = [
 	{
 		id: 0,
 		name: "Pass Recipe",
-		description:
+		description: [
 			"Pass Recipe is a website created in the second block of the Web Development HND course at City of Glasgow College for the subject Graded Unit 2.",
+		],
 		pic: "/img/demoScreen.png",
 	},
 	{
@@ -14,7 +15,7 @@ export const myProjects = [
 			`Mode’s purpose was to create a design for a C2C business model website dedicated to buying/selling second-hand products, especially textiles, since this website is focused on fashion.
 		The web follows a hierarchical structure and is available for desktop, tablet and mobile.`,
 		],
-		partsProject: [
+		parts: [
 			`The entire project was based on four stages. The first stage, the analysis stage, was dedicated to understanding the usage content. In it, identify the purpose and objective of the website and detail the functional and non-functional requirements. Also specify the target audience, creating user profiles`,
 			`The second stage of the project was based on the design. In it I created some wireframes and storyboards in Figma as well as a sitemap and a logic chart with the same tool. It also required a style guide specifying the colours and fonts and the reason for them.`,
 			`The development of the project occurred in its third stage. Mode runs on a server and uses a database to store the users, products and favorite products of each logged in user. The page uses the following technologies: HTML5, CSS, JavaScript, along with Bootstrap, Font Awesome.`,

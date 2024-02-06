@@ -14,11 +14,11 @@ export default function projectDetails({ params }) {
 	const { projectDetails } = params;
 
 	const myProject = myProjects[projectDetails];
-	console.log("myProject", myProject);
+	console.log("myProject ===> ", myProject);
 
 	return (
 		<main className="mt-[80px]">
-			<div class="bg-gray-900  w-full p-10 md:p-42 lg:p-40 xl:p-[15rem] 2xl:p-[25rem]">
+			<div className="bg-gray-900  w-full p-10 md:p-42 lg:p-40 xl:p-[15rem] 2xl:p-[25rem]">
 				<div className="flex justify-center">
 					<h1
 						className="yellow-letters capitalize"
@@ -50,10 +50,28 @@ export default function projectDetails({ params }) {
 					src={myProject.pic}
 					alt="project picture"
 				/>
-				<Link href="/projects">Go back to projects</Link>
-				<p>{myProject.description}</p>
-				<h5>project parts</h5>
-				<p>{myProject.parts}</p>
+
+				<p>
+					{myProject.description.map((paragraph) => {
+						console.log(
+							"myProject.description ===> ",
+							myProject.description
+						);
+						return (
+							<p className="mt-[5rem]" key={paragraph}>
+								{paragraph}
+							</p>
+						);
+					})}
+				</p>
+				<h5 className="text-[4rem] capitalize mt-[10rem]">
+					project parts
+				</h5>
+				{myProject.parts?.map((paragraph) => (
+					<p className="mt-[5rem]" key={paragraph}>
+						{paragraph}
+					</p>
+				))}
 				<p>
 					If you find this page nice, you can take a look at
 					more of my{" "}
@@ -78,10 +96,17 @@ export default function projectDetails({ params }) {
 						</div>
 					</div>
 				</div>
-				<div className="leading-10"></div>
-				<h3>Leave a Reply</h3>
-				<p>your email address will not be published</p>
-				<p>required fields are marked * </p>
+				<div className="leading-10">
+					<h3>Leave a Reply</h3>
+					<p>your email address will not be published</p>
+					<p>required fields are marked * </p>
+				</div>
+				<Link
+					className="text-[3rem] text-[#4e53f6] capitalize mt-[5rem]"
+					href="/projects"
+				>
+					Go back to projects
+				</Link>
 			</div>
 		</main>
 	);
