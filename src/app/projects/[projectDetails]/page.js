@@ -30,6 +30,9 @@ export default function projectDetails({ params }) {
 			</div>
 			<div className="px-10 md:px-[15rem] lg:px-[25rem] xl:px-[50rem] 2xl:px-[80rem]">
 				<div className="flex flex-row">
+					<p className="text-[#1b4052] ml-8 text-[2.5rem] mr-11">
+						username
+					</p>
 					<div className="">
 						<MdOutlineWatchLater
 							size={20}
@@ -49,6 +52,8 @@ export default function projectDetails({ params }) {
 				/>
 				<Link href="/projects">Go back to projects</Link>
 				<p>{myProject.description}</p>
+				<h5>project parts</h5>
+				<p>{myProject.parts}</p>
 				<div className="flex justify-center">
 					<div className="flex  flex-col">
 						<h4>share this</h4>

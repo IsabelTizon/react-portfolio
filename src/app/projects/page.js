@@ -25,14 +25,19 @@ export default function projects() {
 					welcome to my projects
 				</h2>
 			</div>
+
 			<p className="pb-40 px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem]">
-				Lorem Ipsum is simply dummy text of the printing and
-				typesetting industry. Lorem Ipsum has been the Lorem
-				Ipsum is simply dummy text of the printing and
-				typesetting industry. Lorem Ipsum has been the
-				industrys standard dummy text ever since the 1500s,
-				when an unknown printer took a galley of type and
-				scrambled it
+				In the following portfolio is a presentation of the
+				learning process throughout my career. You will be
+				able to see the progress in descending order as the
+				most recent project is displayed first and followed
+				by all the others in descending order.
+			</p>
+			<p className="pb-40 px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem]">
+				The oldest chronologically date from my stay in the
+				Web development course (HNC&HND) at the City of
+				Glasgow College. In them use technologies such as
+				HTML5, CSS, JavaScript, Bootstrap, jQuery, PHP, SQL.
 			</p>
 
 			<div className="flex flex-col px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem]">
