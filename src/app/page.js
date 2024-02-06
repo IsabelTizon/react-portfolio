@@ -25,7 +25,7 @@ export default function About() {
 			{/** w-full  md:w-1/3 lg:text-[] xl:text-[] 2xl:text-[] */}
 
 			{/* hero */}
-			<div class="bg-gray-900  w-full p-10 md:p-72 lg:p-40 xl:p-[30rem] 2xl:p-[55rem]">
+			<div className="bg-gray-900  w-full p-10 md:p-72 lg:p-40 xl:p-[30rem] 2xl:p-[55rem]">
 				<h1 className="yellow-letters capitalize">
 					isabel tizón arranz
 				</h1>
