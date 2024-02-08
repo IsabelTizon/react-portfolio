@@ -18,7 +18,7 @@ const contact = () => {
 					</h1>
 				</div>
 			</div>
-			<div className="flex flex-col xl:flex-row">
+			<div className="flex flex-col lg:flex-row">
 				<div className="flex flex-col">
 					<div>
 						<h3 className="capitalize">get in touch</h3>
