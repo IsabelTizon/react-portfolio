@@ -28,9 +28,9 @@ export default function projectDetails({ params }) {
 					</h1>
 				</div>
 			</div>
-			<div className="px-10 md:px-[15rem] lg:px-[25rem] xl:px-[50rem] 2xl:px-[80rem] mt-[15rem] md:mt-[15rem] lg:mt-[25rem] xl:mt-[50rem] 2xl:mt-[80rem]">
-				<div className="flex flex-row">
-					<p className="text-[#1b4052] ml-8 text-[2.5rem] mr-11">
+			<div className="px-10 md:px-[15rem] lg:px-[25rem] xl:px-[50rem] 2xl:px-[80rem] mt-[15rem] xl:mt-[25rem]">
+				<div className="flex flex-row mb-[5rem] xl:mb-[10rem]">
+					<p className="text-[#9e6f33] ml-8 text-[2.5rem] mr-11">
 						username
 					</p>
 					<div className="">
@@ -44,7 +44,7 @@ export default function projectDetails({ params }) {
 					</p>
 				</div>
 				<Image
-					className="h-auto w-full md:w-[50%] lg:w-[70%] xl:w-full object-containd rounded-t-2xl mb-10"
+					className="h-auto w-full object-containd rounded-t-2xl mb-10"
 					width={400}
 					height={300}
 					src={myProject.pic}
@@ -96,10 +96,16 @@ export default function projectDetails({ params }) {
 						</div>
 					</div>
 				</div>
-				<div className="leading-10">
-					<h3>Leave a Reply</h3>
-					<p>your email address will not be published</p>
-					<p>required fields are marked * </p>
+				<div className="leading-10  mt-[15rem] xl:mt-[25rem]">
+					<h3 className="mb-[5rem] xl:mb-[10rem]">
+						Leave a Reply
+					</h3>
+					<p className="text-[3rem] capitalize">
+						your email address will not be published
+					</p>
+					<p className="text-[3rem] text-[#d4593a] capitalize">
+						required fields are marked *{" "}
+					</p>
 				</div>
 				<Link
 					className="text-[3rem] text-[#4e53f6] capitalize mt-[5rem]"
