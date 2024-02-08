@@ -28,7 +28,7 @@ export default function projectDetails({ params }) {
 					</h1>
 				</div>
 			</div>
-			<div className="px-10 md:px-[15rem] lg:px-[25rem] xl:px-[50rem] 2xl:px-[80rem]">
+			<div className="px-10 md:px-[15rem] lg:px-[25rem] xl:px-[50rem] 2xl:px-[80rem] mt-[15rem] md:mt-[15rem] lg:mt-[25rem] xl:mt-[50rem] 2xl:mt-[80rem]">
 				<div className="flex flex-row">
 					<p className="text-[#1b4052] ml-8 text-[2.5rem] mr-11">
 						username
@@ -51,7 +51,7 @@ export default function projectDetails({ params }) {
 					alt="project picture"
 				/>
 
-				<p>
+				<div>
 					{myProject.description.map((paragraph) => {
 						console.log(
 							"myProject.description ===> ",
@@ -63,7 +63,7 @@ export default function projectDetails({ params }) {
 							</p>
 						);
 					})}
-				</p>
+				</div>
 				<h5 className="text-[4rem] capitalize mt-[10rem]">
 					project parts
 				</h5>
