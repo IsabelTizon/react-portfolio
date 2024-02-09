@@ -41,7 +41,7 @@ export default function projects() {
 			</p>
 
 			<div className="flex flex-col px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem]">
-				{myProjects.map((projectsItem) => (
+				{myProjects.reverse().map((projectsItem) => (
 					<div className="pb-[16rem]" key={projectsItem.id}>
 						<h3 className="pb-[8rem]">
 							{projectsItem.name}
