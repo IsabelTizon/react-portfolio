@@ -210,7 +210,7 @@ export default function About() {
 								className="w-full h-auto rounded-2xl"
 								width={300}
 								height={300}
-								src="/img/demo2screen.png"
+								src="/img/getMedia.png"
 								alt="project picture"
 							/>
 						</Link>
@@ -226,7 +226,7 @@ export default function About() {
 								className="w-full h-auto rounded-2xl"
 								width={300}
 								height={300}
-								src="/img/demo2screen.png"
+								src="/img/mode.png"
 								alt="project picture"
 							/>
 						</Link>
@@ -242,7 +242,7 @@ export default function About() {
 								className="w-full h-auto rounded-2xl"
 								width={300}
 								height={300}
-								src="/img/demo2screen.png"
+								src="/img/glasgowParks.png"
 								alt="project picture"
 							/>
 						</Link>

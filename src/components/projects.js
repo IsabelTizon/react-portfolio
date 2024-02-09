@@ -13,12 +13,12 @@ export const myProjects = [
 			`The fourth part was based on testing the page. For this I used W3Validator for HTML and W3Validator for CSS and in Lighthouse to validate BWM. In addition to completing testing level a test plan documentation was required.`,
 			,
 		],
-		pic: "/img/demoScreen.png",
+		pic: "/img/bwm.png",
 		url: "https://bwm-jet.vercel.app/",
 	},
 	{
 		id: 1,
-		name: "Coulorie Counter",
+		name: "Calorie Counter",
 		description: [
 			`Calorie Counter is part of the work that you can find in my portfolio, it is an app created in the second block of the Web Development HNC course at City of Glasgow College for the subject Developing Mobile Web Based Applications: An Introduction. This Unit is designed to introduce learners to the design and production for web based apps for mobile devices.`,
 			`The web-based application is to promote a healthier lifestyle, to encourage people to be aware of their calorie intake and to control it accordingly.`,
@@ -31,8 +31,44 @@ export const myProjects = [
 			`The fourth part was based on testing the page. For this I used W3Validator for HTML and W3Validator for CSS and in Lighthouse. In addition to completing a test plan documentation.`,
 			,
 		],
-		pic: "/img/demoScreen.png",
+		pic: "/img/calorieCounter.png",
 		url: "https://calorie-counter-psi.vercel.app/",
+	},
+	{
+		id: 6,
+		name: "Glasgow Parks",
+		description: [
+			`Calorie Counter is part of the work that you can find in my portfolio, it is an app created in the second block of the Web Development HNC course at City of Glasgow College for the subject Developing Mobile Web Based Applications: An Introduction. This Unit is designed to introduce learners to the design and production for web based apps for mobile devices.`,
+			`The web-based application is to promote a healthier lifestyle, to encourage people to be aware of their calorie intake and to control it accordingly.`,
+			`All people who want to count the calories they eat or who simply want to be aware of it. It will also be useful for people who want advice on healthy living, as the app, in addition to a calorie counter, will come with a healthy lifestyle section that will include workouts, recipes and meditation audios.`,
+		],
+		partsProject: [
+			`The entire project was based on four stages. The first stage, the analysis stage, was dedicated to understanding the usage content. In it, identify the purpose and objective of the website and detail the functional and non-functional requirements. Also specify the target audience, creating user profiles.`,
+			`The second stage of the project was based on the design. In it I created some wireframes and storyboards in Figma as well as a sitemap and a logic chart with the same tool. It also required a style guide specifying the colours and fonts and the reason for them.`,
+			`The development of the project occurred in its third stage. This app uses the following technologies: HTML5, CSS, JavaScript, along with Bootstrap, Font Awesome.`,
+			`The fourth part was based on testing the page. For this I used W3Validator for HTML and W3Validator for CSS and in Lighthouse. In addition to completing a test plan documentation.`,
+			,
+		],
+		pic: "/img/glasgowParks.png",
+		url: "https://isabeltizon.github.io/pass-recipes/",
+	},
+	{
+		id: 7,
+		name: "Music Online",
+		description: [
+			`Calorie Counter is part of the work that you can find in my portfolio, it is an app created in the second block of the Web Development HNC course at City of Glasgow College for the subject Developing Mobile Web Based Applications: An Introduction. This Unit is designed to introduce learners to the design and production for web based apps for mobile devices.`,
+			`The web-based application is to promote a healthier lifestyle, to encourage people to be aware of their calorie intake and to control it accordingly.`,
+			`All people who want to count the calories they eat or who simply want to be aware of it. It will also be useful for people who want advice on healthy living, as the app, in addition to a calorie counter, will come with a healthy lifestyle section that will include workouts, recipes and meditation audios.`,
+		],
+		partsProject: [
+			`The entire project was based on four stages. The first stage, the analysis stage, was dedicated to understanding the usage content. In it, identify the purpose and objective of the website and detail the functional and non-functional requirements. Also specify the target audience, creating user profiles.`,
+			`The second stage of the project was based on the design. In it I created some wireframes and storyboards in Figma as well as a sitemap and a logic chart with the same tool. It also required a style guide specifying the colours and fonts and the reason for them.`,
+			`The development of the project occurred in its third stage. This app uses the following technologies: HTML5, CSS, JavaScript, along with Bootstrap, Font Awesome.`,
+			`The fourth part was based on testing the page. For this I used W3Validator for HTML and W3Validator for CSS and in Lighthouse. In addition to completing a test plan documentation.`,
+			,
+		],
+		pic: "/img/musicOnline.png",
+		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 	{
 		id: 2,
@@ -49,7 +85,7 @@ export const myProjects = [
 			`The fourth part was based on testing the page. For this I used W3Validator for HTML and W3Validator for CSS and in Lighthouse. In addition to completing the testing level I a test plan documentation.`,
 			,
 		],
-		pic: "/img/demoScreen.png",
+		pic: "/img/winterAnventures.png",
 		url: "https://winter-adventures.vercel.app/",
 	},
 	{
@@ -66,7 +102,7 @@ export const myProjects = [
 			`The fourth part was based on testing the page. For this I used W3Validator for HTML and W3Validator for CSS and in Lighthouse. In addition to completing a test plan documentation. The fourth part was based on testing the page. For this, W3Validator for HTML and W3Validator for CSS and in Lighthouse were used.`,
 			,
 		],
-		pic: "/img/demoScreen.png",
+		pic: "/img/getMedia.png",
 		url: "https://get-media-eta.vercel.app/",
 	},
 	{
@@ -85,7 +121,7 @@ export const myProjects = [
 			,
 		],
 
-		pic: "/img/demoScreen.png",
+		pic: "/img/mode.png",
 		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 	{
@@ -94,43 +130,7 @@ export const myProjects = [
 		description: [
 			"Pass Recipe is a website created in the second block of the Web Development HND course at City of Glasgow College for the subject Graded Unit 2.",
 		],
-		pic: "/img/demoScreen.png",
-		url: "https://isabeltizon.github.io/pass-recipes/",
-	},
-	{
-		id: 6,
-		name: "Pepito",
-		description: [
-			`Calorie Counter is part of the work that you can find in my portfolio, it is an app created in the second block of the Web Development HNC course at City of Glasgow College for the subject Developing Mobile Web Based Applications: An Introduction. This Unit is designed to introduce learners to the design and production for web based apps for mobile devices.`,
-			`The web-based application is to promote a healthier lifestyle, to encourage people to be aware of their calorie intake and to control it accordingly.`,
-			`All people who want to count the calories they eat or who simply want to be aware of it. It will also be useful for people who want advice on healthy living, as the app, in addition to a calorie counter, will come with a healthy lifestyle section that will include workouts, recipes and meditation audios.`,
-		],
-		partsProject: [
-			`The entire project was based on four stages. The first stage, the analysis stage, was dedicated to understanding the usage content. In it, identify the purpose and objective of the website and detail the functional and non-functional requirements. Also specify the target audience, creating user profiles.`,
-			`The second stage of the project was based on the design. In it I created some wireframes and storyboards in Figma as well as a sitemap and a logic chart with the same tool. It also required a style guide specifying the colours and fonts and the reason for them.`,
-			`The development of the project occurred in its third stage. This app uses the following technologies: HTML5, CSS, JavaScript, along with Bootstrap, Font Awesome.`,
-			`The fourth part was based on testing the page. For this I used W3Validator for HTML and W3Validator for CSS and in Lighthouse. In addition to completing a test plan documentation.`,
-			,
-		],
-		pic: "/img/demo2screen.png",
-		url: "https://isabeltizon.github.io/pass-recipes/",
-	},
-	{
-		id: 7,
-		name: "Grillo",
-		description: [
-			`Calorie Counter is part of the work that you can find in my portfolio, it is an app created in the second block of the Web Development HNC course at City of Glasgow College for the subject Developing Mobile Web Based Applications: An Introduction. This Unit is designed to introduce learners to the design and production for web based apps for mobile devices.`,
-			`The web-based application is to promote a healthier lifestyle, to encourage people to be aware of their calorie intake and to control it accordingly.`,
-			`All people who want to count the calories they eat or who simply want to be aware of it. It will also be useful for people who want advice on healthy living, as the app, in addition to a calorie counter, will come with a healthy lifestyle section that will include workouts, recipes and meditation audios.`,
-		],
-		partsProject: [
-			`The entire project was based on four stages. The first stage, the analysis stage, was dedicated to understanding the usage content. In it, identify the purpose and objective of the website and detail the functional and non-functional requirements. Also specify the target audience, creating user profiles.`,
-			`The second stage of the project was based on the design. In it I created some wireframes and storyboards in Figma as well as a sitemap and a logic chart with the same tool. It also required a style guide specifying the colours and fonts and the reason for them.`,
-			`The development of the project occurred in its third stage. This app uses the following technologies: HTML5, CSS, JavaScript, along with Bootstrap, Font Awesome.`,
-			`The fourth part was based on testing the page. For this I used W3Validator for HTML and W3Validator for CSS and in Lighthouse. In addition to completing a test plan documentation.`,
-			,
-		],
-		pic: "/img/demo2screen.png",
+		pic: "/img/passRecipes.png",
 		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 ];
