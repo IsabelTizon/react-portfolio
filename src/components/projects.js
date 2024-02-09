@@ -14,6 +14,7 @@ export const myProjects = [
 			,
 		],
 		pic: "/img/demoScreen.png",
+		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 	{
 		id: 1,
@@ -31,6 +32,7 @@ export const myProjects = [
 			,
 		],
 		pic: "/img/demoScreen.png",
+		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 	{
 		id: 2,
@@ -48,6 +50,7 @@ export const myProjects = [
 			,
 		],
 		pic: "/img/demoScreen.png",
+		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 	{
 		id: 3,
@@ -64,6 +67,7 @@ export const myProjects = [
 			,
 		],
 		pic: "/img/demoScreen.png",
+		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 	{
 		id: 4,
@@ -82,6 +86,7 @@ export const myProjects = [
 		],
 
 		pic: "/img/demoScreen.png",
+		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 	{
 		id: 5,
@@ -90,6 +95,7 @@ export const myProjects = [
 			"Pass Recipe is a website created in the second block of the Web Development HND course at City of Glasgow College for the subject Graded Unit 2.",
 		],
 		pic: "/img/demoScreen.png",
+		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 	{
 		id: 6,
@@ -107,6 +113,7 @@ export const myProjects = [
 			,
 		],
 		pic: "/img/demo2screen.png",
+		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 	{
 		id: 7,
@@ -124,5 +131,6 @@ export const myProjects = [
 			,
 		],
 		pic: "/img/demo2screen.png",
+		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 ];
