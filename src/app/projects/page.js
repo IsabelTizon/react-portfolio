@@ -74,7 +74,10 @@ export default function projects() {
 									</div>
 								</Link>
 								<div className="flex flex-row">
-									<Link href="/contact">
+									<Link
+										target="_blank"
+										href={projectsItem.url}
+									>
 										<button className="text-black tracking-widest lg:tracking-wide xl:tracking-widest uppercase mustard rounded-md mr-11">
 											visit the site
 										</button>
