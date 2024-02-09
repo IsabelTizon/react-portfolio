@@ -14,7 +14,7 @@ export const myProjects = [
 			,
 		],
 		pic: "/img/demoScreen.png",
-		url: "https://isabeltizon.github.io/pass-recipes/",
+		url: "https://bwm-jet.vercel.app/",
 	},
 	{
 		id: 1,
@@ -32,7 +32,7 @@ export const myProjects = [
 			,
 		],
 		pic: "/img/demoScreen.png",
-		url: "https://isabeltizon.github.io/pass-recipes/",
+		url: "https://calorie-counter-psi.vercel.app/",
 	},
 	{
 		id: 2,
@@ -50,7 +50,7 @@ export const myProjects = [
 			,
 		],
 		pic: "/img/demoScreen.png",
-		url: "https://isabeltizon.github.io/pass-recipes/",
+		url: "https://winter-adventures.vercel.app/",
 	},
 	{
 		id: 3,
@@ -67,7 +67,7 @@ export const myProjects = [
 			,
 		],
 		pic: "/img/demoScreen.png",
-		url: "https://isabeltizon.github.io/pass-recipes/",
+		url: "https://get-media-eta.vercel.app/",
 	},
 	{
 		id: 4,
