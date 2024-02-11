@@ -6,7 +6,7 @@ export const myProjects = [
 			`BWM was the first website I made, this took place in the first block of HNC in my Web Design and Development course at City of Glasgow College for the subject of Website Essential Content.`,
 			`The purpose of the BWM was to create a website with the purpose of transmitting musical content. The student chose the musical theme and the style of the page.`,
 		],
-		partsProject: [
+		parts: [
 			`To carry out the project I divided it into four stages. The BWM´s first stage was the analysis stage, it was dedicated to understand the usage content. In it, I identified the purpose and objective of the website and detail the functional and non-functional requirements. Also, specify the target audience, creating user profiles and preparing a study of user interaction details.`,
 			`In the second stage I carried out the design step. In BWM I created some wireframes and storyboards in Figma as well as a sitemap with the same tool. It also required a style guide specifying the colours and fonts and the reason for them.`,
 			`Being the first website, BMW uses very simple technologies: HTML5 and CSS. I used a grid-based layout system to be able to order the elements and make the page responsive. You can view the page on desktop, tablet and mobile devices. BWM also required the use of photoshop and illustrator to create the logo. I decided to also create the festival posters since I added a part of the web titled festivals.`,
@@ -24,7 +24,7 @@ export const myProjects = [
 			`The web-based application is to promote a healthier lifestyle, to encourage people to be aware of their calorie intake and to control it accordingly.`,
 			`All people who want to count the calories they eat or who simply want to be aware of it. It will also be useful for people who want advice on healthy living, as the app, in addition to a calorie counter, will come with a healthy lifestyle section that will include workouts, recipes and meditation audios.`,
 		],
-		partsProject: [
+		parts: [
 			`The entire project was based on four stages. The first stage, the analysis stage, was dedicated to understanding the usage content. In it, identify the purpose and objective of the website and detail the functional and non-functional requirements. Also specify the target audience, creating user profiles.`,
 			`The second stage of the project was based on the design. In it I created some wireframes and storyboards in Figma as well as a sitemap and a logic chart with the same tool. It also required a style guide specifying the colours and fonts and the reason for them.`,
 			`The development of the project occurred in its third stage. This app uses the following technologies: HTML5, CSS, JavaScript, along with Bootstrap, Font Awesome.`,
@@ -42,7 +42,7 @@ export const myProjects = [
 			`The web-based application is to promote a healthier lifestyle, to encourage people to be aware of their calorie intake and to control it accordingly.`,
 			`All people who want to count the calories they eat or who simply want to be aware of it. It will also be useful for people who want advice on healthy living, as the app, in addition to a calorie counter, will come with a healthy lifestyle section that will include workouts, recipes and meditation audios.`,
 		],
-		partsProject: [
+		parts: [
 			`The entire project was based on four stages. The first stage, the analysis stage, was dedicated to understanding the usage content. In it, identify the purpose and objective of the website and detail the functional and non-functional requirements. Also specify the target audience, creating user profiles.`,
 			`The second stage of the project was based on the design. In it I created some wireframes and storyboards in Figma as well as a sitemap and a logic chart with the same tool. It also required a style guide specifying the colours and fonts and the reason for them.`,
 			`The development of the project occurred in its third stage. This app uses the following technologies: HTML5, CSS, JavaScript, along with Bootstrap, Font Awesome.`,
@@ -60,7 +60,7 @@ export const myProjects = [
 			`The web-based application is to promote a healthier lifestyle, to encourage people to be aware of their calorie intake and to control it accordingly.`,
 			`All people who want to count the calories they eat or who simply want to be aware of it. It will also be useful for people who want advice on healthy living, as the app, in addition to a calorie counter, will come with a healthy lifestyle section that will include workouts, recipes and meditation audios.`,
 		],
-		partsProject: [
+		parts: [
 			`The entire project was based on four stages. The first stage, the analysis stage, was dedicated to understanding the usage content. In it, identify the purpose and objective of the website and detail the functional and non-functional requirements. Also specify the target audience, creating user profiles.`,
 			`The second stage of the project was based on the design. In it I created some wireframes and storyboards in Figma as well as a sitemap and a logic chart with the same tool. It also required a style guide specifying the colours and fonts and the reason for them.`,
 			`The development of the project occurred in its third stage. This app uses the following technologies: HTML5, CSS, JavaScript, along with Bootstrap, Font Awesome.`,
@@ -78,7 +78,7 @@ export const myProjects = [
 			`The end of the Winter Adventures project was create a website with the purpose of to promote ski deals and trips to the snow.`,
 			`The web follows a hierarchical structure and is available for desktop, tablet and mobile.`,
 		],
-		partsProject: [
+		parts: [
 			`The entire project was based on four stages. The first stage of the Winter Adventures was the analysis stage.In which one I looked into to understand the usage content. In it, identify the purpose and objective of the website and detail the functional and non-functional requirements. Also specify the target audience, creating user profiles and preparing a study of user interaction details.`,
 			`The second stage of the project was based on the design. In which one I created some wireframes and storyboards in Figma as well as a sitemap with the same tool. It also required a style guide specifying the colours and fonts and the reason for them in my Winter Adventures site.`,
 			`The development of the project occurred in its third stage. In that level I used the following technologies: HTML5, CSS and JavaScript, along with Bootstrap, AngularJS, Here API, Font Awesome.`,
@@ -95,7 +95,7 @@ export const myProjects = [
 			`GetMedia is a website created in the first block of the HND course at City of Glasgow College for the subject Design and Developing an Interactive Product. `,
 			`The end of the project was create a website with the purpose of streaming music content through providers such as Apple, it also wants to sell coupons initially only with iTunes although in the future it would like to open its business to different providers.`,
 		],
-		partsProject: [
+		parts: [
 			`The entire project was based on four stages. The first stage, the analysis stage, was dedicated to understanding the usage content. In it, identify the purpose and objective of the website and detail the functional and non-functional requirements. Also specify the target audience, creating user profiles and preparing a study of user interaction details.`,
 			`The second stage of the project was based on the design. In it I created some wireframes and storyboards in Figma as well as a sitemap with the same tool. It also required a style guide specifying the colors and fonts and the reason for them.`,
 			`The development of the project occurred in its third stage. The page uses the following technologies: HTML5, CSS and JavaScript, along with Bootstrap, AngularJS, Here API, Font Awesome.`,
@@ -129,6 +129,13 @@ export const myProjects = [
 		name: "Pass Recipe",
 		description: [
 			"Pass Recipe is a website created in the second block of the Web Development HND course at City of Glasgow College for the subject Graded Unit 2.",
+		],
+		parts: [
+			`The entire project was based on four stages. The first stage, the analysis stage, was dedicated to understanding the usage content. In it, identify the purpose and objective of the website and detail the functional and non-functional requirements. Also specify the target audience, creating user profiles`,
+			`The second stage of the project was based on the design. In it I created some wireframes and storyboards in Figma as well as a sitemap and a logic chart with the same tool. It also required a style guide specifying the colours and fonts and the reason for them.`,
+			`The development of the project occurred in its third stage. Mode runs on a server and uses a database to store the users, products and favorite products of each logged in user. The page uses the following technologies: HTML5, CSS, JavaScript, along with Bootstrap, Font Awesome.`,
+			`The fourth part was based on testing the page. For this I used W3Validator for HTML and W3Validator for CSS and in Lighthouse. In addition to completing a test plan documentation.The fourth part was based on testing the page. For this, W3Validator for HTML and W3Validator for CSS and in Lighthouse were used.`,
+			,
 		],
 		pic: "/img/passRecipes.png",
 		url: "https://isabeltizon.github.io/pass-recipes/",
