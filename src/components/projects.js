@@ -35,7 +35,7 @@ export const myProjects = [
 		url: "https://calorie-counter-psi.vercel.app/",
 	},
 	{
-		id: 6,
+		id: 2,
 		name: "Glasgow Parks",
 		description: [
 			`Calorie Counter is part of the work that you can find in my portfolio, it is an app created in the second block of the Web Development HNC course at City of Glasgow College for the subject Developing Mobile Web Based Applications: An Introduction. This Unit is designed to introduce learners to the design and production for web based apps for mobile devices.`,
@@ -53,7 +53,7 @@ export const myProjects = [
 		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 	{
-		id: 7,
+		id: 3,
 		name: "Music Online",
 		description: [
 			`Calorie Counter is part of the work that you can find in my portfolio, it is an app created in the second block of the Web Development HNC course at City of Glasgow College for the subject Developing Mobile Web Based Applications: An Introduction. This Unit is designed to introduce learners to the design and production for web based apps for mobile devices.`,
@@ -71,7 +71,7 @@ export const myProjects = [
 		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 	{
-		id: 2,
+		id: 4,
 		name: "Winter Adventures",
 		description: [
 			`Winter Adventures is a website created in the second block of the HNC course at City of Glasgow College for the subject Web Technologies 1 – HTML & CSS and recovered to make some additions and improvements with new technologies in the first block of the HND course for the subject Web Technologies 2: HTML and JavaScript.`,
@@ -89,7 +89,7 @@ export const myProjects = [
 		url: "https://winter-adventures.vercel.app/",
 	},
 	{
-		id: 3,
+		id: 5,
 		name: "Get Media",
 		description: [
 			`GetMedia is a website created in the first block of the HND course at City of Glasgow College for the subject Design and Developing an Interactive Product. `,
@@ -106,7 +106,7 @@ export const myProjects = [
 		url: "https://get-media-eta.vercel.app/",
 	},
 	{
-		id: 4,
+		id: 6,
 		name: "Mode",
 		description: [
 			`Mode is part of the work that you can find in my portfolio, it is a website created in the second block of the Web Development HND course at City of Glasgow College for the subject Design and development of an interactive product.`,
@@ -125,7 +125,7 @@ export const myProjects = [
 		url: "https://isabeltizon.github.io/pass-recipes/",
 	},
 	{
-		id: 5,
+		id: 7,
 		name: "Pass Recipe",
 		description: [
 			"Pass Recipe is a website created in the second block of the Web Development HND course at City of Glasgow College for the subject Graded Unit 2.",
