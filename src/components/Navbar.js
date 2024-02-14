@@ -16,7 +16,7 @@ function Navbar() {
 			<nav className="max-w-[1366px] mx-auto h-[80px] flex justify-between items-center  p-4">
 				<div>
 					<Link
-						className="uppercase font-extrabold text-3xl md:text-2xl lg:text-3xl text-slate-800 hover:text-[#381638]"
+						className="uppercase font-extrabold text-[4rem] md:text-[4.5rem] lg:text-[6rem] text-slate-800 hover:text-[#381638]"
 						href="/"
 					>
 						Isabel Arranz

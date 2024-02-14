@@ -134,7 +134,7 @@ const Footer = () => {
 					recent works
 				</h5>
 
-				<div className="gap-7">
+				<div className="flex gap-7">
 					{/* */}
 
 					{myProjects.slice(-6).map((projectsItem) => (

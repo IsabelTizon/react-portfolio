@@ -251,7 +251,7 @@ export default function About() {
 			</div>
 
 			{/* Are You Ready To Start New Project With Me? */}
-			<div className="bg-gray-900 ">
+			<div className="bg-gray-800">
 				<div className="flex justify-center mx-[40px] md:mx-[150px] lg:mx-[300px]  xl:mx-[250px] 2xl:mx-[400px]">
 					<div className="mx-full py-24">
 						<div className="flex justify-center xl:mx-[25rem]">
