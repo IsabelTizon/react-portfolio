@@ -10,8 +10,10 @@ const Footer = () => {
 	return (
 		<div className="flex flex-col lg:flex-row bg-slate-900">
 			<div className="flex flex-col">
-				<h4 className="text-white">isabel tizón arranz</h4>
-				<h5 className="text-white">junior web developer</h5>
+				<h5 className="text-white text-[2rem]">
+					isabel tizón arranz
+				</h5>
+				<h6 className="text-white">junior web developer</h6>
 				<div className="flex flex-row">
 					<FaFacebook size={30} color="#595959" />
 					<FaFacebook size={30} color="#595959" />
@@ -20,7 +22,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="flex flex-col">
-				<h4 className="text-white">quick links</h4>
+				<h5 className="text-white">quick links</h5>
 				<div className="flex flex-col">
 					<Link className="text-white" href="/blog">
 						<div className="flex flex-row">
@@ -29,7 +31,7 @@ const Footer = () => {
 								color="#b38f00"
 								fontSize="2rem"
 							/>
-							<h5>blog</h5>
+							<h6>blog</h6>
 						</div>
 					</Link>
 					<Link className="text-white" href="/projects">
@@ -39,7 +41,7 @@ const Footer = () => {
 								color="#b38f00"
 								fontSize="2rem"
 							/>
-							<h5>projects</h5>
+							<h6 className="text-[2rem]">projects</h6>
 						</div>
 					</Link>
 					<Link className="text-white" href="/contact">
@@ -49,7 +51,7 @@ const Footer = () => {
 								color="#b38f00"
 								fontSize="2rem"
 							/>
-							<h5>contact</h5>
+							<h6>contact</h6>
 						</div>
 					</Link>
 					<Link
@@ -63,38 +65,38 @@ const Footer = () => {
 								color="#b38f00"
 								fontSize="2rem"
 							/>
-							<h5>Github</h5>
+							<h6>Github</h6>
 						</div>
 					</Link>
 				</div>
 			</div>
 			<div className="flex flex-col">
-				<h4 className="text-white">Contact</h4>
+				<h5 className="text-white">Contact</h5>
 				<div className="flex flex-col">
 					<div className="flex flex-col">
 						<div className="flex flex-row">
 							<FaFacebook size={15} color="#595959" />
-							<h5 className="text-white text-[1.5rem]">
+							<h6 className="text-white text-[1.5rem]">
 								Linkedin
-							</h5>
+							</h6>
 						</div>
 						<div className="flex flex-row">
 							<FaFacebook size={15} color="#595959" />
-							<h5 className="text-white text-[1.5rem]">
+							<h6 className="text-white text-[1.5rem]">
 								+44 7759686358
-							</h5>
+							</h6>
 						</div>
 						<div className="flex flex-row">
 							<FaFacebook size={15} color="#595959" />
-							<h5 className="text-white text-[1.5rem]">
+							<h6 className="text-white text-[1.5rem]">
 								tizonarranz@gmail.com
-							</h5>
+							</h6>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div className="flex flex-col">
-				<h4 className="text-white">recent works</h4>
+				<h5 className="text-white">recent works</h5>
 
 				<div className="">
 					<div className="flex flex-wrap gap-7">
