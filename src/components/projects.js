@@ -50,7 +50,7 @@ export const myProjects = [
 			,
 		],
 		pic: "/img/glasgowParks.png",
-		url: "https://isabeltizon.github.io/pass-recipes/",
+		url: "https://github.com/IsabelTizon/GLASGOW-PARKS",
 	},
 	{
 		id: 3,
