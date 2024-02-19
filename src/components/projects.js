@@ -68,7 +68,7 @@ export const myProjects = [
 			,
 		],
 		pic: "/img/musicOnline.png",
-		url: "https://isabeltizon.github.io/pass-recipes/",
+		url: "https://github.com/IsabelTizon/musicOnline",
 	},
 	{
 		id: 4,
@@ -122,7 +122,7 @@ export const myProjects = [
 		],
 
 		pic: "/img/mode.png",
-		url: "https://isabeltizon.github.io/pass-recipes/",
+		url: "https://github.com/IsabelTizon/mode",
 	},
 	{
 		id: 7,
