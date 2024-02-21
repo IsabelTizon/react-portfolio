@@ -118,7 +118,27 @@ p {
 	.yellow-letters {
 		color: #fff2cc;
 	}
+
+	/* form */
+	.input-form {
+		border-color: rgb(128, 128, 128);
+
+		padding: 2rem;
+		width: 100%;
+	}
+	.label-form {
+		font-weight: bolder;
+		color: #000000;
+		margin-bottom: 2rem;
+	}
 }
+
+/* .input-form2 {
+	@apply font-light border border-grey p-2 w-full;
+}
+.label-form2 {
+	@apply font-extralight mb-2 text-black text-xl;
+} */
 
 /* 
 :root {

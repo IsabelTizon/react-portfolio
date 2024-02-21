@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 import { FaFacebook } from "react-icons/fa";
+import { ContactForm } from "../../components/contactForm";
 
 export const metadata = {
 	title: "contact",
@@ -64,6 +65,7 @@ const contact = () => {
 						working with me, you can contact me in the
 						following ways.
 					</p>
+					<ContactForm />
 				</div>
 			</div>
 			<div className="bg-[#bdddf8]  w-full p-10 md:p-42 lg:p-40 xl:p-[15rem] 2xl:p-[25rem]">
