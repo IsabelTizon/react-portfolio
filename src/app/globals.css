@@ -121,15 +121,17 @@ p {
 
 	/* form */
 	.input-form {
-		border-color: rgb(128, 128, 128);
-
+		border: 1px solid rgb(65, 65, 65);
 		padding: 2rem;
 		width: 100%;
+		margin-bottom: 2rem;
+		border-radius: 0.5rem;
 	}
 	.label-form {
 		font-weight: bolder;
 		color: #000000;
 		margin-bottom: 2rem;
+		font-size: 2rem;
 	}
 }
 
