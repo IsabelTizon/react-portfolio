@@ -2,6 +2,12 @@ import React from "react";
 import Link from "next/link";
 
 import { FaFacebook } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
+import { FaPhoneSquareAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
+import { FaSquareGithub } from "react-icons/fa6";
+
 import { ContactForm } from "../../components/ContactForm";
 
 export const metadata = {
@@ -20,12 +26,12 @@ const contact = () => {
 					</h1>
 				</div>
 			</div>
-
+			{/* Get in contact (Links & Form) */}
 			<div className="flex flex-col lg:flex-row p-[10rem]">
 				{/* Get in touch Section */}
-				<div className="flex flex-col mr-[10rem] ml-[7rem]  w-full lg:w-2/5">
+				<div className="flex flex-col mr-[10rem] ml-[7rem]  w-full lg:w-1/2">
 					<div>
-						<h3 className="capitalize mb0-[12rem]">
+						<h3 className="capitalize mb-[10rem]">
 							get in touch
 						</h3>
 						<p className="pb-[10rem]">
@@ -34,43 +40,46 @@ const contact = () => {
 							following ways.
 						</p>
 					</div>
-
-					<div className="flex flex-row">
-						<div className="flex flex-row">
-							<FaFacebook size={60} color="#595959" />
-							<p>Linkedin</p>
+					{/* Linkedin & Github */}
+					<div className="flex flex-row mb-[3rem]">
+						<div className="flex flex-row w-1/2">
+							<BsLinkedin size={60} color="#b38f00" />
+							<p className="text-[3rem] flex items-center ml-8">
+								Linkedin
+							</p>
 						</div>
-						<div className="flex flex-row">
-							<FaFacebook size={60} color="#595959" />
-							<p>GitHub</p>
+						<div className="flex flex-row w-1/2">
+							<FaSquareGithub size={60} color="#b38f00" />
+							<p className="text-[3rem] flex items-center ml-8">
+								GitHub
+							</p>
 						</div>
 					</div>
+					{/* My phone & My email */}
 					<div className="flex flex-row">
-						<div className="flex flex-row">
-							<FaFacebook size={60} color="#595959" />
-							<div className="flex flex-col">
-								<p>my phone</p>
-								<p>+44 7759686358</p>
-							</div>
+						<div className="flex flex-row w-1/2">
+							<FaPhoneSquareAlt size={60} color="#b38f00" />
+							<p className="text-[3rem] flex items-center ml-8">
+								+44 7759686358
+							</p>
 						</div>
-						<div className="flex flex-row">
-							<FaFacebook size={60} color="#595959" />
-							<div className="flex flex-col">
-								<p>my email</p>
-								<p>tizonarranz@gmail.com</p>
-							</div>
+						<div className="flex flex-row w-1/2">
+							<MdEmail size={60} color="#b38f00" />
+							<p className="text-[3rem] flex items-center ml-8">
+								tizonarranz@gmail.com
+							</p>
 						</div>
 					</div>
 				</div>
 				{/* Form Section */}
-				<div className=" w-full lg:w-3/5">
+				<div className=" w-full lg:w-1/2">
 					<div className="p-[5rem] rounded-3xl bg-[#fff8e2]">
 						<ContactForm />
 					</div>
 				</div>
 			</div>
 
-			{/* API*/}
+			{/* API Map */}
 			<div className="bg-[#bdddf8] w-full p-10 md:p-42 lg:p-40 xl:p-[15rem] 2xl:p-[25rem]">
 				<div className="flex justify-center">
 					<h1 className="yellow-letters capitalize">API</h1>
