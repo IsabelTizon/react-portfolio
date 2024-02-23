@@ -73,7 +73,7 @@ const contact = () => {
 				</div>
 				{/* Form Section */}
 				<div className=" w-full lg:w-1/2">
-					<div className="p-[5rem] rounded-3xl bg-[#fff8e2]">
+					<div className="p-[5rem] rounded-3xl border-2 border-solid border-[#b38600]">
 						<ContactForm />
 					</div>
 				</div>

@@ -2,7 +2,7 @@ import React from "react";
 
 export const ContactForm = () => {
 	return (
-		<form className="mr-[7rem]">
+		<form className="mr-[7rem] bg-white p-10">
 			{/* Name */}
 			<div className="flex flex-col">
 				<label className="label-form" htmlFor="name">
@@ -12,7 +12,7 @@ export const ContactForm = () => {
 					id="name"
 					type="text"
 					name="name"
-					className="input-form"
+					className="input-form h-[30px]"
 				/>
 			</div>
 			{/* Email */}
@@ -24,20 +24,23 @@ export const ContactForm = () => {
 					id="email"
 					type="email"
 					name="email"
-					className="input-form"
+					className="input-form h-[30px]"
 				/>
 			</div>
 			{/* Comment */}
 			<div className="">
-				<label className="label-form" htmlFor="comment">
-					Comment
+				<label className="label-form" htmlFor="message">
+					message
 				</label>
 				<textarea
-					id="comment"
-					name="comment"
-					className="input-form"
+					id="message"
+					name="message"
+					className="input-form h-[100px]"
 				/>
 			</div>
+			<button className="mustard mt-[35px]" type="submit">
+				Send message
+			</button>
 		</form>
 	);
 };
