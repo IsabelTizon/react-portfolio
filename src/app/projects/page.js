@@ -92,7 +92,8 @@ export default function projects() {
 										</Link>
 
 										<Link
-											href={`/projects/${projectsItem.id}`}
+											target="_blank"
+											href={projectsItem.github}
 										>
 											<button className="text-black tracking-widest lg:tracking-wide xl:tracking-widest uppercase mustard p-4 rounded-md">
 												GitHub Code
