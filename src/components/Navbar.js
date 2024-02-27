@@ -25,13 +25,10 @@ function Navbar() {
 
 				{/*larger screen navigation */}
 				<ul className="hidden md:flex uppercase font-semibold text-xl md:text-[14px] lg:text-[15px] text-slate-800">
-					<li className="mr-4 lg:mr-8 hover:text-[#381638]">
-						<Link href="/blog">Blog</Link>
-					</li>
-					<li className="mr-4 lg:mr-8 hover:text-[#381638]">
+					<li className="mr-4 lg:mr-8 hover:text-[#f9f459]">
 						<Link href="/projects">projects</Link>
 					</li>
-					<li className="mr-4 lg:mr-8 hover:text-[#381638]">
+					<li className="mr-4 lg:mr-8 hover:text-[#f9f459]">
 						<Link href="/contact">contact</Link>
 					</li>
 					<li className="text-[#f9f459] hover:text-black">
@@ -73,12 +70,6 @@ function Navbar() {
 				>
 					<div className="w-full h-full">
 						<ul className="uppercase font-bold text-2xl">
-							<li
-								onClick={handleSmallerScreensNavigation}
-								className="py-5 hover:text-[#381638] cursor-pointer"
-							>
-								<Link href="/blog">Blog</Link>
-							</li>
 							<li
 								onClick={handleSmallerScreensNavigation}
 								className="py-5 hover:text-[#381638] cursor-pointer"

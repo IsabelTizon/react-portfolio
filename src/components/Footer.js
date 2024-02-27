@@ -7,6 +7,8 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
+	console.log("myProjects", myProjects);
+	const myProjectCopyModifily = [...myProjects];
 	return (
 		<div className="flex flex-wrap p-[20rem] bg-slate-900">
 			{/** Isabel Tizon Column */}
@@ -137,21 +139,24 @@ const Footer = () => {
 				<div className="flex gap-7">
 					{/* */}
 
-					{myProjects.slice(-6).map((projectsItem) => (
-						<Link
-							key={projectsItem.id}
-							href={`/projects/${projectsItem.id}`}
-							className="bg-gray-900"
-						>
-							<Image
-								className="h-auto w-100% object-containd"
-								width={80}
-								height={80}
-								src={projectsItem.pic}
-								alt="project picture"
-							/>
-						</Link>
-					))}
+					{myProjectCopyModifily
+						.slice(-6)
+						.reverse()
+						.map((projectsItem) => (
+							<Link
+								key={projectsItem.id}
+								href={`/projects/${projectsItem.id}`}
+								className="bg-gray-900"
+							>
+								<Image
+									className="h-auto w-100% object-containd"
+									width={80}
+									height={80}
+									src={projectsItem.pic}
+									alt="project picture"
+								/>
+							</Link>
+						))}
 				</div>
 			</div>
 		</div>
