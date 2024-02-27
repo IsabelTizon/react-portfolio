@@ -27,20 +27,6 @@ export default function projectDetails({ params }) {
 				</div>
 			</div>
 			<div className="px-10 md:px-[15rem] lg:px-[25rem] xl:px-[50rem] 2xl:px-[80rem] mt-[15rem] xl:mt-[25rem]">
-				<div className="flex flex-row mb-[5rem] xl:mb-[10rem]">
-					<p className="text-[#9e6f33] ml-8 text-[2.5rem] mr-11">
-						username
-					</p>
-					<div className="">
-						<MdOutlineWatchLater
-							size={20}
-							color="#595959"
-						/>
-					</div>
-					<p className="text-[#595959] ml-8 text-[2.5rem]">
-						04 February 2024
-					</p>
-				</div>
 				<Image
 					className="h-auto w-full object-containd rounded-t-2xl mb-10"
 					width={400}
@@ -49,6 +35,22 @@ export default function projectDetails({ params }) {
 					alt="project picture"
 				/>
 
+				<div className="flex flex-row">
+					<Link target="_blank" href={myProject.url}>
+						<button className="text-black tracking-widest lg:tracking-wide xl:tracking-widest uppercase mustard rounded-md mr-11">
+							visit the site
+						</button>
+					</Link>
+
+					<Link target="_blank" href={myProject.github}>
+						<button className="text-black tracking-widest lg:tracking-wide xl:tracking-widest uppercase mustard p-4 rounded-md">
+							GitHub Code
+						</button>
+					</Link>
+				</div>
+				<h5 className="text-[4rem] capitalize mt-[10rem] text-[#b38600]">
+					about the project
+				</h5>
 				<div>
 					{myProject.description.map((paragraph) => {
 						console.log(
@@ -62,7 +64,7 @@ export default function projectDetails({ params }) {
 						);
 					})}
 				</div>
-				<h5 className="text-[4rem] capitalize mt-[10rem]">
+				<h5 className="text-[4rem] capitalize mt-[10rem] text-[#b38600]">
 					project parts
 				</h5>
 				{myProject.parts?.map((paragraph) => (
@@ -93,17 +95,6 @@ export default function projectDetails({ params }) {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className="leading-10  mt-[15rem] xl:mt-[25rem]">
-					<h3 className="mb-[5rem] xl:mb-[10rem]">
-						Leave a Reply
-					</h3>
-					<p className="text-[3rem] capitalize">
-						your email address will not be published
-					</p>
-					<p className="text-[3rem] text-[#d4593a] capitalize">
-						required fields are marked *{" "}
-					</p>
 				</div>
 				<Link
 					className="text-[3rem] text-[#4e53f6] capitalize mt-[5rem]"
