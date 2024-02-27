@@ -95,7 +95,7 @@ export default function projects() {
 											href={`/projects/${projectsItem.id}`}
 										>
 											<button className="text-black tracking-widest lg:tracking-wide xl:tracking-widest uppercase mustard p-4 rounded-md">
-												leave a comment
+												GitHub Code
 											</button>
 										</Link>
 									</div>

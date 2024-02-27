@@ -15,6 +15,7 @@ export const myProjects = [
 		],
 		pic: "/img/bwm.png",
 		url: "https://bwm-jet.vercel.app/",
+		github: "https://github.com/IsabelTizon/BWM",
 	},
 	{
 		id: 1,
@@ -33,6 +34,7 @@ export const myProjects = [
 		],
 		pic: "/img/calorieCounter.png",
 		url: "https://calorie-counter-psi.vercel.app/",
+		github: "https://github.com/IsabelTizon/calorieCounter",
 	},
 	{
 		id: 2,
@@ -51,6 +53,7 @@ export const myProjects = [
 		],
 		pic: "/img/glasgowParks.png",
 		url: "https://github.com/IsabelTizon/GLASGOW-PARKS",
+		github: "https://github.com/IsabelTizon/GLASGOW-PARKS",
 	},
 	{
 		id: 3,
@@ -69,6 +72,7 @@ export const myProjects = [
 		],
 		pic: "/img/musicOnline.png",
 		url: "https://github.com/IsabelTizon/musicOnline",
+		github: "https://github.com/IsabelTizon/musicOnline",
 	},
 	{
 		id: 4,
@@ -87,6 +91,8 @@ export const myProjects = [
 		],
 		pic: "/img/winterAnventures.png",
 		url: "https://winter-adventures.vercel.app/",
+		github:
+			"https://github.com/IsabelTizon/winterAdventures",
 	},
 	{
 		id: 5,
@@ -104,6 +110,7 @@ export const myProjects = [
 		],
 		pic: "/img/getMedia.png",
 		url: "https://get-media-eta.vercel.app/",
+		github: "https://github.com/IsabelTizon/getMedia",
 	},
 	{
 		id: 6,
@@ -123,6 +130,7 @@ export const myProjects = [
 
 		pic: "/img/mode.png",
 		url: "https://github.com/IsabelTizon/mode",
+		github: "https://github.com/IsabelTizon/mode",
 	},
 	{
 		id: 7,
@@ -139,5 +147,6 @@ export const myProjects = [
 		],
 		pic: "/img/passRecipes.png",
 		url: "https://isabeltizon.github.io/pass-recipes/",
+		github: "https://github.com/IsabelTizon/pass-recipes",
 	},
 ];
