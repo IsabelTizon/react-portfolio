@@ -5,7 +5,10 @@ export const ContactForm = () => {
 		<form className="mr-[7rem] bg-white p-10">
 			{/* Name */}
 			<div className="flex flex-col">
-				<label className="label-form" htmlFor="name">
+				<label
+					className="label-form text-[2.5rem]"
+					htmlFor="name"
+				>
 					Name
 				</label>
 				<imput
@@ -17,7 +20,10 @@ export const ContactForm = () => {
 			</div>
 			{/* Email */}
 			<div className="flex flex-col">
-				<label className="label-form" htmlFor="email">
+				<label
+					className="label-form text-[2.5rem]"
+					htmlFor="email"
+				>
 					Email
 				</label>
 				<imput
@@ -29,8 +35,11 @@ export const ContactForm = () => {
 			</div>
 			{/* Comment */}
 			<div className="">
-				<label className="label-form" htmlFor="message">
-					message
+				<label
+					className="label-form text-[2.5rem] mb-[2rem]"
+					htmlFor="message"
+				>
+					Message
 				</label>
 				<textarea
 					id="message"
