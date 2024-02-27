@@ -71,7 +71,7 @@ export default function projects() {
 										href={`/projects/${projectsItem.id}`}
 									>
 										<div className="flex flex-row">
-											<p className="text-[#b38f00] uppercase text-[2.5rem] mb-[6rem]">
+											<p className="text-[#b38f00] uppercase text-[2.5rem] mb-[6rem] hover:text-[#000000]">
 												read more
 											</p>
 											<MdOutlineKeyboardArrowRight

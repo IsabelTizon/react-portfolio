@@ -59,10 +59,14 @@ p {
 	button.mustard {
 		font-size: 2.5rem;
 		background: #b38600;
-		color: 000000;
+		color: #000000;
 		padding: 2rem;
 		text-transform: uppercase;
 		border-radius: 1rem;
+		letter-spacing: 0.5px;
+	}
+	button.mustard:hover {
+		color: #ffffff;
 	}
 }
 /* tablet */
