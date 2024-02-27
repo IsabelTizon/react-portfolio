@@ -9,12 +9,10 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 
 export default function projectDetails({ params }) {
-	console.log("params", params);
 	//destructuring each object of the array myProjects using curly braces, variable name to the data we want to get from the object
 	const { projectDetails } = params;
 
 	const myProject = myProjects[projectDetails];
-	console.log("myProject ===> ", myProject);
 
 	return (
 		<main className="mt-[80px]">

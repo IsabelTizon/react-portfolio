@@ -32,7 +32,7 @@ const contact = () => {
 					{/* Get in touch Section */}
 					<div className="flex flex-col w-full lg:w-1/2 lg:pr-[15rem]">
 						<div>
-							<h3 className="capitalize mb-[10rem]">
+							<h3 className="capitalize mb-[10rem] text-[#b38600] font-bold">
 								get in touch
 							</h3>
 							<p className="pb-[10rem]">
