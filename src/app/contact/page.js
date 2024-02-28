@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 
-import { FaFacebook } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
