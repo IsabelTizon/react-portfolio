@@ -8,10 +8,31 @@ export const ContactForm = () => {
 		message: "",
 	});
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
 		// Handle form submission here
 		console.log(formData);
+
+		try {
+			const response = await fetch("api/contact", {
+				method: "POST",
+				body: JSON.stringify(data),
+				headers: { "Content-Type": "application/json" },
+			});
+			if (!response.ok) {
+				throw new Error(
+					"HTTP error! status: " + response.status
+				);
+
+				const responseData = await response.json();
+				console.log(responseData);
+			}
+		} catch (error) {
+			console.log(
+				"There was a problem with the fecth operation" +
+					error.message
+			);
+		}
 	};
 
 	const handleChange = (e) => {
