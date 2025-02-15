@@ -12,9 +12,9 @@ const Footer = () => {
 	console.log("myProjects", myProjects);
 	const myProjectCopyModifily = [...myProjects];
 	return (
-		<div className="flex flex-wrap p-[20rem] bg-slate-900">
+		<div className="flex p-[15rem] bg-slate-900">
 			{/** Isabel Tizon Column */}
-			<div className="flex flex-col px-[10rem]">
+			<div className="flex-1">
 				<h5 className="text-white text-[4rem] capitalize mb-10">
 					isabel tizón arranz
 				</h5>
@@ -30,7 +30,7 @@ const Footer = () => {
 				</div>
 			</div>
 			{/** Menu */}
-			<div className="flex flex-col px-[10rem]">
+			<div className="flex-1">
 				<h5 className="text-white text-[4rem] capitalize mb-10">
 					Menu
 				</h5>
@@ -78,7 +78,7 @@ const Footer = () => {
 				</div>
 			</div>
 			{/** Contact Column */}
-			<div className="flex flex-col px-[10rem]">
+			<div className="flex-1">
 				<h5 className="text-white text-[4rem] mb-10">
 					Contact
 				</h5>
@@ -112,12 +112,12 @@ const Footer = () => {
 				</div>
 			</div>
 			{/** Recent works Column */}
-			<div className="flex flex-col px-[10rem]">
+			<div className="flex-[2]">
 				<h5 className="text-white text-[4rem] capitalize mb-10">
 					recent works
 				</h5>
 
-				<div className="flex gap-7">
+				<div className="flex flex-wrap gap-10">
 					{/* */}
 
 					{myProjectCopyModifily
@@ -131,7 +131,7 @@ const Footer = () => {
 							>
 								<Image
 									className="h-auto w-100% object-containd"
-									width={80}
+									width={100}
 									height={80}
 									src={projectsItem.pic}
 									alt="project picture"
