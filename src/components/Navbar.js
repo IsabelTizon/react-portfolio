@@ -13,7 +13,7 @@ function Navbar() {
 	};
 	return (
 		<header className="bg-slate-400 text-black w-full ease-in duration-300 fixed top-0 left-0 px-[15rem] z-10">
-			<nav className="w-full h-[80px] flex justify-between items-center  p-4">
+			<nav className="w-full h-[80px] flex justify-between items-center">
 				<div>
 					<Link
 						className="uppercase font-extrabold text-[4rem] md:text-[4.5rem] lg:text-[6rem] text-slate-800 hover:text-[#381638]"
@@ -25,13 +25,13 @@ function Navbar() {
 
 				{/*larger screen navigation */}
 				<ul className="hidden md:flex uppercase font-semibold text-xl md:text-[14px] lg:text-[15px] text-slate-800">
-					<li className="mr-4 lg:mr-8 hover:text-[#f9f459]">
+					<li className="ml-8 lg:mr-10 hover:text-[#f9f459]">
 						<Link href="/projects">projects</Link>
 					</li>
-					<li className="mr-4 lg:mr-8 hover:text-[#f9f459]">
+					<li className="ml-8 lg:mr-10 hover:text-[#f9f459]">
 						<Link href="/contact">contact</Link>
 					</li>
-					<li className="text-[#f9f459] hover:text-black">
+					<li className="ml-8 lg:mr-10 text-[#f9f459] hover:text-black">
 						<Link
 							target="_blank"
 							href="https://github.com/IsabelTizon"
