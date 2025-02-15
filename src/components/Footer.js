@@ -4,7 +4,9 @@ import { myProjects } from "./projects";
 
 // React icons
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
 	console.log("myProjects", myProjects);
@@ -20,46 +22,19 @@ const Footer = () => {
 					junior web developer
 				</h6>
 				<div className="flex flex-row">
-					<FaFacebook
+					<FaLinkedin
 						size={30}
-						color="#595959"
-						className="mr-10"
-					/>
-					<FaFacebook
-						size={30}
-						color="#595959"
-						className="mr-10"
-					/>
-					<FaFacebook
-						size={30}
-						color="#595959"
-						className="mr-10"
-					/>
-					<FaFacebook
-						size={30}
-						color="#595959"
+						color="#b38f00"
 						className="mr-10"
 					/>
 				</div>
 			</div>
-			{/** Quick Links Column */}
+			{/** Menu */}
 			<div className="flex flex-col px-[10rem]">
 				<h5 className="text-white text-[4rem] capitalize mb-10">
-					quick links
+					Menu
 				</h5>
 				<div className="flex flex-col">
-					<Link className="text-white" href="/blog">
-						<div className="flex flex-row">
-							<MdOutlineKeyboardArrowRight
-								size={30}
-								color="#b38f00"
-								fontSize="2rem"
-							/>
-							<h6 className="text-[2.7rem] capitalize">
-								blog
-							</h6>
-						</div>
-					</Link>
 					<Link className="text-white" href="/projects">
 						<div className="flex flex-row">
 							<MdOutlineKeyboardArrowRight
@@ -109,22 +84,28 @@ const Footer = () => {
 				</h5>
 				<div className="flex flex-col">
 					<div className="flex flex-col">
+						{/* Email */}
 						<div className="flex flex-row">
-							<FaFacebook size={17} color="#595959" />
-							<h6 className="text-white text-[2.7rem] capitalize ml-5 mb-5">
-								Linkedin
-							</h6>
-						</div>
-						<div className="flex flex-row">
-							<FaFacebook size={17} color="#595959" />
+							<MdOutlineMailOutline
+								size={17}
+								color="#F6F6F6"
+							/>
 							<h6 className="text-white text-[2.7rem] ml-5 mb-5">
-								+44 7759686358
+								itizonagencia@gmail.com
 							</h6>
 						</div>
+						{/* Email */}
 						<div className="flex flex-row">
-							<FaFacebook size={17} color="#595959" />
-							<h6 className="text-white text-[2.7rem] ml-5">
-								tizonarranz@gmail.com
+							<FaPhoneAlt size={17} color="#F6F6F6" />
+							<h6 className="text-white text-[2.7rem] ml-5 mb-5">
+								+ 34 675474558
+							</h6>
+						</div>
+						{/* Email */}
+						<div className="flex flex-row">
+							<FaPhoneAlt size={17} color="#F6F6F6" />
+							<h6 className="text-white text-[2.7rem] ml-5 mb-5">
+								+ 44 7759686358
 							</h6>
 						</div>
 					</div>
