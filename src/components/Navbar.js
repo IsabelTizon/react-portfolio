@@ -12,7 +12,7 @@ function Navbar() {
 		setIcon(!menuIcon);
 	};
 	return (
-		<header className="bg-slate-400 text-black w-full ease-in duration-300 fixed top-0 left-0 z-10">
+		<header className="bg-slate-400 text-black w-full ease-in duration-300 fixed top-0 left-0 px-[15rem] z-10">
 			<nav className="w-full h-[80px] flex justify-between items-center  p-4">
 				<div>
 					<Link
