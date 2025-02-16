@@ -56,17 +56,35 @@ p {
 		margin-bottom: 1rem;
 		letter-spacing: 0.2rem;
 	}
-	button.mustard {
-		font-size: 2.5rem;
-		background: #b38600;
-		color: #000000;
-		padding: 2rem;
-		text-transform: uppercase;
-		border-radius: 1rem;
-		letter-spacing: 0.5px;
+	button.purple-full {
+		color: #f0f0f5;
+		background-color: #9966ff;
+		border: 1px solid #9966ff;
+		padding: 3rem 5rem;
+		border-radius: 9999px; /* rounded-full */
+		letter-spacing: 0.1rem;
+		transition: all 0.3s ease-in-out;
 	}
-	button.mustard:hover {
-		color: #ffffff;
+
+	button.purple-full:hover {
+		transform: scale(0.95); /* Se reduce el tamaño al 95% */
+	}
+	button.purple {
+		font-size: 2.5rem;
+		color: #9966ff;
+		border: 1px solid #9966ff;
+		background: transparent;
+		padding: 3rem 5rem;
+		text-transform: uppercase;
+		border-radius: 999px; /* Esto hará que sea completamente ovalado */
+		letter-spacing: 1px;
+		transition: all 0.3s ease-in-out;
+	}
+
+	button.purple:hover {
+		color: #f0f0f5;
+		border: 1px solid #f0f0f5;
+		background: #111827;
 	}
 }
 /* tablet */
@@ -119,8 +137,17 @@ p {
 @layer components {
 	/* colours */
 
-	.yellow-letters {
-		color: #fff2cc;
+	.text-light {
+		color: #f0f0f5;
+	}
+	.text-dark {
+		color: #1a1a1a;
+	}
+	.primary-color {
+		color: #9966ff;
+	}
+	.secundary-color {
+		color: #111827;
 	}
 
 	/* form */
