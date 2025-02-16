@@ -45,7 +45,7 @@ export default function About() {
 					<h2 className="">my skills</h2>
 					<div className="flex flex-wrap">
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="text-black font-bold uppercase pb-8">
+							<h3 className="text-black font-bold uppercase pb-8 text-[24px]">
 								frondend developer
 							</h3>
 							<div className="">
@@ -59,7 +59,7 @@ export default function About() {
 							</div>
 						</div>
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="text-black font-bold uppercase pb-8">
+							<h3 className="text-black font-bold uppercase pb-8 text-[24px]">
 								backend developer
 							</h3>
 							<div className="">
@@ -76,7 +76,7 @@ export default function About() {
 							</div>
 						</div>
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="text-black font-bold uppercase pb-8">
+							<h3 className="text-black font-bold uppercase pb-8 text-[24px]">
 								Others
 							</h3>
 							<div>

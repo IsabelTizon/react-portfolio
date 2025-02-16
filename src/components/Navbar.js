@@ -12,11 +12,11 @@ function Navbar() {
 		setIcon(!menuIcon);
 	};
 	return (
-		<header className="bg-slate-400 text-black w-full ease-in duration-300 fixed top-0 left-0 px-[15rem] z-10">
+		<header className="bg-[#111827] text-[#eee6ff] w-full ease-in duration-300 fixed top-0 left-0 px-[15rem] z-10">
 			<nav className="w-full h-[80px] flex justify-between items-center">
 				<div>
 					<Link
-						className="uppercase font-extrabold text-[4rem] md:text-[4.5rem] lg:text-[6rem] text-slate-800 hover:text-[#381638]"
+						className="tracking-wider uppercase font-extrabold text-[4rem] md:text-[4.5rem] lg:text-[6rem] text-[#F0F0F5] hover:text-[#381638]"
 						href="/"
 					>
 						Isabel Arranz
@@ -24,14 +24,14 @@ function Navbar() {
 				</div>
 
 				{/*larger screen navigation */}
-				<ul className="hidden md:flex uppercase font-semibold text-xl md:text-[14px] lg:text-[15px] text-slate-800">
-					<li className="ml-8 lg:mr-10 hover:text-[#f9f459]">
+				<ul className="hidden md:flex uppercase text-xl md:text-[14px] lg:text-[15px] text-[#F0F0F5] items-center gap-x-10">
+					<li className="hover:text-[#9966ff] tracking-wider">
 						<Link href="/projects">projects</Link>
 					</li>
-					<li className="ml-8 lg:mr-10 hover:text-[#f9f459]">
+					<li className="hover:text-[#9966ff]  tracking-wider">
 						<Link href="/contact">contact</Link>
 					</li>
-					<li className="ml-8 lg:mr-10 text-[#f9f459] hover:text-black">
+					<li className="text-[#9966ff] hover:text-[#F0F0F5] border-[1px] border-[#9966ff] px-20 py-12 rounded-full hover:bg-[#111827] transition-all  tracking-wider">
 						<Link
 							target="_blank"
 							href="https://github.com/IsabelTizon"
@@ -40,7 +40,6 @@ function Navbar() {
 						</Link>
 					</li>
 				</ul>
-
 				{/*smaller screen burger icon */}
 				{/*onClick change the icon */}
 				<div
