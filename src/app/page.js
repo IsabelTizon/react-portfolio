@@ -26,14 +26,14 @@ export default function About() {
 
 			{/* hero */}
 			<div className="bg-gray-900  w-full p-10 md:p-72 lg:p-40 xl:p-[30rem] 2xl:p-[55rem]">
-				<h1 className="yellow-letters capitalize">
+				<h1 className="text-light capitalize">
 					isabel tizón arranz
 				</h1>
-				<p className="yellow-letters capitalize text-[4rem] xl:text-[5rem] 2xl:text-[]">
+				<p className="text-light capitalize text-[4rem] xl:text-[5rem] 2xl:text-[]">
 					junior web developer
 				</p>
 				<Link href="/projects">
-					<button className="mustard">
+					<button className="purple purple:hover">
 						view portfolio
 					</button>
 				</Link>
@@ -255,7 +255,7 @@ export default function About() {
 				<div className="flex justify-center mx-[40px] md:mx-[150px] lg:mx-[300px]  xl:mx-[250px] 2xl:mx-[400px]">
 					<div className="mx-full py-24">
 						<div className="flex justify-center xl:mx-[25rem]">
-							<h2 className="text-[#b38600] text-center">
+							<h2 className="text-light text-center">
 								are you ready to start a new project with
 								me?
 							</h2>
@@ -274,7 +274,7 @@ export default function About() {
 
 						<div className="flex justify-center">
 							<Link href="/contact">
-								<button className="text-black uppercase mustard p-3 rounded-md">
+								<button className="text-black uppercase purple purple:hover p-3 rounded-md">
 									contact me
 								</button>
 							</Link>
