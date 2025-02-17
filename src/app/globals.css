@@ -118,7 +118,8 @@ p {
 	}
 	p {
 		font-size: 3.5rem;
-		letter-spacing: 0.2rem;
+		letter-spacing: 0.3rem;
+		font-weight: 300;
 	}
 }
 /* screen */
@@ -143,13 +144,18 @@ p {
 	.text-dark {
 		color: #1a1a1a;
 	}
-	.primary-color {
+	.primary-500 {
 		color: #9966ff;
 	}
-	.secundary-color {
+	.secundary-500 {
 		color: #111827;
 	}
-
+	.primary-50 {
+		color: #f2ecff;
+	}
+	.primary-400 {
+		color: rgb(209, 158, 250);
+	}
 	/* form */
 	.input-form {
 		border: 1px solid rgb(65, 65, 65);
@@ -163,6 +169,20 @@ p {
 		color: #000000;
 		margin-bottom: 2rem;
 		font-size: 2rem;
+	}
+	/* Grids */
+	.grid-bg {
+		background-image: linear-gradient(
+				to right,
+				rgba(255, 255, 255, 0.1) 1px,
+				transparent 1px
+			),
+			linear-gradient(
+				to bottom,
+				rgba(255, 255, 255, 0.1) 1px,
+				transparent 1px
+			);
+		background-size: 20px 20px;
 	}
 }
 
