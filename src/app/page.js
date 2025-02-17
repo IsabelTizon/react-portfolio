@@ -25,10 +25,11 @@ export default function About() {
 			{/** w-full  md:w-1/3 lg:text-[] xl:text-[] 2xl:text-[] */}
 
 			{/* hero */}
-			<div className="bg-gray-900  w-full p-10 md:p-72 lg:p-40 xl:p-[30rem] 2xl:p-[55rem]">
-				<h1 className="text-light capitalize">
-					isabel tizón arranz
-				</h1>
+			<div className="bg-gray-900  w-full pl-[30%] py-[9%] md:pl-30 lg:pl-40 xl:pl-[20rem] 2xl:pl-[45rem]">
+				<h1 className="text-light capitalize">Hi,</h1>
+				<h2 className="text-light capitalize">
+					I&apos;m Isabel
+				</h2>
 				<p className="text-light capitalize text-[4rem] xl:text-[5rem] 2xl:text-[]">
 					junior web developer
 				</p>
@@ -40,7 +41,7 @@ export default function About() {
 			</div>
 
 			{/* My skills */}
-			<div className="bg-[#fff9e6]">
+			<div className="bg-[#303c55]">
 				<div className="py-24 px-8 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
 					<h2 className="">my skills</h2>
 					<div className="flex flex-wrap">
