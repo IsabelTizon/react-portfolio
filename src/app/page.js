@@ -25,42 +25,49 @@ export default function About() {
 			{/** w-full  md:w-1/3 lg:text-[] xl:text-[] 2xl:text-[] */}
 
 			{/* hero */}
-			<div className="bg-gray-900  w-full pl-[30%] py-[9%] md:pl-30 lg:pl-40 xl:pl-[20rem] 2xl:pl-[45rem]">
+			<div className="bg-gray-900  w-full pl-[10%] py-[7%] md:pl-[15%]">
 				<h1 className="text-light capitalize">Hi,</h1>
 				<h2 className="text-light capitalize">
 					I&apos;m Isabel
 				</h2>
-				<p className="text-light capitalize text-[4rem] xl:text-[5rem] 2xl:text-[]">
+				<p className="text-light capitalize text-[4rem] xl:text-[5rem]">
 					junior web developer
 				</p>
 				<Link href="/projects">
-					<button className="purple purple:hover">
+					<button className="purple purple:hover mt-8">
 						view portfolio
 					</button>
 				</Link>
 			</div>
 
 			{/* My skills */}
-			<div className="bg-[#303c55]">
+			<div className="bg-[#303c55] grid-bg">
 				<div className="py-24 px-8 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
-					<h2 className="">my skills</h2>
+					<div className="flex justify-center">
+						<h2 className="text-light">my skills</h2>
+					</div>
 					<div className="flex flex-wrap">
+						{/* first column */}
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="text-black font-bold uppercase pb-8 text-[24px]">
+							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8 text-[24px]">
 								frondend developer
 							</h3>
 							<div className="">
 								<ul>
 									{myfrontendSkills.map((frontendSkill) => (
-										<li key={frontendSkill.id} className="">
-											Knoledge of {frontendSkill.name}
+										<li
+											key={frontendSkill.id}
+											className="text-light"
+										>
+											{frontendSkill.name}
 										</li>
 									))}
 								</ul>
 							</div>
 						</div>
+						{/* second column */}
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="text-black font-bold uppercase pb-8 text-[24px]">
+							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8 text-[24px]">
 								backend developer
 							</h3>
 							<div className="">
@@ -68,26 +75,27 @@ export default function About() {
 									{mybackendSkills.map((backendSkill) => (
 										<li
 											key={backendSkill.id}
-											className="sizePhoneParagraph sizeParagraph"
+											className="text-light"
 										>
-											Knoledge of {backendSkill.name}
+											{backendSkill.name}
 										</li>
 									))}
 								</ul>
 							</div>
 						</div>
+						{/* third column */}
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="text-black font-bold uppercase pb-8 text-[24px]">
+							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8 text-[24px]">
 								Others
 							</h3>
-							<div>
+							<div className="flex justify-center">
 								<ul>
 									{myOtherSkills.map((othersSkill) => (
 										<li
 											key={othersSkill.id}
-											className="sizePhoneParagraph sizeParagraph"
+											className="text-light"
 										>
-											Knoledge of {othersSkill.name}
+											{othersSkill.name}
 										</li>
 									))}
 								</ul>
@@ -150,20 +158,6 @@ export default function About() {
 						printing and typesetting industry. Lorem Ipsum
 						has been the industrys standard dummy text ever
 						since the 1500s, when an unknown printer took a
-						galley of type and scrambled it to make a type
-						specimen book. It has survived not only five
-						centuries, but also the leap into electronic
-						typesetting, remaining essentially unchanged. It
-						was popularised in the 1960s with the release of
-						Letraset sheets containing Lorem Ipsum passages,
-						and more recently with desktop publishing
-						software like Aldus PageMaker including versions
-						of Lorem Ipsum. standard dummy text ever since
-						the 1500s, when an unknown printer took a galley
-						of type and scrambled it to make a type specimen
-						book. It has survived not only five centuries,
-						but also the leap into electronic typesetting,
-						remaining essentially unchanged.
 					</p>
 					<div className="flex flex-wrap gap-7">
 						{/* */}
@@ -257,20 +251,13 @@ export default function About() {
 					<div className="mx-full py-24">
 						<div className="flex justify-center xl:mx-[25rem]">
 							<h2 className="text-light text-center">
-								are you ready to start a new project with
-								me?
+								Open to work
 							</h2>
 						</div>
 
 						<p className="text-white pb-8 text-center">
-							Lorem Ipsum is simply dummy text of the
-							printing and typesetting industry. Lorem Ipsum
-							has been the Lorem Ipsum is simply dummy text
-							of the printing and typesetting industry.
-							Lorem Ipsum has been the industrys standard
-							dummy text ever since the 1500s, when an
-							unknown printer took a galley of type and
-							scrambled it to make a type specimen book.
+							Passionate about coding and web design, always
+							striving to grow and take on new challenges
 						</p>
 
 						<div className="flex justify-center">
