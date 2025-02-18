@@ -12,129 +12,180 @@ body {
 }
 /* 1rem means 1 times the root font-size.E.g: 1rem: 16px. 2rem: 32px. 0.5rem: 8px */
 /* 1em refers to the font-size of parent element. E.g: 1.5 times 20px which is 30px*/
-/*
-E.g
 
-html {
-  font-size: 18px;
-}
-
-div {
-  font-size: 20px;
-}
-
-p {
-  font-size: 1.5rem;
-  width: 10rem;
-  padding: 0.2rem;
-  height: 4rem;
-  border: 1rem solid red;
-}
-*/
 :root {
-	font-size: 5.33px;
+	font-size: 16px;
 }
+
 /* phone */
 @media (min-width: 360px) {
 	h1 {
-		font-size: 9rem;
+		font-size: 1.8rem;
 	}
 	h2 {
-		font-size: 6.5rem;
-		padding-bottom: 5rem;
-		text-transform: capitalize;
-		color: #000000;
+		font-size: 1.6rem;
 	}
 	h3 {
-		font-size: 4rem;
+		font-size: 1.4rem;
+	}
+	h4 {
+		font-size: 1.2rem;
+	}
+	h5 {
+		font-size: 1rem;
+	}
+	h6 {
+		font-size: 0.9rem;
 	}
 	li {
-		font-size: 3rem;
+		font-size: 1.1rem;
 	}
 	p {
-		font-size: 3rem;
-		margin-bottom: 1rem;
-		letter-spacing: 0.2rem;
-	}
-	button.purple-full {
-		color: #f0f0f5;
-		background-color: #9966ff;
-		border: 1px solid #9966ff;
-		padding: 3rem 5rem;
-		border-radius: 9999px; /* rounded-full */
-		letter-spacing: 0.1rem;
-		transition: all 0.3s ease-in-out;
-	}
-
-	button.purple-full:hover {
-		transform: scale(0.95); /* Se reduce el tamaño al 95% */
-	}
-	button.purple {
-		font-size: 2.5rem;
-		color: #9966ff;
-		border: 1px solid #9966ff;
-		background: transparent;
-		padding: 3rem 5rem;
-		text-transform: uppercase;
-		border-radius: 999px; /* Esto hará que sea completamente ovalado */
-		letter-spacing: 1px;
-		transition: all 0.3s ease-in-out;
-	}
-
-	button.purple:hover {
-		color: #f0f0f5;
-		border: 1px solid #f0f0f5;
-		background: #111827;
+		font-size: 1.1rem;
 	}
 }
+
 /* tablet */
 @media (min-width: 768px) {
-	h3 {
-		font-size: 3rem;
+	h1 {
+		font-size: 2rem;
 	}
-	button.mustard {
-		padding: 2rem;
+	h2 {
+		font-size: 1.8rem;
+	}
+	h3 {
+		font-size: 1.6rem;
+	}
+	h4 {
+		font-size: 1.4rem;
+	}
+	h5 {
+		font-size: 1.2rem;
+	}
+	h6 {
+		font-size: 1.1rem;
+	}
+	p {
+		font-size: 1.4rem;
 	}
 }
+
 /* landscape */
 @media (min-width: 1024px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+	h2 {
+		font-size: 2.2rem;
+	}
+	h3 {
+		font-size: 1.8rem;
+	}
+	h4 {
+		font-size: 1.6rem;
+	}
+	h5 {
+		font-size: 1.4rem;
+	}
+	h6 {
+		font-size: 1.2rem;
+	}
+	p {
+		font-size: 1.6rem;
+	}
 }
+
 /* laptop */
 @media (min-width: 1280px) {
 	h1 {
-		font-size: 13rem;
+		font-size: 4.5rem;
 	}
 	h2 {
-		font-size: 8.5rem;
+		font-size: 3.5rem;
 	}
 	h3 {
-		font-size: 6.5rem;
+		font-size: 2.5rem;
 	}
 	h4 {
-		font-size: 4rem;
+		font-size: 1.8rem;
 	}
-	li {
-		font-size: 3.5rem;
+	h5 {
+		font-size: 1.6rem;
+	}
+	h6 {
+		font-size: 1.4rem;
 	}
 	p {
-		font-size: 3.5rem;
-		letter-spacing: 0.3rem;
+		font-size: 1.1rem;
+		letter-spacing: 0.2rem;
 		font-weight: 300;
 	}
-}
-/* screen */
-@media (min-width: 1536px) {
-	h1 {
-		font-size: 14rem;
+	button {
+		font-size: 1.1rem;
 	}
-	h2 {
-		font-size: 8rem;
-	}
-	h3 {
-		font-size: 3.8rem;
+	small {
+		font-size: 1rem;
 	}
 }
 
+/* screen */
+@media (min-width: 1536px) {
+	h1 {
+		font-size: 3.5rem;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+	h3 {
+		font-size: 2.6rem;
+	}
+	h4 {
+		font-size: 2rem;
+	}
+	h5 {
+		font-size: 1.8rem;
+	}
+	h6 {
+		font-size: 1.6rem;
+	}
+	p {
+		font-size: 2rem;
+	}
+	button {
+		font-size: 1.6rem;
+	}
+}
+
+button.purple-full {
+	color: #f0f0f5;
+	background-color: #9966ff;
+	border: 1px solid #9966ff;
+	padding: 0.7rem 2.5rem;
+	border-radius: 9999px; /* rounded-full */
+	letter-spacing: 0.1rem;
+	transition: all 0.3s ease-in-out;
+}
+
+button.purple-full:hover {
+	transform: scale(0.95); /* Se reduce el tamaño al 95% */
+}
+button.purple {
+	font-size: 1.2rem;
+	color: #9966ff;
+	border: 1px solid #9966ff;
+	background: transparent;
+	padding: 0.7rem 2.5rem;
+	text-transform: uppercase;
+	border-radius: 999px; /* Esto hará que sea completamente ovalado */
+	letter-spacing: 1px;
+	transition: all 0.3s ease-in-out;
+}
+
+button.purple:hover {
+	color: #f0f0f5;
+	border: 1px solid #f0f0f5;
+	background: #111827;
+}
 @layer components {
 	/* colours */
 
