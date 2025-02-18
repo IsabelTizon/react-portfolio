@@ -43,23 +43,17 @@ export const ContactForm = () => {
 	};
 
 	return (
-		<form
-			onSubmit={handleSubmit}
-			className="mr-[7rem] bg-white p-10"
-		>
+		<form onSubmit={handleSubmit} className="">
 			{/* Name */}
 			<div className="flex flex-col">
-				<label
-					className="label-form text-[3.2rem]"
-					htmlFor="name"
-				>
+				<label className="label-form" htmlFor="name">
 					Name
 				</label>
 				<input
 					id="name"
 					type="text"
 					name="name"
-					className="input-form h-[30px] text-[3rem]"
+					className="input-form h-[5px]"
 					value={formData.name}
 					onChange={handleChange}
 					required
@@ -69,17 +63,14 @@ export const ContactForm = () => {
 			</div>
 			{/* Email */}
 			<div className="flex flex-col">
-				<label
-					className="label-form text-[3.2rem]"
-					htmlFor="email"
-				>
+				<label className="label-form" htmlFor="email">
 					Email
 				</label>
 				<input
 					id="email"
 					type="email"
 					name="email"
-					className="input-form h-[30px] text-[3rem]"
+					className="input-form h-[5px]"
 					value={formData.email}
 					onChange={handleChange}
 					required
@@ -89,16 +80,13 @@ export const ContactForm = () => {
 			</div>
 			{/* Message */}
 			<div className="">
-				<label
-					className="label-form text-[3.2rem] mb-[2rem]"
-					htmlFor="message"
-				>
+				<label className="label-form" htmlFor="message">
 					Message
 				</label>
 				<textarea
 					id="message"
 					name="message"
-					className="input-form h-[200px] text-[2.8rem]"
+					className="input-form h-[200px]"
 					value={formData.message}
 					onChange={handleChange}
 					required
@@ -106,7 +94,7 @@ export const ContactForm = () => {
 					maxLength={500}
 				/>
 			</div>
-			<button className="mustard mt-[35px]" type="submit">
+			<button className="purple" type="submit">
 				Send message
 			</button>
 		</form>

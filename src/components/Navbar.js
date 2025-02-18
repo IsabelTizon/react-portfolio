@@ -16,7 +16,7 @@ function Navbar() {
 			<nav className="w-full h-[80px] flex justify-between items-center">
 				<div>
 					<Link
-						className="tracking-wider uppercase font-extrabold text-[4rem] md:text-[4.5rem] lg:text-[6rem] text-[#F0F0F5] hover:text-[#381638]"
+						className="tracking-wider uppercase font-extrabold text-[1.8rem] text-[#F0F0F5] hover:text-[#381638]"
 						href="/"
 					>
 						Isabel Arranz

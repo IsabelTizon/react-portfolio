@@ -30,9 +30,9 @@ export default function About() {
 				<h2 className="text-light capitalize">
 					I&apos;m Isabel
 				</h2>
-				<p className="text-light capitalize text-[4rem] xl:text-[5rem]">
+				<h4 className="text-light capitalize">
 					junior web developer
-				</p>
+				</h4>
 				<Link href="/projects">
 					<button className="purple purple:hover mt-8">
 						view portfolio
@@ -42,9 +42,9 @@ export default function About() {
 
 			{/* My skills */}
 			<div className="bg-[#303c55] grid-bg">
-				<div className="py-24 px-8 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
+				<div className="py-24 px-8 md:px-[1rem] lg:px-[2rem] xl:px-[12rem] 2xl:px-[15rem] xl:py-[5rem] 2xl:py-[8rem]">
 					<div className="flex justify-center">
-						<h2 className="text-light">my skills</h2>
+						<h2 className="text-light">Technical skills</h2>
 					</div>
 					<div className="flex flex-wrap">
 						{/* first column */}
@@ -106,7 +106,7 @@ export default function About() {
 			</div>
 
 			{/* About me */}
-			<div className="py-24 px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
+			<div className="">
 				<div className="flex flex-col justify-center py-24">
 					<h2 className="">about me</h2>
 					<div className="flex flex-wrap">
@@ -149,7 +149,7 @@ export default function About() {
 
 			{/* My latest Work */}
 			<div className="bg-[#ecf2f9]">
-				<div className="py-24 px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
+				<div className="">
 					<h2 className="">my latest work</h2>
 					<p className="pb-40">
 						Lorem Ipsum is simply dummy text of the printing
@@ -182,7 +182,7 @@ export default function About() {
 			</div>
 
 			{/* Project's sections */}
-			<div className="py-24 px-10 md:px-[15rem] lg:px-[25rem] xl:px-[35rem] 2xl:px-[55rem] xl:py-[15rem] 2xl:py-[20rem]">
+			<div className="">
 				<h2 className="">projects section</h2>
 				<p className="pb-40">
 					Lorem Ipsum is simply dummy text of the printing
@@ -194,7 +194,7 @@ export default function About() {
 					type and scrambled it to
 				</p>
 				<div className="flex flex-wrap gap-8">
-					<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
+					<div className="w-full md:w-[30%]">
 						<div className="flex justify-center">
 							<h4 className="text-gray-900 font-bold uppercase pb-8">
 								frontend projects
@@ -249,7 +249,7 @@ export default function About() {
 			<div className="bg-gray-800">
 				<div className="flex justify-center mx-[40px] md:mx-[150px] lg:mx-[300px]  xl:mx-[250px] 2xl:mx-[400px]">
 					<div className="mx-full py-24">
-						<div className="flex justify-center xl:mx-[25rem]">
+						<div className="flex justify-center">
 							<h2 className="text-light text-center">
 								Open to work
 							</h2>
@@ -262,7 +262,7 @@ export default function About() {
 
 						<div className="flex justify-center">
 							<Link href="/contact">
-								<button className="text-black uppercase purple purple:hover p-3 rounded-md">
+								<button className="text-black uppercase purple purple:hover rounded-md">
 									contact me
 								</button>
 							</Link>
