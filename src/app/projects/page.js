@@ -44,6 +44,7 @@ export default function projects() {
 					{myProjectCopyModifily
 						.reverse()
 						.map((projectsItem) => (
+							/** CREAR CARD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!*/
 							<div className="" key={projectsItem.id}>
 								<h3 className="">{projectsItem.name}</h3>
 								<div className="flex flex-col md:flex-row">

@@ -16,92 +16,105 @@ export default function projectDetails({ params }) {
 
 	return (
 		<main className="mt-[80px]">
-			<div className="bg-gray-900  w-full p-10 md:p-42 lg:p-40 xl:p-[15rem] 2xl:p-[25rem]">
+			<div className="bg-[#111827] grid-bg w-full p-10">
 				<div className="flex justify-center">
 					<h1
-						className="yellow-letters capitalize"
+						className="text-light capitalize"
 						key={myProject.id}
 					>
 						{myProject.name}
 					</h1>
 				</div>
 			</div>
-			<div className="px-10 md:px-[15rem] lg:px-[25rem] xl:px-[50rem] 2xl:px-[80rem] mt-[15rem] xl:mt-[25rem]">
-				<Image
-					className="h-auto w-full object-containd rounded-t-2xl mb-10"
-					width={400}
-					height={300}
-					src={myProject.pic}
-					alt="project picture"
-				/>
+			<div className="bg-[#111827]">
+				<div className="w-[60%] mx-auto">
+					<Image
+						className="h-auto w-[100%] object-containd rounded-t-2xl py-10"
+						width={400}
+						height={300}
+						src={myProject.pic}
+						alt="project picture"
+					/>
 
-				<div className="flex flex-row">
-					<Link target="_blank" href={myProject.url}>
-						<button className="text-black tracking-widest lg:tracking-wide xl:tracking-widest uppercase mustard rounded-md mr-11">
-							visit the site
-						</button>
-					</Link>
+					<div className="flex flex-row">
+						<Link target="_blank" href={myProject.url}>
+							<button className="purple">
+								visit the site
+							</button>
+						</Link>
 
-					<Link target="_blank" href={myProject.github}>
-						<button className="text-black tracking-widest lg:tracking-wide xl:tracking-widest uppercase mustard p-4 rounded-md">
-							GitHub Code
-						</button>
-					</Link>
-				</div>
-				<h5 className="text-[4rem] capitalize mt-[10rem] text-[#b38600]">
-					about the project
-				</h5>
-				<div>
-					{myProject.description.map((paragraph) => {
-						console.log(
-							"myProject.description ===> ",
-							myProject.description
-						);
-						return (
-							<p className="mt-[5rem]" key={paragraph}>
-								{paragraph}
-							</p>
-						);
-					})}
-				</div>
-				<h5 className="text-[4rem] capitalize mt-[10rem] text-[#b38600]">
-					project parts
-				</h5>
-				{myProject.parts?.map((paragraph) => (
-					<p className="mt-[5rem]" key={paragraph}>
-						{paragraph}
+						<Link target="_blank" href={myProject.github}>
+							<button className="purple-full">
+								GitHub
+							</button>
+						</Link>
+					</div>
+					<h3 className="text-light">about the project</h3>
+					<div>
+						{myProject.description.map((paragraph) => {
+							console.log(
+								"myProject.description ===> ",
+								myProject.description
+							);
+							return (
+								<p className="text-light" key={paragraph}>
+									{paragraph}
+								</p>
+							);
+						})}
+					</div>
+					<h3 className="text-light">project parts</h3>
+					{myProject.parts?.map((paragraph) => (
+						<p
+							className="text-light selection:mt-[5rem]"
+							key={paragraph}
+						>
+							{paragraph}
+						</p>
+					))}
+					<p className="text-light">
+						If you find this page nice, you can take a look
+						at more of my{" "}
+						<Link
+							target="_blank"
+							href="https://github.com/IsabelTizon"
+							className="text-[#9966ff]"
+						>
+							Github
+						</Link>{" "}
+						projects
 					</p>
-				))}
-				<p>
-					If you find this page nice, you can take a look at
-					more of my{" "}
-					<Link
-						target="_blank"
-						href="https://github.com/IsabelTizon"
-						className="text-[#4e53f6]"
-					>
-						Github
-					</Link>{" "}
-					projects
-				</p>
-				<div className="flex justify-center">
-					<div className="flex  flex-col">
-						<h4>share this</h4>
-						<div className="flex flex-row">
-							<div className="flex justify-center">
-								<FaFacebook />
-								<AiFillTwitterCircle />
-								<IoLogoWhatsapp />
+					<div className="flex justify-center">
+						<div className="flex  flex-col">
+							<h6 className="text-[#9966ff]">share this</h6>
+							<div className="flex flex-row">
+								<div className="flex justify-center">
+									<FaFacebook
+										size={30}
+										color="#b38f00"
+										fontSize="2rem"
+									/>
+									<AiFillTwitterCircle
+										size={30}
+										color="#b38f00"
+										fontSize="2rem"
+									/>
+									<IoLogoWhatsapp
+										size={30}
+										color="#b38f00"
+										fontSize="2rem"
+									/>
+								</div>
 							</div>
 						</div>
 					</div>
+					<Link
+						className="text-[#9966ff] capitalize mt-[5rem]"
+						href="/projects"
+					>
+						Go back to projects
+					</Link>
 				</div>
-				<Link
-					className="text-[3rem] text-[#4e53f6] capitalize mt-[5rem]"
-					href="/projects"
-				>
-					Go back to projects
-				</Link>
 			</div>
 		</main>
 	);
