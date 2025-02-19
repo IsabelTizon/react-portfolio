@@ -117,8 +117,6 @@ body {
 	}
 	p {
 		font-size: 1.1rem;
-		letter-spacing: 0.2rem;
-		font-weight: 300;
 	}
 	button {
 		font-size: 1.1rem;
@@ -209,17 +207,16 @@ button.purple:hover {
 	}
 	/* form */
 	.input-form {
-		border: 1px solid rgb(65, 65, 65);
-		padding: 2rem;
+		border: 1px solid #f2ecff;
+		padding: 1rem;
 		width: 100%;
-		margin-bottom: 2rem;
+		margin-bottom: 0.7rem;
 		border-radius: 0.5rem;
 	}
 	.label-form {
 		font-weight: bolder;
-		color: #000000;
-		margin-bottom: 2rem;
-		font-size: 2rem;
+		color: #f2ecff;
+		margin-bottom: 1rem;
 	}
 	/* Grids */
 	.grid-bg {
