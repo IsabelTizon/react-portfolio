@@ -12,11 +12,11 @@ function Navbar() {
 		setIcon(!menuIcon);
 	};
 	return (
-		<header className="bg-[#111827] text-[#eee6ff] w-full ease-in duration-300 fixed top-0 left-0 px-[15rem] z-10">
+		<header className="bg-[#111827] text-[#eee6ff] w-full ease-in duration-300 fixed top-0 left-0 px-[7rem] z-10">
 			<nav className="w-full h-[80px] flex justify-between items-center">
 				<div>
 					<Link
-						className="tracking-wider uppercase font-extrabold text-[1.8rem] text-[#F0F0F5] hover:text-[#381638]"
+						className="tracking-wider uppercase font-extrabold text-[1.8rem] text-[#F0F0F5] hover:text-[#9966ff]"
 						href="/"
 					>
 						Isabel Arranz
