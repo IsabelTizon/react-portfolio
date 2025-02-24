@@ -22,11 +22,9 @@ export default function About() {
 			{/** lg-[]  LANDSCAPE => min-width: 1024px */}
 			{/** xl-[] LAPTOP => min-width: 1280px */}
 			{/** 2xl-[] SCREEN => min-width: 1536px */}
-
 			{/** w-full  md:w-1/3 lg:text-[] xl:text-[] 2xl:text-[] */}
-
 			{/* hero */}
-			<div className="bg-gray-900  w-full pl-[10%] py-[7%] md:pl-[15%]">
+			<div className="bg-[#111827] w-full pl-[10%] py-[7%] md:pl-[15%]">
 				<h1 className="text-light capitalize">Hi,</h1>
 				<h2 className="text-light capitalize mb-4">
 					I&apos;m Isabel
@@ -40,7 +38,6 @@ export default function About() {
 					</button>
 				</Link>
 			</div>
-
 			{/* My skills */}
 			<div className="bg-[#303c55] grid-bg">
 				<div className="py-[5%] px-[10%]">
@@ -125,12 +122,11 @@ export default function About() {
 					</div>
 				</div>
 			</div>
-
 			{/* About me */}
 			<div className="w-[95%] m-auto my-24">
 				<div className="flex flex-wrap">
 					<div className="w-[50%]">
-						<h2 className="capitalize">about me</h2>
+						<h2 className="">About me</h2>
 						<div className="">
 							<p className="pb-4">
 								I am a Web Development student in my second
@@ -167,11 +163,10 @@ export default function About() {
 					</div>
 				</div>
 			</div>
-
 			{/* My latest Work */}
 			<div className="bg-[#ecf2f9]">
 				<div className="w-[95%] m-auto py-16">
-					<h2 className="capitalize">my latest work</h2>
+					<h2 className="">My latest work</h2>
 					<p className="">
 						Lorem Ipsum is simply dummy text of the printing
 						and typesetting industry. Lorem Ipsum has been
@@ -203,20 +198,15 @@ export default function About() {
 					</div>
 				</div>
 			</div>
-
 			{/* Project's sections */}
-			<div className="">
-				<h2 className="">projects section</h2>
-				<p className="pb-40">
-					Lorem Ipsum is simply dummy text of the printing
-					and typesetting industry. Lorem Ipsum has been the
-					Lorem Ipsum is simply dummy text of the printing
-					and typesetting industry. Lorem Ipsum has been the
-					industrys standard dummy text ever since the
-					1500s, when an unknown printer took a galley of
-					type and scrambled it to
-				</p>
-				<div className="flex flex-wrap gap-8">
+			<div className="w-[70%] m-auto py-16">
+				<div className="flex justify-center">
+					<h2 className="">Different areas of work</h2>
+				</div>
+			</div>
+			ß
+			<div>
+				<div className="flex flex-wrap gap-4">
 					<div className="w-full md:w-[30%]">
 						<div className="flex justify-center">
 							<h4 className="text-gray-900 font-bold uppercase pb-8">
@@ -267,7 +257,6 @@ export default function About() {
 					</div>
 				</div>
 			</div>
-
 			{/* Are You Ready To Start New Project With Me? */}
 			<div className="bg-gray-800">
 				<div className="flex justify-center mx-[40px] md:mx-[150px] lg:mx-[300px]  xl:mx-[250px] 2xl:mx-[400px]">
