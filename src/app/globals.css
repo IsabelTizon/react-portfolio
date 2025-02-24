@@ -196,15 +196,28 @@ button.purple:hover {
 	.primary-500 {
 		color: #9966ff;
 	}
-	.secundary-500 {
-		color: #111827;
+	.primary-400 {
+		color: rgb(209, 158, 250);
 	}
 	.primary-50 {
 		color: #f2ecff;
 	}
-	.primary-400 {
-		color: rgb(209, 158, 250);
+	.secundary-500 {
+		color: #111827;
 	}
+	.secundary-400 {
+		color: #373b57;
+	}
+	.secundary-300 {
+		color: #64748b;
+	}
+	.secundary-200 {
+		color: #d1d5db;
+	}
+	.secundary-100 {
+		color: #e2e8f0;
+	}
+
 	/* form */
 	.input-form {
 		border: 1px solid #f2ecff;

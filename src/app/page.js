@@ -123,51 +123,58 @@ export default function About() {
 				</div>
 			</div>
 			{/* About me */}
-			<div className="w-[95%] m-auto my-24">
-				<div className="flex flex-wrap">
-					<div className="w-[50%]">
-						<h2 className="">About me</h2>
-						<div className="">
-							<p className="pb-4">
-								I am a Web Development student in my second
-								year, with graduation in June 2023. During
-								these two years at the City of Glasgow
-								College, as well as also self-studying in my
-								free time, I have learned a lot about web
-								development.
-							</p>
-							<p className="pb-4">
-								For this reason, my intention now is to find
-								an internship and use my knowledge and
-								skills I have developed.
-							</p>
-							<p className="pb-4">
-								I consider myself to be a very hard-working
-								person, a great team player and I always try
-								to work on my own initiative to overcome any
-								obstacles.
-							</p>
-							<p className="pb-4">
-								Fluency in both English and Spanish.
-							</p>
+			<div className="bg-[#111827]">
+				<div className="w-[95%] m-auto">
+					<div className="flex flex-wrap">
+						<div className="w-[50%] py-16">
+							<h2 className="secundary-300">About me</h2>
+							<div className="">
+								<p className="pb-4 text-light">
+									I am a Web Development student in my
+									second year, with graduation in June 2023.
+									During these two years at the City of
+									Glasgow College, as well as also
+									self-studying in my free time, I have
+									learned a lot about web development.
+								</p>
+								<p className="pb-4 text-light">
+									For this reason, my intention now is to
+									find an internship and use my knowledge
+									and skills I have developed.
+								</p>
+								<p className="pb-4 text-light">
+									I consider myself to be a very
+									hard-working person, a great team player
+									and I always try to work on my own
+									initiative to overcome any obstacles.
+								</p>
+								<p className="pb-4 text-light">
+									Fluency in both English and Spanish.
+								</p>
+							</div>
 						</div>
-					</div>
-					<div className="w-[50%]">
-						<Image
-							className="h-50 w-[65%] m-auto object-containd"
-							width={200}
-							height={150}
-							src="/img/profile-photo.png"
-							alt="Picture of the author"
-						/>
+						<div className="w-[50%] py-16">
+							<Image
+								className="h-50 w-[65%] m-auto object-containd"
+								width={200}
+								height={150}
+								src="/img/profile-photo.png"
+								alt="Picture of the author"
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
 			{/* My latest Work */}
-			<div className="bg-[#ecf2f9]">
+			<div className="bg-[#111827]">
 				<div className="w-[95%] m-auto py-16">
-					<h2 className="">My latest work</h2>
-					<p className="">
+					<div className="flex justify-center">
+						<h2 className="secundary-300">
+							My latest work
+						</h2>
+					</div>
+
+					<p className="text-light">
 						Lorem Ipsum is simply dummy text of the printing
 						and typesetting industry. Lorem Ipsum has been
 						the Lorem Ipsum is simply dummy text of the
@@ -199,61 +206,64 @@ export default function About() {
 				</div>
 			</div>
 			{/* Project's sections */}
-			<div className="w-[70%] m-auto py-16">
-				<div className="flex justify-center">
-					<h2 className="">Different areas of work</h2>
+			<div className="bg-[#111827]">
+				<div className="w-[70%] m-auto">
+					<div className="flex justify-center">
+						<h2 className="secundary-300">
+							Different areas of work
+						</h2>
+					</div>
 				</div>
-			</div>
-			ß
-			<div>
-				<div className="flex flex-wrap gap-4">
-					<div className="w-full md:w-[30%]">
-						<div className="flex justify-center">
-							<h4 className="text-gray-900 font-bold uppercase pb-8">
-								frontend projects
-							</h4>
+				<div>
+					<div className="flex flex-wrap gap-4">
+						<div className="w-full md:w-[30%]">
+							<div className="flex justify-center">
+								<h4 className="primary-500 font-bold uppercase pb-8">
+									frontend projects
+								</h4>
+							</div>
+							<Link href="/contact">
+								<Image
+									className="w-full h-auto rounded-2xl"
+									width={300}
+									height={300}
+									src="/img/getMedia.png"
+									alt="project picture"
+								/>
+							</Link>
 						</div>
-						<Link href="/contact">
-							<Image
-								className="w-full h-auto rounded-2xl"
-								width={300}
-								height={300}
-								src="/img/getMedia.png"
-								alt="project picture"
-							/>
-						</Link>
-					</div>
-					<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
-						<div className="flex justify-center">
-							<h4 className="text-gray-900 font-bold uppercase pb-8">
-								backend projects
-							</h4>
+						<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
+							<div className="flex justify-center">
+								<h4 className="primary-500 font-bold uppercase pb-8">
+									backend projects
+								</h4>
+							</div>
+							<Link href="/contact">
+								<Image
+									className="w-full h-auto rounded-2xl"
+									width={300}
+									height={300}
+									src="/img/mode.png"
+									alt="project picture"
+								/>
+							</Link>
 						</div>
-						<Link href="/contact">
-							<Image
-								className="w-full h-auto rounded-2xl"
-								width={300}
-								height={300}
-								src="/img/mode.png"
-								alt="project picture"
-							/>
-						</Link>
-					</div>
-					<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
-						<div className="flex justify-center">
-							<h4 className="text-gray-900 font-bold uppercase pb-8">
-								team projects
-							</h4>
+						<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
+							<div className="flex justify-center">
+								<h4 className="primary-500 font-bold uppercase pb-8">
+									team projects
+								</h4>
+							</div>
+							<Link href="/contact">
+								<Image
+									className="w-full h-auto rounded-2xl"
+									width={300}
+									height={300}
+									src="/img/glasgowParks.png"
+									alt="project picture"
+								/>
+							</Link>
 						</div>
-						<Link href="/contact">
-							<Image
-								className="w-full h-auto rounded-2xl"
-								width={300}
-								height={300}
-								src="/img/glasgowParks.png"
-								alt="project picture"
-							/>
-						</Link>
 					</div>
 				</div>
 			</div>
