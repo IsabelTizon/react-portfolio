@@ -42,15 +42,15 @@ export default function About() {
 
 			{/* My skills */}
 			<div className="bg-[#303c55] grid-bg">
-				<div className="py-24 px-8 md:px-[1rem] lg:px-[2rem] xl:px-[12rem] 2xl:px-[15rem] xl:py-[5rem] 2xl:py-[8rem]">
+				<div className="py-24 px-[5%]">
 					<div className="flex justify-center">
 						<h2 className="text-light">Technical skills</h2>
 					</div>
 					<div className="flex flex-wrap">
 						{/* first column */}
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8 text-[24px]">
-								frondend developer
+							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8">
+								Languages
 							</h3>
 							<div className="">
 								<ul>
@@ -67,8 +67,8 @@ export default function About() {
 						</div>
 						{/* second column */}
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8 text-[24px]">
-								backend developer
+							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8">
+								Libraries and Frameworks
 							</h3>
 							<div className="">
 								<ul>
@@ -85,10 +85,28 @@ export default function About() {
 						</div>
 						{/* third column */}
 						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8 text-[24px]">
-								Others
+							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8">
+								Tools
 							</h3>
-							<div className="flex justify-center">
+							<div className="">
+								<ul>
+									{myOtherSkills.map((othersSkill) => (
+										<li
+											key={othersSkill.id}
+											className="text-light"
+										>
+											{othersSkill.name}
+										</li>
+									))}
+								</ul>
+							</div>
+						</div>
+						{/* fourth column */}
+						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
+							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8">
+								Concepts
+							</h3>
+							<div className="">
 								<ul>
 									{myOtherSkills.map((othersSkill) => (
 										<li
