@@ -1,4 +1,4 @@
-export const myfrontendSkills = [
+export const languages = [
 	{
 		id: 0,
 		name: "HTML5 and CSS",
@@ -28,7 +28,7 @@ export const myfrontendSkills = [
 		name: "MUI, Tailwind CSS",
 	},
 ];
-export const mybackendSkills = [
+export const frameworks = [
 	{
 		id: 0,
 		name: "PHP",
@@ -38,7 +38,41 @@ export const mybackendSkills = [
 		name: "mySQL",
 	},
 ];
-export const myOtherSkills = [
+export const tools = [
+	{
+		id: 0,
+		name: "UX",
+	},
+	{
+		id: 1,
+		name: "Figma",
+	},
+	{
+		id: 2,
+		name: "Illustrator",
+	},
+	{
+		id: 3,
+		name: "Photoshop",
+	},
+	{
+		id: 4,
+		name: "Project Manager Software",
+	},
+	{
+		id: 5,
+		name: "Jira",
+	},
+	{
+		id: 6,
+		name: "CMS",
+	},
+	{
+		id: 7,
+		name: "GitHub",
+	},
+];
+export const concepts = [
 	{
 		id: 0,
 		name: "UX",

@@ -46,7 +46,9 @@ export default function projects() {
 						.map((projectsItem) => (
 							/** CREAR CARD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!*/
 							<div className="" key={projectsItem.id}>
-								<h3 className="">{projectsItem.name}</h3>
+								<h3 className="text-light">
+									{projectsItem.name}
+								</h3>
 								<div className="flex flex-col md:flex-row">
 									<Image
 										className="h-auto w-full"

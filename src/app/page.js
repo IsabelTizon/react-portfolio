@@ -1,7 +1,8 @@
 import {
-	myfrontendSkills,
-	mybackendSkills,
-	myOtherSkills,
+	languages,
+	frameworks,
+	tools,
+	concepts,
 } from "../components/skills";
 import { myProjects } from "../components/projects";
 
@@ -27,7 +28,7 @@ export default function About() {
 			{/* hero */}
 			<div className="bg-gray-900  w-full pl-[10%] py-[7%] md:pl-[15%]">
 				<h1 className="text-light capitalize">Hi,</h1>
-				<h2 className="text-light capitalize">
+				<h2 className="text-light capitalize mb-4">
 					I&apos;m Isabel
 				</h2>
 				<h4 className="text-light capitalize">
@@ -42,78 +43,80 @@ export default function About() {
 
 			{/* My skills */}
 			<div className="bg-[#303c55] grid-bg">
-				<div className="py-24 px-[5%]">
+				<div className="py-[5%] px-[10%]">
 					<div className="flex justify-center">
-						<h2 className="text-light">Technical skills</h2>
+						<h2 className="text-light underline underline-offset-8">
+							Technical skills
+						</h2>
 					</div>
 					<div className="flex flex-wrap">
 						{/* first column */}
-						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-11/12 md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8">
+						<div className="w-[25%]">
+							<h4 className="primary-400 font-thin tracking-wide uppercase pb-8">
 								Languages
-							</h3>
+							</h4>
 							<div className="">
 								<ul>
-									{myfrontendSkills.map((frontendSkill) => (
+									{languages.map((language) => (
 										<li
-											key={frontendSkill.id}
+											key={language.id}
 											className="text-light"
 										>
-											{frontendSkill.name}
+											{language.name}
 										</li>
 									))}
 								</ul>
 							</div>
 						</div>
 						{/* second column */}
-						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8">
+						<div className="w-[25%]">
+							<h4 className="primary-400 font-thin tracking-wide uppercase pb-8">
 								Libraries and Frameworks
-							</h3>
+							</h4>
 							<div className="">
 								<ul>
-									{mybackendSkills.map((backendSkill) => (
+									{frameworks.map((framework) => (
 										<li
-											key={backendSkill.id}
+											key={framework.id}
 											className="text-light"
 										>
-											{backendSkill.name}
+											{framework.name}
 										</li>
 									))}
 								</ul>
 							</div>
 						</div>
 						{/* third column */}
-						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8">
+						<div className="w-[25%]">
+							<h4 className="primary-400 font-thin tracking-wide uppercase pb-8">
 								Tools
-							</h3>
+							</h4>
 							<div className="">
 								<ul>
-									{myOtherSkills.map((othersSkill) => (
+									{tools.map((tool) => (
 										<li
-											key={othersSkill.id}
+											key={tool.id}
 											className="text-light"
 										>
-											{othersSkill.name}
+											{tool.name}
 										</li>
 									))}
 								</ul>
 							</div>
 						</div>
 						{/* fourth column */}
-						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-full md:w-6/12 lg:w-4/12 xl:w-4/12">
-							<h3 className="primary-400 font-thin tracking-wide uppercase pb-8">
+						<div className="w-[25%]">
+							<h4 className="primary-400 font-thin tracking-wide uppercase pb-8">
 								Concepts
-							</h3>
+							</h4>
 							<div className="">
 								<ul>
-									{myOtherSkills.map((othersSkill) => (
+									{concepts.map((concept) => (
 										<li
-											key={othersSkill.id}
+											key={concept.id}
 											className="text-light"
 										>
-											{othersSkill.name}
+											{concept.name}
 										</li>
 									))}
 								</ul>
@@ -124,12 +127,12 @@ export default function About() {
 			</div>
 
 			{/* About me */}
-			<div className="">
-				<div className="flex flex-col justify-center py-24">
-					<h2 className="">about me</h2>
-					<div className="flex flex-wrap">
-						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-full md:w-2/4 lg:w-2/4 xl:w-2/4 ">
-							<p className="pb-8">
+			<div className="w-[95%] m-auto my-24">
+				<div className="flex flex-wrap">
+					<div className="w-[50%]">
+						<h2 className="capitalize">about me</h2>
+						<div className="">
+							<p className="pb-4">
 								I am a Web Development student in my second
 								year, with graduation in June 2023. During
 								these two years at the City of Glasgow
@@ -137,39 +140,39 @@ export default function About() {
 								free time, I have learned a lot about web
 								development.
 							</p>
-							<p className="pb-8">
+							<p className="pb-4">
 								For this reason, my intention now is to find
 								an internship and use my knowledge and
 								skills I have developed.
 							</p>
-							<p className="pb-8">
+							<p className="pb-4">
 								I consider myself to be a very hard-working
 								person, a great team player and I always try
 								to work on my own initiative to overcome any
 								obstacles.
 							</p>
-							<p className="pb-8">
+							<p className="pb-4">
 								Fluency in both English and Spanish.
 							</p>
 						</div>
-						<div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-full md:w-2/4 lg:w-2/4 xl:w-2/4">
-							<Image
-								className="h-150 w-full object-containd pb-10 px-10"
-								width={200}
-								height={150}
-								src="/img/profile-photo.png"
-								alt="Picture of the author"
-							/>
-						</div>
+					</div>
+					<div className="w-[50%]">
+						<Image
+							className="h-50 w-[65%] m-auto object-containd"
+							width={200}
+							height={150}
+							src="/img/profile-photo.png"
+							alt="Picture of the author"
+						/>
 					</div>
 				</div>
 			</div>
 
 			{/* My latest Work */}
 			<div className="bg-[#ecf2f9]">
-				<div className="">
-					<h2 className="">my latest work</h2>
-					<p className="pb-40">
+				<div className="w-[95%] m-auto py-16">
+					<h2 className="capitalize">my latest work</h2>
+					<p className="">
 						Lorem Ipsum is simply dummy text of the printing
 						and typesetting industry. Lorem Ipsum has been
 						the Lorem Ipsum is simply dummy text of the
@@ -177,6 +180,8 @@ export default function About() {
 						has been the industrys standard dummy text ever
 						since the 1500s, when an unknown printer took a
 					</p>
+				</div>
+				<div>
 					<div className="flex flex-wrap gap-7">
 						{/* */}
 
