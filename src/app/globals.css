@@ -101,19 +101,19 @@ body {
 		font-size: 4.5rem;
 	}
 	h2 {
-		font-size: 3.5rem;
+		font-size: 3.1rem;
 	}
 	h3 {
-		font-size: 2.5rem;
-	}
-	h4 {
-		font-size: 1.8rem;
-	}
-	h5 {
 		font-size: 1.6rem;
 	}
-	h6 {
+	h4 {
 		font-size: 1.4rem;
+	}
+	h5 {
+		font-size: 1.3rem;
+	}
+	h6 {
+		font-size: 1.2rem;
 	}
 	p {
 		font-size: 1.1rem;
@@ -233,34 +233,3 @@ button.purple:hover {
 		background-size: 20px 20px;
 	}
 }
-
-/* .input-form2 {
-	@apply font-light border border-grey p-2 w-full;
-}
-.label-form2 {
-	@apply font-extralight mb-2 text-black text-xl;
-} */
-
-/* 
-:root {
-	--foreground-rgb: 0, 0, 0;
-	--background-start-rgb: 214, 219, 220;
-	--background-end-rgb: 255, 255, 255;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
