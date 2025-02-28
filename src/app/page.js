@@ -23,6 +23,7 @@ export default function About() {
 			{/** xl-[] LAPTOP => min-width: 1280px */}
 			{/** 2xl-[] SCREEN => min-width: 1536px */}
 			{/** w-full  md:w-1/3 lg:text-[] xl:text-[] 2xl:text-[] */}
+
 			{/* hero */}
 			<div className="bg-[#111827] w-full pl-[10%] py-[7%] md:pl-[15%]">
 				<h1 className="text-light capitalize">Hi,</h1>
@@ -167,8 +168,8 @@ export default function About() {
 			</div>
 			{/* My latest Work */}
 			<div className="bg-[#111827]">
-				<div className="w-[95%] m-auto py-16">
-					<div className="flex justify-center">
+				<div className="w-[95%] m-auto">
+					<div className="flex justify-center py-16">
 						<h2 className="secundary-300">
 							My latest work
 						</h2>
@@ -207,7 +208,7 @@ export default function About() {
 			</div>
 			{/* Project's sections */}
 			<div className="bg-[#111827]">
-				<div className="w-[70%] m-auto">
+				<div className="w-[70%] m-auto py-16">
 					<div className="flex justify-center">
 						<h2 className="secundary-300">
 							Different areas of work
