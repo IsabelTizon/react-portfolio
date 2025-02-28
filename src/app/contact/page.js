@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Hero from "../../components/Hero";
 
 import { BsLinkedin } from "react-icons/bs";
 import { FaPhoneSquareAlt } from "react-icons/fa";
@@ -18,11 +19,8 @@ const contact = () => {
 	return (
 		<main className="mt-[80px]">
 			{/* Hero */}
-			<div className="bg-[#111827] grid-bg w-full p-10">
-				<div className="flex justify-center">
-					<h1 className="text-light capitalize">contact</h1>
-				</div>
-			</div>
+			<Hero title="Contact" />
+
 			{/* Get in contact (Links & Form) */}
 			<div className="bg-[#111827]">
 				<div className="">

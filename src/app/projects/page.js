@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { myProjects } from "../../components/projects";
+import Hero from "../../components/Hero";
 
 // React icons
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -16,13 +17,8 @@ export default function projects() {
 
 	return (
 		<main className="mt-[80px]">
-			<div className="bg-[#111827] grid-bg w-full p-10">
-				<div className="flex justify-center">
-					<h1 className="text-light capitalize">
-						my projects
-					</h1>
-				</div>
-			</div>
+			<Hero title="My Projects" />
+
 			<div className="bg-[#111827]">
 				<div className="flex justify-center">
 					<h2 className="text-light capitalize p-10">
