@@ -158,7 +158,7 @@ button.purple-full {
 	color: #f0f0f5;
 	background-color: #9966ff;
 	border: 1px solid #9966ff;
-	padding: 0.7rem 2.5rem;
+	padding: 0.6rem 1.5rem;
 	border-radius: 9999px; /* rounded-full */
 	letter-spacing: 0.1rem;
 	transition: all 0.3s ease-in-out;
@@ -168,11 +168,11 @@ button.purple-full:hover {
 	transform: scale(0.95); /* Se reduce el tamaño al 95% */
 }
 button.purple {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: #9966ff;
 	border: 1px solid #9966ff;
 	background: transparent;
-	padding: 0.7rem 2.5rem;
+	padding: 0.6rem 1.5rem;
 	text-transform: uppercase;
 	border-radius: 999px; /* Esto hará que sea completamente ovalado */
 	letter-spacing: 1px;
