@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { myProjects } from "../../../components/projects";
+import { myProjects } from "../../data/projects";
 
 // Reat Icons
 import { MdOutlineWatchLater } from "react-icons/md";

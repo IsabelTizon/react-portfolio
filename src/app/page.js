@@ -3,8 +3,8 @@ import {
 	frameworks,
 	tools,
 	concepts,
-} from "../components/skills";
-import { myProjects } from "../components/projects";
+} from "./data/skills";
+import { myProjects } from "./data/projects";
 
 import Image from "next/image";
 import Link from "next/link";
