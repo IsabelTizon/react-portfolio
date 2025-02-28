@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { myProjects } from "../app/data/projects";
+import { myProjects } from "../../app/data/projects";
 
 // React icons
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";

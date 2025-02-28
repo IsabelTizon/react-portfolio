@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Hero from "../../components/Hero";
+import Hero from "../../components/global/Hero";
 
 import { BsLinkedin } from "react-icons/bs";
 import { FaPhoneSquareAlt } from "react-icons/fa";
@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 
 import { FaSquareGithub } from "react-icons/fa6";
 
-import { ContactForm } from "../../components/ContactForm";
+import { ContactForm } from "../../components/global/ContactForm";
 
 export const metadata = {
 	title: "contact",

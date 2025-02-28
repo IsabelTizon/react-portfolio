@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { myProjects } from "../data/projects";
-import Hero from "../../components/Hero";
+import Hero from "../../components/global/Hero";
 
 // React icons
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
