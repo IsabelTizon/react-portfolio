@@ -43,7 +43,7 @@ export const ContactForm = () => {
 	};
 
 	return (
-		<form onSubmit={handleSubmit} className="">
+		<form onSubmit={handleSubmit} className="w-full">
 			{/* Name */}
 			<div className="flex flex-col">
 				<label className="label-form" htmlFor="name">
@@ -60,9 +60,7 @@ export const ContactForm = () => {
 					minLength={3}
 					maxLength={30}
 				/>
-			</div>
-			{/* Email */}
-			<div className="flex flex-col">
+
 				<label className="label-form" htmlFor="email">
 					Email
 				</label>
@@ -77,9 +75,7 @@ export const ContactForm = () => {
 					minLength={3}
 					maxLength={30}
 				/>
-			</div>
-			{/* Message */}
-			<div className="">
+
 				<label className="label-form" htmlFor="message">
 					Message
 				</label>
