@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export const DifferentAreasOfExpertise = () => {
 	return (
-		<div className="bg-[#111827]">
+		<div className="bg-[#373b57] py-11">
 			{/* title */}
 			<div className="w-[70%] m-auto py-16">
 				<div className="flex justify-center">
-					<h2 className="secundary-300">
+					<h2 className="secundary-200">
 						Different areas of expertise
 					</h2>
 				</div>

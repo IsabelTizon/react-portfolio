@@ -4,21 +4,11 @@ import Link from "next/link";
 
 export const MyLatestWork = () => {
 	return (
-		<div className="bg-[#111827]">
-			<div className="w-[95%] m-auto">
-				<div className="flex justify-center py-16">
-					<h2 className="secundary-300">My latest work</h2>
-				</div>
-
-				<p className="text-light">
-					Lorem Ipsum is simply dummy text of the printing
-					and typesetting industry. Lorem Ipsum has been the
-					Lorem Ipsum is simply dummy text of the printing
-					and typesetting industry. Lorem Ipsum has been the
-					industrys standard dummy text ever since the
-					1500s, when an unknown printer took a
-				</p>
+		<div className="bg-[#111827]  py-16">
+			<div className="flex justify-center py-16">
+				<h2 className="secundary-200">My latest work</h2>
 			</div>
+
 			<div>
 				<div className="flex flex-wrap gap-7">
 					{/* */}
