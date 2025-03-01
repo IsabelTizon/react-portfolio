@@ -1,3 +1,4 @@
+/* DATA */
 import Skills from "@/components/home/skills";
 import {
 	languages,
@@ -5,10 +6,15 @@ import {
 	tools,
 	concepts,
 } from "./data/skills";
-import { myProjects } from "./data/projects";
-import Image from "next/image";
-import Link from "next/link";
 
+/** COMPONENTS */
+import Link from "next/link";
+import { AboutMe } from "@/components/home/AboutMe";
+import { MyLatestWork } from "@/components/home/MyLatestWork";
+import { DifferentAreasOfExpertise } from "@/components/home/DifferentAreasOfExpertise";
+import { OpenToWork } from "@/components/home/OpenToWork";
+
+/** METADATA */
 export const metadata = {
 	title: "About",
 	description: "information about myself",
@@ -17,14 +23,7 @@ export const metadata = {
 export default function About() {
 	return (
 		<main className="mt-[80px]">
-			{/** -[]  PHONE => min-width: 360px */}
-			{/** md-[]  TABLET => min-width: 768px */}
-			{/** lg-[]  LANDSCAPE => min-width: 1024px */}
-			{/** xl-[] LAPTOP => min-width: 1280px */}
-			{/** 2xl-[] SCREEN => min-width: 1536px */}
-			{/** w-full  md:w-1/3 lg:text-[] xl:text-[] 2xl:text-[] */}
-
-			{/* hero */}
+			{/* Hero */}
 			<div className="bg-[#111827] w-full pl-[10%] py-[7%] md:pl-[15%]">
 				<h1 className="text-light capitalize">Hi,</h1>
 				<h2 className="text-light capitalize mb-4">
@@ -39,180 +38,13 @@ export default function About() {
 					</button>
 				</Link>
 			</div>
-			{/* My skills */}
 			<Skills
 				skills={{ languages, frameworks, tools, concepts }}
 			/>
-			{/* About me */}
-			<div className="bg-[#111827]">
-				<div className="w-[95%] m-auto">
-					<div className="flex flex-wrap">
-						<div className="w-[50%] py-16">
-							<h2 className="secundary-300">About me</h2>
-							<div className="">
-								<p className="pb-4 text-light">
-									I am a Web Development student in my
-									second year, with graduation in June 2023.
-									During these two years at the City of
-									Glasgow College, as well as also
-									self-studying in my free time, I have
-									learned a lot about web development.
-								</p>
-								<p className="pb-4 text-light">
-									For this reason, my intention now is to
-									find an internship and use my knowledge
-									and skills I have developed.
-								</p>
-								<p className="pb-4 text-light">
-									I consider myself to be a very
-									hard-working person, a great team player
-									and I always try to work on my own
-									initiative to overcome any obstacles.
-								</p>
-								<p className="pb-4 text-light">
-									Fluency in both English and Spanish.
-								</p>
-							</div>
-						</div>
-						<div className="w-[50%] py-16">
-							<Image
-								className="h-50 w-[65%] m-auto object-containd"
-								width={200}
-								height={150}
-								src="/img/profile-photo.png"
-								alt="Picture of the author"
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
-			{/* My latest Work */}
-			<div className="bg-[#111827]">
-				<div className="w-[95%] m-auto">
-					<div className="flex justify-center py-16">
-						<h2 className="secundary-300">
-							My latest work
-						</h2>
-					</div>
-
-					<p className="text-light">
-						Lorem Ipsum is simply dummy text of the printing
-						and typesetting industry. Lorem Ipsum has been
-						the Lorem Ipsum is simply dummy text of the
-						printing and typesetting industry. Lorem Ipsum
-						has been the industrys standard dummy text ever
-						since the 1500s, when an unknown printer took a
-					</p>
-				</div>
-				<div>
-					<div className="flex flex-wrap gap-7">
-						{/* */}
-
-						{myProjects.slice(-6).map((projectsItem) => (
-							<Link
-								key={projectsItem.id}
-								href={`/projects/${projectsItem.id}`}
-								className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] bg-gray-900"
-							>
-								<Image
-									className="h-150 w-full object-containd"
-									width={300}
-									height={300}
-									src={projectsItem.pic}
-									alt="project picture"
-								/>
-							</Link>
-						))}
-					</div>
-				</div>
-			</div>
-			{/* Project's sections */}
-			<div className="bg-[#111827]">
-				<div className="w-[70%] m-auto py-16">
-					<div className="flex justify-center">
-						<h2 className="secundary-300">
-							Different areas of work
-						</h2>
-					</div>
-				</div>
-				<div>
-					<div className="flex flex-wrap gap-4">
-						<div className="w-full md:w-[30%]">
-							<div className="flex justify-center">
-								<h4 className="primary-500 font-bold uppercase pb-8">
-									frontend projects
-								</h4>
-							</div>
-							<Link href="/contact">
-								<Image
-									className="w-full h-auto rounded-2xl"
-									width={300}
-									height={300}
-									src="/img/getMedia.png"
-									alt="project picture"
-								/>
-							</Link>
-						</div>
-						<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
-							<div className="flex justify-center">
-								<h4 className="primary-500 font-bold uppercase pb-8">
-									backend projects
-								</h4>
-							</div>
-							<Link href="/contact">
-								<Image
-									className="w-full h-auto rounded-2xl"
-									width={300}
-									height={300}
-									src="/img/mode.png"
-									alt="project picture"
-								/>
-							</Link>
-						</div>
-						<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
-							<div className="flex justify-center">
-								<h4 className="primary-500 font-bold uppercase pb-8">
-									team projects
-								</h4>
-							</div>
-							<Link href="/contact">
-								<Image
-									className="w-full h-auto rounded-2xl"
-									width={300}
-									height={300}
-									src="/img/glasgowParks.png"
-									alt="project picture"
-								/>
-							</Link>
-						</div>
-					</div>
-				</div>
-			</div>
-			{/* Are You Ready To Start New Project With Me? */}
-			<div className="bg-gray-800">
-				<div className="flex justify-center mx-[40px] md:mx-[150px] lg:mx-[300px]  xl:mx-[250px] 2xl:mx-[400px]">
-					<div className="mx-full py-24">
-						<div className="flex justify-center">
-							<h2 className="text-light text-center">
-								Open to work
-							</h2>
-						</div>
-
-						<p className="text-white pb-8 text-center">
-							Passionate about coding and web design, always
-							striving to grow and take on new challenges
-						</p>
-
-						<div className="flex justify-center">
-							<Link href="/contact">
-								<button className="text-black uppercase purple purple:hover rounded-md">
-									contact me
-								</button>
-							</Link>
-						</div>
-					</div>
-				</div>
-			</div>
+			<AboutMe />
+			<MyLatestWork />
+			<DifferentAreasOfExpertise />
+			<OpenToWork />
 		</main>
 	);
 }
