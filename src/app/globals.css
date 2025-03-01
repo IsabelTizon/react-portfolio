@@ -155,12 +155,13 @@ body {
 }
 
 button.purple-full {
+	font-size: 1rem;
 	color: #f0f0f5;
 	background-color: #9966ff;
 	border: 1px solid #9966ff;
 	padding: 0.6rem 1.5rem;
-	border-radius: 9999px; /* rounded-full */
-	letter-spacing: 0.1rem;
+	border-radius: 999px; /* rounded-full */
+	letter-spacing: 1px;
 	transition: all 0.3s ease-in-out;
 }
 
