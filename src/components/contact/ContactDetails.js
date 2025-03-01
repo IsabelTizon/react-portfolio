@@ -12,9 +12,9 @@ export const ContactDetails = () => {
 	return (
 		<div className="flex flex-col">
 			<div>
-				<h3 className="capitalize text-light font-bold">
+				<h2 className="capitalize text-light font-bold my-11">
 					get in touch
-				</h3>
+				</h2>
 				<p className="text-light">
 					If you liked my portfolio and are interested in
 					working with me, feel free to reach out to me
@@ -22,9 +22,9 @@ export const ContactDetails = () => {
 				</p>
 			</div>
 
-			<div className="flex flex-col">
+			<div className="flex flex-col mt-11">
 				{/* Linkedin & Github */}
-				<div className="flex flex-row">
+				<div className="flex flex-row pb-2">
 					<div className="flex-1">
 						<div className="flex flex-row">
 							<BsLinkedin size={30} color="#9966ff" />
@@ -43,7 +43,7 @@ export const ContactDetails = () => {
 					</div>
 				</div>
 				{/* phones*/}
-				<div className="flex flex-row">
+				<div className="flex flex-row pb-2">
 					<div className="flex-1">
 						<div className="flex flex-row">
 							<FaPhoneSquareAlt size={30} color="#9966ff" />

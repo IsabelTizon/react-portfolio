@@ -15,7 +15,7 @@ const contact = () => {
 
 			{/* Get in contact (Links & Form) */}
 			<div className="bg-[#111827]">
-				<div className="flex flex-col lg:flex-row">
+				<div className="flex flex-col lg:flex-row w-[90%] m-auto py-11 gap-11">
 					<ContactDetails />
 					<ContactForm />
 				</div>

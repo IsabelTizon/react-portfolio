@@ -90,7 +90,7 @@ export const ContactForm = () => {
 					maxLength={500}
 				/>
 			</div>
-			<button className="purple" type="submit">
+			<button className="purple my-6" type="submit">
 				Send message
 			</button>
 		</form>
