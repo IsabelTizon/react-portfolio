@@ -39,7 +39,7 @@ const ProjectCard = ({ project }) => {
 						</div>
 					</Link>
 					{/* Botones */}
-					<div className="flex flex-row gap-8">
+					<div className="flex flex-col md:flex-row gap-8">
 						<Link target="_blank" href={project.url}>
 							<button className="purple">
 								visit the site
