@@ -15,6 +15,4 @@ module.exports = {
 			},
 		},
 	},
-	//tailwindcss/line-clamp: to cut paragraphs
-	plugins: [require("@tailwindcss/line-clamp")],
 };
