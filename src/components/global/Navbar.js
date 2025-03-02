@@ -12,11 +12,11 @@ function Navbar() {
 		setIcon(!menuIcon);
 	};
 	return (
-		<header className="bg-[#111827] text-[#eee6ff] w-full ease-in duration-300 fixed top-0 left-0 px-[7rem] z-10">
+		<header className="bg-[#111827] text-[#eee6ff] w-full ease-in duration-300 fixed top-0 left-0 px-[4rem] lg:px-[7rem] z-10">
 			<nav className="w-full h-[80px] flex justify-between items-center">
 				<div>
 					<Link
-						className="tracking-wider uppercase font-extrabold text-[#F0F0F5] hover:text-[#9966ff]"
+						className="tracking-wider uppercase font-extrabold text-[#F0F0F5] hover:text-[#9966ff] text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl"
 						href="/"
 					>
 						Isabel Arranz
@@ -74,12 +74,6 @@ function Navbar() {
 								className="py-5 hover:text-[#381638] cursor-pointer"
 							>
 								<Link href="/projects">projects</Link>
-							</li>
-							<li
-								onClick={handleSmallerScreensNavigation}
-								className="py-5 hover:text-[#381638] cursor-pointer"
-							>
-								<Link href="/contact">contact</Link>
 							</li>
 							<li
 								onClick={handleSmallerScreensNavigation}

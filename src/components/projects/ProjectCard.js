@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
 				</div>
 				{/* Contenido (Derecha) */}
 				<div className="w-full md:w-1/2 flex flex-col">
-					<p className="text-light line-clamp-5 mb-[1rem]">
+					<p className="text-light line-clamp-3 mb-[1rem]">
 						{project.description}
 					</p>
 					{/* Enlace "Read More" */}

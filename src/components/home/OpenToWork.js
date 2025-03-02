@@ -9,14 +9,14 @@ import { FaSquareGithub } from "react-icons/fa6";
 export const OpenToWork = () => {
 	return (
 		<div className="bg-gray-800">
-			<div className="w-[90%] md:w-[80%] m-auto py-8">
+			<div className="w-[90%] md:w-[80%] m-auto py-16">
 				<div className="flex flex-col md:flex-row">
 					<div className="flex-1 flex-row md:flex-col">
 						<h2 className="text-light text-center">
 							Open to work
 						</h2>
 						<h4 className="text-light text-center">
-							Contact me on
+							Contact me on...
 						</h4>
 					</div>
 

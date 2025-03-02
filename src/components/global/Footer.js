@@ -75,7 +75,7 @@ const Footer = () => {
 					</div>
 				</div>
 				{/** Recent works Column */}
-				<div className="flex-1">
+				<div className="flex-[2]">
 					<h6 className="text-white capitalize mb-10">
 						recent works
 					</h6>

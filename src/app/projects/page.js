@@ -16,13 +16,13 @@ export default function projects() {
 			<Hero title="My Projects" />
 
 			<div className="bg-[#111827]">
-				<div className=" w-[80%] m-auto">
+				<div className="w-[90%] md:w-[80%] m-auto">
 					<div className="flex justify-center">
-						<h2 className="text-light capitalize p-10">
+						<h2 className="w-[75%] md:w-[80%] text-light p-10">
 							You&apos;re welcome to take a look!
 						</h2>
 					</div>
-					<div className="flex justify-center">
+					<div className="">
 						<p className="text-light">
 							This portfolio showcases my learning process
 							throughout my career. You can see my progress
