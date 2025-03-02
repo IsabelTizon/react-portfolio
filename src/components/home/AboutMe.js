@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export const AboutMe = () => {
 	return (
-		<div className="bg-[#111827]">
+		<div className="bg-[#111827] py-20">
 			<div className="w-[95%] lg:w-[80%] m-auto">
 				<div className="flex flex-wrap">
-					<div className="w-full md:w-1/2 py-16">
+					<div className="w-full md:w-1/2">
 						<h2 className="secundary-300 mb-2">About me</h2>
 
 						<p className="pb-4 text-light">
@@ -32,7 +32,7 @@ export const AboutMe = () => {
 						</p>
 					</div>
 
-					<div className="w-full md:w-1/2 py-16">
+					<div className="w-full md:w-1/2">
 						<Image
 							className="h-50 w-[75%] m-auto object-containd"
 							width={200}

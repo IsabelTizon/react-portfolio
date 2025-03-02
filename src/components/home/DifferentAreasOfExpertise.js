@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const DifferentAreasOfExpertise = () => {
 	return (
-		<div className="bg-[#373b57] py-11">
+		<div className="bg-[#373b57] py-20">
 			{/* title */}
-			<div className="w-[95%] md:w-[70%] m-auto py-16">
+			<div className="w-[95%] md:w-[70%] m-auto pb-10">
 				<div className="flex justify-center">
 					<h2 className="secundary-200">
 						Different areas of expertise
@@ -16,7 +16,7 @@ export const DifferentAreasOfExpertise = () => {
 				<div className="flex flex-wrap gap-4">
 					<div className="w-full md:w-[30%]">
 						<div className="flex justify-center">
-							<h4 className="primary-500 font-bold uppercase pb-8">
+							<h4 className="primary-500 uppercase pb-8">
 								frontend projects
 							</h4>
 						</div>
@@ -32,7 +32,7 @@ export const DifferentAreasOfExpertise = () => {
 					</div>
 					<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
 						<div className="flex justify-center">
-							<h4 className="primary-500 font-bold uppercase pb-8">
+							<h4 className="primary-500 uppercase pb-8">
 								backend projects
 							</h4>
 						</div>
@@ -48,7 +48,7 @@ export const DifferentAreasOfExpertise = () => {
 					</div>
 					<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
 						<div className="flex justify-center">
-							<h4 className="primary-500 font-bold uppercase pb-8">
+							<h4 className="primary-500 uppercase pb-8">
 								team projects
 							</h4>
 						</div>

@@ -4,13 +4,13 @@ import Link from "next/link";
 
 export const MyLatestWork = () => {
 	return (
-		<div className="bg-[#111827]  py-16">
-			<div className="flex justify-center py-16">
+		<div className="bg-[#111827] py-20">
+			<div className="flex justify-center pb-10">
 				<h2 className="secundary-200">My latest work</h2>
 			</div>
 
 			<div>
-				<div className="flex flex-wrap gap-7">
+				<div className="flex flex-wrap gap-4">
 					{/* */}
 
 					{myProjects.slice(-6).map((projectsItem) => (
