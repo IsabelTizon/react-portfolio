@@ -20,13 +20,6 @@ const contact = () => {
 					<ContactForm />
 				</div>
 			</div>
-
-			{/* API Map */}
-			<div className="bg-[#bdddf8] w-full">
-				<div className="flex justify-center">
-					<h1 className="yellow-letters capitalize">API</h1>
-				</div>
-			</div>
 		</main>
 	);
 };
