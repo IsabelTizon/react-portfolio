@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import { myProjects } from "../../data/projects";
+import Hero from "@/components/global/Hero";
 
 // Reat Icons
-import { MdOutlineWatchLater } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -16,17 +16,8 @@ export default function projectDetails({ params }) {
 
 	return (
 		<main className="mt-[80px]">
-			<div className="bg-[#111827] grid-bg w-full p-10">
-				<div className="flex justify-center">
-					<h1
-						className="text-light capitalize"
-						key={myProject.id}
-					>
-						{myProject.name}
-					</h1>
-				</div>
-			</div>
-			<div className="bg-[#111827]">
+			<Hero key={myProject.id} title={myProject.name} />
+			<div className="bg-[#111827] py-32">
 				<div className="w-[60%] mx-auto">
 					<Image
 						className="h-auto w-[100%] object-containd rounded-t-2xl py-10"
