@@ -30,7 +30,7 @@ const Skills = ({ skills }) => {
 						{/* second column */}
 						<div className="w-full md:w-1/2 lg:w-1/4">
 							<h4 className="primary-400 font-thin tracking-wide uppercase pb-8">
-								Libraries and Frameworks
+								Frameworks
 							</h4>
 							<div className="">
 								<ul>

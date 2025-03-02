@@ -9,100 +9,76 @@ export const languages = [
 	},
 	{
 		id: 2,
-		name: "jQuery",
-	},
-	{
-		id: 3,
-		name: "Bootstrap",
-	},
-	{
-		id: 4,
-		name: "AngularJs",
-	},
-	{
-		id: 5,
 		name: "React",
 	},
 	{
-		id: 6,
-		name: "MUI, Tailwind CSS",
+		id: 3,
+		name: "Node.js",
+	},
+	{
+		id: 4,
+		name: "PHP and MySQL",
 	},
 ];
 export const frameworks = [
 	{
 		id: 0,
-		name: "PHP",
+		name: "Next.js",
 	},
 	{
 		id: 1,
-		name: "mySQL",
+		name: "Tailwind",
+	},
+	{
+		id: 2,
+		name: "Styled Components",
+	},
+	{
+		id: 3,
+		name: "MUI",
+	},
+	{
+		id: 4,
+		name: "Bootstrap",
 	},
 ];
 export const tools = [
 	{
 		id: 0,
-		name: "UX",
+		name: "Github and Git",
 	},
 	{
 		id: 1,
-		name: "Figma",
+		name: "Visual Studio Code",
 	},
 	{
 		id: 2,
-		name: "Illustrator",
+		name: "API RESTful",
 	},
 	{
 		id: 3,
-		name: "Photoshop",
+		name: "Figma",
 	},
 	{
 		id: 4,
-		name: "Project Manager Software",
+		name: "WordPress, Elementor",
 	},
 	{
 		id: 5,
-		name: "Jira",
-	},
-	{
-		id: 6,
-		name: "CMS",
-	},
-	{
-		id: 7,
-		name: "GitHub",
+		name: "Trello, Gantt Project",
 	},
 ];
 export const concepts = [
 	{
 		id: 0,
-		name: "UX",
+		name: "Responsive web design",
 	},
 	{
 		id: 1,
-		name: "Figma",
+		name: "UX, UI",
 	},
 	{
 		id: 2,
-		name: "Illustrator",
-	},
-	{
-		id: 3,
-		name: "Photoshop",
-	},
-	{
-		id: 4,
-		name: "Project Manager Software",
-	},
-	{
-		id: 5,
-		name: "Jira",
-	},
-	{
-		id: 6,
-		name: "CMS",
-	},
-	{
-		id: 7,
-		name: "GitHub",
+		name: "Agile methodologies",
 	},
 ];
