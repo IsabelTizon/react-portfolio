@@ -28,17 +28,7 @@ function Navbar() {
 					<li className="hover:text-[#9966ff] tracking-wider">
 						<Link href="/projects">projects</Link>
 					</li>
-					<li className="hover:text-[#9966ff]  tracking-wider">
-						<Link href="/contact">contact</Link>
-					</li>
-					{/* <li className="text-[#9966ff] hover:text-[#F0F0F5] border-[1px] border-[#9966ff] px-20 py-12 rounded-full hover:bg-[#111827] transition-all  tracking-wider">
-						<Link
-							target="_blank"
-							href="https://github.com/IsabelTizon"
-						>
-							Github
-						</Link>
-					</li> */}
+
 					<li>
 						<Link
 							target="_blank"

@@ -3,10 +3,11 @@ import Image from "next/image";
 import { myProjects } from "../../app/data/projects";
 
 // React icons
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import { FaSquareGithub } from "react-icons/fa6";
 
 const Footer = () => {
 	console.log("myProjects", myProjects);
@@ -24,53 +25,19 @@ const Footer = () => {
 				<div className="flex flex-row">
 					<FaLinkedin
 						size={30}
-						color="#b38f00"
-						className="mr-10"
+						color="#9966ff"
+						className="mr-4"
 					/>
+					<div className="flex flex-row">
+						<FaSquareGithub
+							size={30}
+							color="#9966ff"
+							className="mr-4"
+						/>
+					</div>
 				</div>
 			</div>
-			{/** Menu */}
-			<div className="flex-1">
-				<h6 className="text-white capitalize mb-10">
-					Menu
-				</h6>
-				<div className="flex flex-col">
-					<Link className="text-white" href="/projects">
-						<div className="flex flex-row">
-							<MdOutlineKeyboardArrowRight
-								size={30}
-								color="#b38f00"
-								fontSize="2rem"
-							/>
-							<small className="capitalize">projects</small>
-						</div>
-					</Link>
-					<Link className="text-white" href="/contact">
-						<div className="flex flex-row">
-							<MdOutlineKeyboardArrowRight
-								size={30}
-								color="#b38f00"
-								fontSize="2rem"
-							/>
-							<small className="capitalize">contact</small>
-						</div>
-					</Link>
-					<Link
-						className="text-[#b38f00]"
-						target="_blank"
-						href="https://github.com/IsabelTizon"
-					>
-						<div className="flex flex-row">
-							<MdOutlineKeyboardArrowRight
-								size={30}
-								color="#b38f00"
-								fontSize="2rem"
-							/>
-							<small className="capitalize">Github</small>
-						</div>
-					</Link>
-				</div>
-			</div>
+
 			{/** Contact Column */}
 			<div className="flex-1">
 				<h6 className="text-white mb-10">Contact</h6>

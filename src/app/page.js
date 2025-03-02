@@ -1,5 +1,5 @@
 /* DATA */
-import Skills from "@/components/home/skills";
+import Skills from "@/components/home/Skills";
 import {
 	languages,
 	frameworks,
