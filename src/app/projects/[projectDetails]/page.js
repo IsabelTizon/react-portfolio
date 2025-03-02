@@ -17,8 +17,8 @@ export default function projectDetails({ params }) {
 	return (
 		<main className="mt-[80px]">
 			<Hero key={myProject.id} title={myProject.name} />
-			<div className="bg-[#111827] py-32">
-				<div className="w-[60%] mx-auto">
+			<div className="bg-[#111827] py-8">
+				<div className="w-[90%] md:w-[60%] m-auto">
 					<Image
 						className="h-auto w-[100%] object-containd rounded-t-2xl py-10"
 						width={400}
