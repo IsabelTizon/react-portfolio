@@ -7,9 +7,9 @@ import {
 } from "react-icons/ai";
 
 function Navbar() {
-	const [menuIcon, setIcon] = useState(false);
+	const [isOpen, setIsOpen] = useState(false);
 	const handleSmallerScreensNavigation = () => {
-		setIcon(!menuIcon);
+		setIsOpen(!isOpen);
 	};
 	return (
 		<header className="bg-[#111827] text-[#eee6ff] w-full ease-in duration-300 fixed top-0 left-0 px-[2rem] lg:px-[7rem] z-10">
@@ -18,6 +18,7 @@ function Navbar() {
 					<Link
 						className="tracking-wider uppercase font-extrabold text-[#F0F0F5] hover:text-[#9966ff] text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl"
 						href="/"
+						onClick={() => setIsOpen(false)}
 					>
 						Isabel Arranz
 					</Link>
@@ -46,7 +47,7 @@ function Navbar() {
 					onClick={handleSmallerScreensNavigation}
 					className="flex md:hidden"
 				>
-					{menuIcon ? (
+					{isOpen ? (
 						<AiOutlineClose
 							size={25}
 							className="text-[#CEFF00]"
@@ -62,7 +63,7 @@ function Navbar() {
 				{/*smaller screens */}
 				<div
 					className={
-						menuIcon
+						isOpen
 							? "md-hidden absolute top-[80px] right-0 bottom-0 left-0 flex justify-center w-full h-screen bg-slate-800 text-center text-white ease-in duration-300"
 							: "md-hidden absolute top-[80px] right-0 left-[100%] flex justify-center items-center w-full h-screen bg-slate-800 text-center text-white ease-in duration-300"
 					}
