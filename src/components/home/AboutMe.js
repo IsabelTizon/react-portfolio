@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const AboutMe = () => {
 	return (
-		<div className="bg-[#111827] py-20">
+		<div className="bg-[#111827] py-10 lg:py-20">
 			<div className="w-[95%] lg:w-[80%] m-auto">
 				<div className="flex flex-wrap">
 					<div className="w-full md:w-1/2">

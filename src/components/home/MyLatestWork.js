@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const MyLatestWork = () => {
 	return (
-		<div className="bg-[#111827] py-20">
+		<div className="bg-[#111827] py-10 lg:py-20">
 			<div className="flex justify-center pb-10">
 				<h2 className="secundary-200">My latest work</h2>
 			</div>
