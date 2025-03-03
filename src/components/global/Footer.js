@@ -27,18 +27,30 @@ const Footer = () => {
 						Junior Web developer
 					</p>
 					<div className="flex flex-row">
-						<FaLinkedin
-							size={30}
-							color="#9966ff"
-							className="mr-4"
-						/>
-						<div className="flex flex-row">
+						<a
+							href="https://www.linkedin.com/in/isabel-tizon-arranz-807523197/"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="flex flex-row hover:text-[#7a33ff] transition-colors duration-300"
+						>
+							<FaLinkedin
+								size={30}
+								color="#9966ff"
+								className="mr-4"
+							/>
+						</a>
+						<a
+							href="https://github.com/IsabelTizon"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="flex flex-row hover:text-[#7a33ff] transition-colors duration-300"
+						>
 							<FaSquareGithub
 								size={30}
 								color="#9966ff"
 								className="mr-4"
 							/>
-						</div>
+						</a>
 					</div>
 				</div>
 
