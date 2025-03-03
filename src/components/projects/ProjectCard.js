@@ -28,7 +28,7 @@ const ProjectCard = ({ project }) => {
 						href={`/projects/${project.id}`}
 					>
 						<div className="flex flex-row">
-							<p className="primary-500 uppercase mb-[2rem] hover:text-[#000000]">
+							<p className="primary-500 uppercase mb-[2rem] hover:text-[#7a33ff] transition-colors duration-300">
 								read more
 							</p>
 							<MdOutlineKeyboardArrowRight
