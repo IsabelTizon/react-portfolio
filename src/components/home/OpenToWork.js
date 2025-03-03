@@ -12,9 +12,9 @@ export const OpenToWork = () => {
 			<div className="w-[90%] md:w-[80%] m-auto py-16">
 				<div className="flex flex-col md:flex-row">
 					<div className="flex-1 flex-row md:flex-col">
-						<h3 className="text-light text-center">
+						<h2 className="text-light text-center">
 							Open to work
-						</h3>
+						</h2>
 						<h6 className="text-light text-center">
 							Contact me on...
 						</h6>

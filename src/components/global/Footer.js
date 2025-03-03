@@ -14,7 +14,7 @@ const Footer = () => {
 	const myProjectCopyModifily = [...myProjects];
 	return (
 		<div className="bg-slate-900">
-			<div className="flex flex-col md:flex-row w-90% lg:w-[75%] m-auto py-14">
+			<div className="flex flex-col gap-6 md:flex-row w-[70%] md:w-[90%] lg:w-[80%] m-auto py-14">
 				{/** Isabel Tizon Column */}
 				<div className="flex-1">
 					<Link
@@ -23,9 +23,9 @@ const Footer = () => {
 					>
 						<h5>Isabel Arranz</h5>
 					</Link>
-					<small className="text-white mb-8">
+					<p className="text-white mb-4">
 						Junior Web developer
-					</small>
+					</p>
 					<div className="flex flex-row">
 						<FaLinkedin
 							size={30}
@@ -80,7 +80,7 @@ const Footer = () => {
 						recent works
 					</h6>
 
-					<div className="flex flex-wrap gap-10">
+					<div className="flex flex-wrap gap-6">
 						{/* */}
 
 						{myProjectCopyModifily

@@ -10,9 +10,9 @@ const Skills = ({ skills }) => {
 				<div className="flex flex-wrap">
 					{/* first column */}
 					<div className="w-full md:w-1/2 lg:w-1/4 text-center md:text-left mb-8 lg:mb-0">
-						<h4 className="primary-400 font-thin tracking-wide uppercase pb-4">
+						<h5 className="primary-400 font-thin tracking-wide uppercase pb-4">
 							Languages
-						</h4>
+						</h5>
 						<div className="">
 							<ul>
 								{skills.languages.map((language) => (
@@ -28,9 +28,9 @@ const Skills = ({ skills }) => {
 					</div>
 					{/* second column */}
 					<div className="w-full md:w-1/2 lg:w-1/4 text-center md:text-left mb-8 lg:mb-0">
-						<h4 className="primary-400 font-thin tracking-wide uppercase pb-4">
+						<h5 className="primary-400 font-thin tracking-wide uppercase pb-4">
 							Frameworks
-						</h4>
+						</h5>
 						<div className="">
 							<ul>
 								{skills.frameworks.map((framework) => (
@@ -46,9 +46,9 @@ const Skills = ({ skills }) => {
 					</div>
 					{/* third column */}
 					<div className="w-full md:w-1/2 lg:w-1/4 text-center md:text-left mb-8 lg:mb-0">
-						<h4 className="primary-400 font-thin tracking-wide uppercase pb-4">
+						<h5 className="primary-400 font-thin tracking-wide uppercase pb-4">
 							Tools
-						</h4>
+						</h5>
 						<div className="">
 							<ul>
 								{skills.tools.map((tool) => (
@@ -61,9 +61,9 @@ const Skills = ({ skills }) => {
 					</div>
 					{/* fourth column */}
 					<div className="w-full md:w-1/2 lg:w-1/4 text-center md:text-left mb-8 lg:mb-0">
-						<h4 className="primary-400 font-thin tracking-wide uppercase pb-4">
+						<h5 className="primary-400 font-thin tracking-wide uppercase pb-4">
 							Concepts
-						</h4>
+						</h5>
 						<div className="">
 							<ul>
 								{skills.concepts.map((concept) => (

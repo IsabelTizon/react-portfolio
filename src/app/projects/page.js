@@ -15,10 +15,10 @@ export default function projects() {
 		<main className="mt-[80px]">
 			<Hero title="My Projects" />
 
-			<div className="bg-[#111827] py-32">
+			<div className="bg-[#111827] py-[50px] xl:py-[100px]">
 				<div className="w-[90%] md:w-[80%] m-auto">
 					<div className="flex justify-center">
-						<h2 className="w-[75%] md:w-[80%] m-auto text-light mb-8">
+						<h2 className="text-light mb-8">
 							You&apos;re welcome to take a look!
 						</h2>
 					</div>

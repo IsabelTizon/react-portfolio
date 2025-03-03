@@ -16,9 +16,9 @@ export const DifferentAreasOfExpertise = () => {
 				<div className="flex flex-wrap gap-4">
 					<div className="w-full md:w-[30%]">
 						<div className="flex justify-center">
-							<h4 className="primary-500 uppercase pb-8">
+							<h5 className="primary-500 uppercase pb-8">
 								frontend projects
-							</h4>
+							</h5>
 						</div>
 						<Link href="/contact">
 							<Image
@@ -32,9 +32,9 @@ export const DifferentAreasOfExpertise = () => {
 					</div>
 					<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
 						<div className="flex justify-center">
-							<h4 className="primary-500 uppercase pb-8">
+							<h5 className="primary-500 uppercase pb-8">
 								backend projects
-							</h4>
+							</h5>
 						</div>
 						<Link href="/contact">
 							<Image
@@ -48,9 +48,9 @@ export const DifferentAreasOfExpertise = () => {
 					</div>
 					<div className="w-full md:w-[32%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%]">
 						<div className="flex justify-center">
-							<h4 className="primary-500 uppercase pb-8">
+							<h5 className="primary-500 uppercase pb-8">
 								team projects
-							</h4>
+							</h5>
 						</div>
 						<Link href="/contact">
 							<Image

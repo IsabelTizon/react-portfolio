@@ -25,8 +25,10 @@ export default function About() {
 		<main className="mt-[80px]">
 			{/* Hero */}
 			<div className="bg-[#111827] w-full pl-[10%] py-[7%] md:pl-[15%]">
-				<h1 className="text-light capitalize">Hi,</h1>
-				<h2 className="text-light capitalize mb-4">
+				<h1 className="text-light capitalize text-[3rem] md:text-[4rem] lg:text-5rem] xl:text-[6rem]">
+					Hi,
+				</h1>
+				<h2 className="text-light capitalize mb-4 text-[2rem] md:text-[3rem] lg:text-[3rem] xl:text-[4rem]">
 					I&apos;m Isabel
 				</h2>
 				<h4 className="text-light capitalize">
