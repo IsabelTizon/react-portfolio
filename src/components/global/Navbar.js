@@ -50,12 +50,12 @@ function Navbar() {
 					{isOpen ? (
 						<AiOutlineClose
 							size={25}
-							className="text-[#CEFF00]"
+							className="text-[#9966ff]"
 						/>
 					) : (
 						<AiOutlineMenu
 							size={25}
-							className="text-[#CEFF00]"
+							className="text-[#F0F0F5]"
 						/>
 					)}
 				</div>
@@ -78,7 +78,7 @@ function Navbar() {
 							</li>
 							<li
 								onClick={handleSmallerScreensNavigation}
-								className="py-5 hover:text-[#381638] cursor-pointer"
+								className="py-5 hover:text-[#9966ff] cursor-pointer"
 							>
 								<Link
 									target="_blank"
