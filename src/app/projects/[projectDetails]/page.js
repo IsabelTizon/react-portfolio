@@ -69,18 +69,20 @@ export default function projectDetails({ params }) {
 							<Link
 								target="_blank"
 								href="https://github.com/IsabelTizon"
-								className="text-[#9966ff]"
+								className="text-[#9966ff] hover:text-[#7a33ff] transition-colors duration-300"
 							>
 								Github
 							</Link>{" "}
 							projects
 						</p>
-						<Link
-							className="text-[#9966ff] capitalize mt-[5rem]"
-							href="/projects"
-						>
-							Go back to projects
-						</Link>
+						<h6 className="pt-6">
+							<Link
+								className="text-[#9966ff] hover:text-[#7a33ff] transition-colors duration-300 capitalize"
+								href="/projects"
+							>
+								Go back to projects
+							</Link>
+						</h6>
 					</div>
 				</div>
 			</div>
