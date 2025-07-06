@@ -73,7 +73,7 @@ export const OpenToWork = () => {
 							<div className="flex flex-row ">
 								<MdEmail size={30} color="#9966ff" />
 								<p className="text-light flex items-center ml-2">
-									tizonarranz@gmail.com
+									i.tizonarranz@gmail.com
 								</p>
 							</div>
 						</div>

@@ -66,7 +66,7 @@ const Footer = () => {
 									color="#F6F6F6"
 								/>
 								<small className="text-white ml-5 mb-5">
-									itizonagencia@gmail.com
+									i.tizonarranz@gmail.com
 								</small>
 							</div>
 							{/* Email */}
