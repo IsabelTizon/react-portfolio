@@ -28,7 +28,7 @@ const Footer = () => {
 					</p>
 					<div className="flex flex-row">
 						<a
-							href="https://www.linkedin.com/in/isabel-tiz%C3%B3n-arranz-807523197/"
+							href="https://linkedin.com/in/isabel-tizon-arranz-807523197"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="flex flex-row hover:text-[#7a33ff] transition-colors duration-300"
