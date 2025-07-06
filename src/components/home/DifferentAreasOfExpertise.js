@@ -12,7 +12,7 @@ export const DifferentAreasOfExpertise = () => {
 					</h2>
 				</div>
 			</div>
-			<div>
+			<div className="width-[95%] md:w-[90%] m-auto">
 				<div className="flex flex-wrap gap-4">
 					<div className="w-full md:w-[30%]">
 						<div className="flex justify-center">

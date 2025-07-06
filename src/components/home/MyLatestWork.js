@@ -9,7 +9,7 @@ export const MyLatestWork = () => {
 				<h2 className="secundary-200">My latest work</h2>
 			</div>
 
-			<div>
+			<div className="width-[95%] md:w-[90%] m-auto">
 				<div className="flex flex-wrap gap-4">
 					{/* */}
 
