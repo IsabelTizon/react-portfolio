@@ -15,10 +15,6 @@ export const languages = [
 		id: 3,
 		name: "Node.js",
 	},
-	{
-		id: 4,
-		name: "PHP and MySQL",
-	},
 ];
 export const frameworks = [
 	{
@@ -27,19 +23,19 @@ export const frameworks = [
 	},
 	{
 		id: 1,
-		name: "Tailwind",
+		name: "NestJS",
 	},
 	{
 		id: 2,
-		name: "Styled Components",
+		name: "Tailwind",
 	},
 	{
 		id: 3,
-		name: "MUI",
+		name: "CSS Modules",
 	},
 	{
 		id: 4,
-		name: "Bootstrap",
+		name: "MUI",
 	},
 ];
 export const tools = [
