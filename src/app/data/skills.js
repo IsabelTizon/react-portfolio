@@ -53,7 +53,7 @@ export const tools = [
 	},
 	{
 		id: 3,
-		name: "Figma",
+		name: "UX, UI, Figma",
 	},
 	{
 		id: 4,
@@ -71,7 +71,7 @@ export const concepts = [
 	},
 	{
 		id: 1,
-		name: "UX, UI",
+		name: "Clean Code",
 	},
 	{
 		id: 2,
