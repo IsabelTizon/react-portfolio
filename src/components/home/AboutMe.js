@@ -34,10 +34,10 @@ export const AboutMe = () => {
 
 					<div className="w-full md:w-1/2">
 						<Image
-							className="h-50 w-[75%] m-auto object-containd"
+							className="h-50 w-[55%] m-auto object-containd rounded-md"
 							width={200}
 							height={150}
-							src="/img/profile-photo.png"
+							src="/img/photo-resize.jpg"
 							alt="Picture of the author"
 						/>
 					</div>
